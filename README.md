@@ -1,4 +1,5 @@
 #Visualizing Gerrymandering
+
 This is a project started March 25th 2017 for [Code for Philly](https://codeforphilly.org/)'s Civic Engagement Launchpad
 
 The project structure is layed out as following:
@@ -9,7 +10,7 @@ The project structure is layed out as following:
   - actions
   - components
   - reducers
-  - sass //All Sass files must be imported into App.sass to be generatored
+  - sass //All Sass files must be imported into App.sass to be generated
   - index.js
 - test
 

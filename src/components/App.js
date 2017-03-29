@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MapLayer from './MapLayer'
 import '../sass/App.sass'
 
 class App extends Component {
@@ -8,9 +9,7 @@ class App extends Component {
         <div className='App-header'>
           <h2>Visualizing Gerrymandering</h2>
         </div>
-        <p className='App-intro'>
-          To get started, edit <code>src/components/App.js</code> and save to reload.
-        </p>
+        <MapLayer />
       </div>
     )
   }
