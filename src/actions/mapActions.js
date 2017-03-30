@@ -13,17 +13,25 @@ export function mapLoad () {
   if (data === null) fetchGeoJson()
   else {
     const { GEO_DATA_LOADED } = ACTION_EVENTS
-    store.dispatch({ type: GEO_DATA_LOADED, data: GEO_DATA_LOADED })
+    store.dispatch({ type: GEO_DATA_LOADED, data })
   }
 }
 
+/**
+ * The default function to grab GEOJSON Data
+ * TODO: FINISH ERROR HANDLER
+ */
 export function fetchGeoJson () {
   const { mapReducer } = store.getState()
-  const loadFile = 'districts/pa/' + mapReducer.currentLayer.join('/') + '.geojson'
-  const client = new window.XMLHttpRequest()
-  client.open('GET', loadFile, true)
-  client.onreadystatechange = function () { 
-      if () console.log(this) 
-  }
-  client.send()
+  const fileUri = 'districts/pa/' + mapReducer.currentLayer.join('/') + '.geojson'
+  window.fetch(fileUri)
+        .then(response => {
+          response.json().then(json => {
+            console.log(json)
+            const { GEO_DATA_LOADED } = ACTION_EVENTS
+            store.dispatch({ type: GEO_DATA_LOADED, data: json })
+          })
+        })
+        // TODO: FINISH ERROR HANDLER
+        .catch(err => console.log(err))
 }
