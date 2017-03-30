@@ -6,10 +6,11 @@
  * Like so:
  *   { ON_LOAD: 'ON_LOAD' }
  * The values should always be accessed using a destructing pratice:
- *   const { ON_LOAD } from ACTION_EVENTS
+ *   const { ON_LOAD } = ACTION_EVENTS
  */
 const ACTION_EVENTS = {
-  MAP_EVENT: 'MAP_EVENT'
+  MAP_EVENT: 'MAP_EVENT',
+  GEO_DATA_LOADED: 'GEO_DATA_LOADED'
 }
 
 export default ACTION_EVENTS

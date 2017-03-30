@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Map, TileLayer } from 'react-leaflet'
+import * as Actions from '../actions/mapActions'
 
 // Begin Map Variables
 const stamenTonerTiles = 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png'
@@ -13,12 +14,22 @@ const zoomLevel = 7
  * Most of the GIS is Handled through Map and TileLayer
  * Most of this was taken from Azavea's Blog:
  * https://azavea.com/blog/2016/12/05/getting-started-with-react-and-leaflet
+ *
+ * This Component holds a reference to a real DOM node outside the virtual DOM
+ * so leaflet can be updated.
+ * https://facebook.github.io/react/docs/refs-and-the-dom.html
  */
 class MapLayer extends Component {
+  componentDidMount () {
+    Actions.mapLoad()
+  }
+
   render () {
     return (
       <div className='leaflet-container'>
-        <Map center={mapCenter} zoom={zoomLevel}>
+        <Map center={mapCenter} zoom={zoomLevel}
+          // Reference to actual DOM
+          ref={ref => { this.leaflet = ref }} >
           <TileLayer
             attribution={stamenTonerAttr}
             url={stamenTonerTiles} />

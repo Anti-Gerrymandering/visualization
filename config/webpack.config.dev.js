@@ -113,7 +113,7 @@ module.exports = {
           /\.(js|jsx)(\?.*)?$/,
           /\.css$/,
           /\.sass$/,
-          /\.json$/,
+          /\.(json|geojson)$/,
           /\.svg$/
         ],
         loader: 'url',
@@ -152,7 +152,7 @@ module.exports = {
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
       {
-        test: /\.json$/,
+        test: /\.(json|geojson)$/,
         loader: 'json'
       },
       // "file" loader for svg
