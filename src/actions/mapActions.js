@@ -9,7 +9,7 @@ import store from '../configureStore'
  * The localStorage Key for geoJSON is 'geo_data'
  */
 export function mapLoad () {
-  const data = window.localStorage.getItem('geo_data')
+  const data = JSON.parse(window.localStorage.getItem('geo_data'))
   if (data === null) fetchGeoJson()
   else {
     const { GEO_DATA_LOADED } = ACTION_EVENTS
@@ -19,6 +19,7 @@ export function mapLoad () {
 
 /**
  * The default function to grab GEOJSON Data
+ * Currently it loads the lower house data
  * TODO: FINISH ERROR HANDLER
  */
 export function fetchGeoJson () {
@@ -27,9 +28,9 @@ export function fetchGeoJson () {
   window.fetch(fileUri)
         .then(response => {
           response.json().then(json => {
-            console.log(json)
             const { GEO_DATA_LOADED } = ACTION_EVENTS
             store.dispatch({ type: GEO_DATA_LOADED, data: json })
+            window.localStorage.setItem('geo_data', JSON.stringify(json))
           })
         })
         // TODO: FINISH ERROR HANDLER
