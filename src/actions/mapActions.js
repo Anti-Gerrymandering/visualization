@@ -10,9 +10,20 @@ import store from '../configureStore'
  */
 export function mapLoad () {
   const data = window.localStorage.getItem('geo_data')
-  if (data === null) console.log('Undefined')
+  if (data === null) fetchGeoJson()
   else {
     const { GEO_DATA_LOADED } = ACTION_EVENTS
     store.dispatch({ type: GEO_DATA_LOADED, data: GEO_DATA_LOADED })
   }
+}
+
+export function fetchGeoJson () {
+  const { mapReducer } = store.getState()
+  const loadFile = 'districts/pa/' + mapReducer.currentLayer.join('/') + '.geojson'
+  const client = new window.XMLHttpRequest()
+  client.open('GET', loadFile, true)
+  client.onreadystatechange = function () { 
+      if () console.log(this) 
+  }
+  client.send()
 }
