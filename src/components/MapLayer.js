@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Map, TileLayer } from 'react-leaflet'
-import GeoJsonUpdatable from './GeoJsonUpdatable'
+import L from 'leaflet'
 import * as Actions from '../actions/mapActions'
 
 // Begin Map Variables
@@ -27,12 +27,9 @@ const zoomLevel = 7
 class MapLayer extends Component {
   componentWillMount () {
     Actions.mapLoad()
+    console.log(this.leaflet)
   }
   componentWillReceiveProps (prevProps) {
-    if (prevProps.data !== this.props.data) {
-      console.log('GeoJsonUpdatable: Clearing previous GeoJson')
-      this.leaflet.leafletElement.clearLayers()
-    }
   }
   componentDidMount() {
     console.log(this.leaflet) 
@@ -40,7 +37,10 @@ class MapLayer extends Component {
   componentDidUpdate (prevProps) {
     if (prevProps.data !== this.props.data) {
       console.log('GeoJsonUpdatable: Rendering new GeoJson')
-      this.leaflet.leafletElement.addData(this.props.data)
+      L.geoJSON(this.props.data, { style: feature => {
+        console.log('Geo Json')
+        return {color: feature.properties.color}
+      }}).addTo(this.leaflet.leafletElement)
     }
 
     if (prevProps.visibleIds !== this.props.visibleIds) {
@@ -52,12 +52,8 @@ class MapLayer extends Component {
         }
       })
     }
-  }
+  } 
   render () {
-    const geoJson = () => {
-      if (Object.keys(this.props.data).length === 0) return null
-      return <GeoJsonUpdatable data={this.props.data} />
-    }
     return (
       <div className='leaflet-container'>
         <Map className='map' center={mapCenter} zoom={zoomLevel}
