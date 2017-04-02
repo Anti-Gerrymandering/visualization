@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Map, TileLayer } from 'react-leaflet'
-import L from 'leaflet'
+import { Map, TileLayer, GeoJSON } from 'react-leaflet'
+import GeoJsonUpdatable from './GeoJsonUpdatable'
 import * as Actions from '../actions/mapActions'
 
 // Begin Map Variables
-const stamenTonerTiles = 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png'
-const stamenTonerAttr = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash Map data &copy <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+const stamenTonerTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+const stamenTonerAttr = 'Map tiles by &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 const mapCenter = [41.203323, -77.194527]
 const zoomLevel = 7
 // End Map Variables
@@ -27,32 +27,7 @@ const zoomLevel = 7
 class MapLayer extends Component {
   componentWillMount () {
     Actions.mapLoad()
-    console.log(this.leaflet)
   }
-  componentWillReceiveProps (prevProps) {
-  }
-  componentDidMount() {
-    console.log(this.leaflet) 
-  }
-  componentDidUpdate (prevProps) {
-    if (prevProps.data !== this.props.data) {
-      console.log('GeoJsonUpdatable: Rendering new GeoJson')
-      L.geoJSON(this.props.data, { style: feature => {
-        console.log('Geo Json')
-        return {color: feature.properties.color}
-      }}).addTo(this.leaflet.leafletElement)
-    }
-
-    if (prevProps.visibleIds !== this.props.visibleIds) {
-      this.leaflet.leafletElement.eachLayer((layer) => {
-        if (this.props.visibleIds.indexOf(layer.feature.id) === -1) {
-          layer.setStyle({fillOpacity: 0, opacity: 0})
-        } else {
-          layer.setStyle({fillOpacity: 0.4, opacity: 1})
-        }
-      })
-    }
-  } 
   render () {
     return (
       <div className='leaflet-container'>
@@ -62,6 +37,7 @@ class MapLayer extends Component {
           <TileLayer
             attribution={stamenTonerAttr}
             url={stamenTonerTiles} />
+          <GeoJsonUpdatable data={this.props.data} />
         </Map>
       </div>
     )
