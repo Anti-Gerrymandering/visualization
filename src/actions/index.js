@@ -10,7 +10,8 @@
  */
 const ACTION_EVENTS = {
   MAP_EVENT: 'MAP_EVENT',
-  GEO_DATA_LOADED: 'GEO_DATA_LOADED'
+  GEO_DATA_LOADED: 'GEO_DATA_LOADED', // For GeoJSON
+  GEO_CODE_ADDR: 'GEO_CODE_ADDR' // For Converting Address to Lat&Lng
 }
 
 export default ACTION_EVENTS

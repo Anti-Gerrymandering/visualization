@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Map, TileLayer, GeoJSON } from 'react-leaflet'
+import { Map, Marker, TileLayer } from 'react-leaflet'
 import GeoJsonUpdatable from './GeoJsonUpdatable'
 import * as Actions from '../actions/mapActions'
 
@@ -8,8 +8,17 @@ import * as Actions from '../actions/mapActions'
 const stamenTonerTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 const stamenTonerAttr = 'Map tiles by &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 const mapCenter = [41.203323, -77.194527]
-const zoomLevel = 7
+const zoomLevel = 8
 // End Map Variables
+
+const AddressMarker = props => {
+  if (props === null) return null
+  const markers = props.map((e, i) => {
+    const position = [e.lat, e.lng]
+    return <Marker key={i} position={position} />
+  })
+  return markers
+}
 
 /**
  * MapLayer is the GIS layer of this web-app
@@ -21,7 +30,7 @@ const zoomLevel = 7
  * so leaflet can be updated.
  * https://facebook.github.io/react/docs/refs-and-the-dom.html
  */
-@connect(props =>{
+@connect(props => {
   return props.mapReducer
 })
 class MapLayer extends Component {
@@ -38,6 +47,7 @@ class MapLayer extends Component {
             attribution={stamenTonerAttr}
             url={stamenTonerTiles} />
           <GeoJsonUpdatable data={this.props.data} />
+          { AddressMarker(this.props.addr) }
         </Map>
       </div>
     )

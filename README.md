@@ -14,6 +14,11 @@ The project structure is layed out as following:
   - index.js
 - test
 
+##API Tokens
+
+In the actions folder, you will find tokens.example.js. You should re-save this file as token.js. Then you should generate the appropriate tokens for the website with it. 
+
+The *.gitignore* has been configured to ignore the __tokens.js__, please for your own security do not commit any tokens in the __tokens.example.js__! It is strictly an example and all files will import off the __tokens.js__ anyway.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
