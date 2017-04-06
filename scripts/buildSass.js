@@ -3,7 +3,7 @@ const fs = require('fs')
 const spawn = require('child_process').spawnSync
 
 function sassBuilder () {
-  const cssOutPut = spawn('node-sass', ['App.sass'], { cwd: process.cwd() + '/src/sass' })
+  const cssOutPut = spawn('node-sass', ['App.sass', '--output-style', 'compressed'], { cwd: process.cwd() + '/src/sass' })
   return cssOutPut.stdout.toString()
 }
 

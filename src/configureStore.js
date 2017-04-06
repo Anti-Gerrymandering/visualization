@@ -6,7 +6,8 @@ const defaultState = {
   mapReducer: {
     // An Array with no more than two elements
     currentLayer: ['lower', 'cb_2015_42_sldl_500k'],
-    data: {}
+    data: {},
+    addr: null
   }
 }
 
