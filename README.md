@@ -1,4 +1,5 @@
-#Visualizing Gerrymandering
+# Visualizing Gerrymandering
+
 
 This is a project started March 25th 2017 for [Code for Philly](https://codeforphilly.org/)'s Civic Engagement Launchpad
 
@@ -14,7 +15,7 @@ The project structure is layed out as following:
   - index.js
 - test
 
-##API Tokens
+## API Tokens
 
 In the actions folder, you will find tokens.example.js. You should re-save this file as token.js. Then you should generate the appropriate tokens for the website with it. 
 
