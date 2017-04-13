@@ -11,7 +11,11 @@
 const ACTION_EVENTS = {
   MAP_EVENT: 'MAP_EVENT',
   GEO_DATA_LOADED: 'GEO_DATA_LOADED', // For GeoJSON
-  GEO_CODE_ADDR: 'GEO_CODE_ADDR' // For Converting Address to Lat&Lng
+  GEO_CODE_ADDR: 'GEO_CODE_ADDR', // For Converting Address to Lat&Lng
+  META_DATA: 'META_DATA'
 }
+
+// Base uri to pull from for fetch
+export const uri = 'districts/pa/'
 
 export default ACTION_EVENTS

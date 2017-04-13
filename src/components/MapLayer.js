@@ -59,6 +59,12 @@ class MapLayer extends Component {
   }
 
   render () {
+    const geo = () => {
+      if (Object.keys(this.props.data).length >= 1) {
+        return <GeoJsonUpdatable data={this.props.data} />
+      }
+      return null
+    }
     return (
       <div className='leaflet-container'>
         <Map className='map' center={mapCenter} zoom={zoomLevel}
@@ -67,7 +73,7 @@ class MapLayer extends Component {
           <TileLayer
             attribution={stamenTonerAttr}
             url={stamenTonerTiles} />
-          <GeoJsonUpdatable data={this.props.data} />
+          { geo() }
           { AddressMarker(this.props.addr) }
         </Map>
         <div className='resize'>

@@ -1,4 +1,4 @@
-import ACTION_EVENTS from './index'
+import ACTION_EVENTS, { uri } from './index'
 import store from '../configureStore'
 
 /**
@@ -9,7 +9,7 @@ import store from '../configureStore'
  * The localStorage Key for geoJSON is 'geo_data'
  */
 export function mapLoad () {
-  const data = JSON.parse(window.localStorage.getItem('geo_data'))
+  const data = null // JSON.parse(window.localStorage.getItem('geo_data'))
   if (data === null) fetchGeoJson()
   else {
     const { GEO_DATA_LOADED } = ACTION_EVENTS
@@ -21,15 +21,23 @@ export function mapLoad () {
  * The default function to grab GEOJSON Data
  * Currently it loads the lower house data
  * TODO: FINISH ERROR HANDLER
+ * NOTE: This function saves data in the localStorage object
+ * that must be cleared on change
  */
 export function fetchGeoJson () {
+  console.log('GeoJSOn sent')
   const { mapReducer } = store.getState()
-  const fileUri = 'districts/pa/' + mapReducer.currentLayer.join('/') + '.geojson'
+  const { currentLayer, geoFiles } = mapReducer
+  if (geoFiles.length < 1) return
+  const layer = geoFiles[currentLayer]
+  const fileUri = uri + layer + '.geojson'
+  console.log('The url', fileUri)
   window.fetch(fileUri)
-        .then(response => {
-          response.json().then(json => {
+        .then(rsp => {
+          rsp.json().then(json => {
             const { GEO_DATA_LOADED } = ACTION_EVENTS
             store.dispatch({ type: GEO_DATA_LOADED, data: json })
+            console.log('The JSON', json)
             window.localStorage.setItem('geo_data', JSON.stringify(json))
           })
         })
