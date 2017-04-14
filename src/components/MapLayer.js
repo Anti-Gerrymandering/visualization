@@ -36,7 +36,7 @@ const AddressMarker = props => {
 })
 class MapLayer extends Component {
   componentWillMount () {
-    Actions.mapLoad()
+    Actions.fetchGeoJson()
   }
 
   componentDidUpdate (prevProps, prevState) {

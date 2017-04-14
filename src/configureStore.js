@@ -1,16 +1,17 @@
 import { createStore } from 'redux'
 import rootReducer from './reducers/index'
+import { OrderedSet } from 'immutable'
 
 /* State provided on load */
 const defaultState = {
   mapReducer: {
-    geoFiles: {},
-    branches: ['federal'],
-    years: ['2015'],
-    // Index of the current geo file
+    geoFiles: OrderedSet([]),
+    years: OrderedSet([]),
+    // Object to find the current layer in the metaData.json
     currentLayer: {
-      branch: 'federal',
-      year: '2015'
+      layer: 0,
+      year: '2015',
+      branch: 'federal'
     },
     data: {},
     addr: null

@@ -11,10 +11,9 @@ export function mapReducer (state = {}, action) {
       const { addr } = action
       return Object.assign({}, state, { addr })
     case META_DATA:
-      const { json } = action
-      const years = Object.keys(json.geoFiles)
-      console.log('Ye old years', years)
-      return Object.assign({}, state, { geoFiles: json, years })
+      // The data object is left out to avoid conflicts with the first case
+      const { geoFiles, years } = action
+      return Object.assign({}, state, { geoFiles, years })
     default:
       return state
   }

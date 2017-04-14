@@ -1,18 +1,35 @@
 import ACTIONS, { uri } from './index'
+import { OrderedSet } from 'immutable'
 import * as mapActions from './mapActions'
 import store from '../configureStore'
 
-export function buildBranchYear () {
+/**
+ * collectBranchAndYears organizes the metaData for the rest of the application
+ * TODO: Consider refactoring to list
+ * Each year for a particular layer is then concatinated
+ * and returned
+ * This function is extremely ugly but it is functional.
+ * Eventually it will need to be rewritten.
+ * @param {OrderedSet} - immutable ordered-set
+ * @return {Array} - returns an array with two elements
+ * the first being the branch
+ * the second being an ordered-set descending
+ */
+export function collectBranchAndYears (orderedSet) {
+  // Defensive programming but whatever
+  if (!(orderedSet instanceof OrderedSet)) return
+  // Pulls the state from redux
   const { mapReducer } = store.getState()
-  const years = []
-  console.log(mapReducer.years)
-  const arrays = Object.values(mapReducer.geoFiles)
-  console.log('That val', arrays)
-  mapReducer.geoFiles[mapReducer.currentLayer].values().forEach(e => {
-    years.push(Object.keys(e))
-  })
-  //years.sort()
-  console.log(years)
+  // Gets the current branch of government being analyzed
+  const { layer } = mapReducer.currentLayer
+  // Gets the internal object
+  const list = orderedSet.toList().get(layer)
+  // Gets the key for the level government
+  const level = Object.keys(list)
+  // Grabs all the available keys
+  const years = Object.keys(list[level])
+  // Sort and return an array with the level of government and an OrderSet
+  return [level, OrderedSet(years.sort((x, y) => y - x))]
 }
 
 /**
@@ -20,12 +37,12 @@ export function buildBranchYear () {
  */
 export function onLoad () {
   const { mapReducer } = store.getState()
-  if (mapReducer.geoFiles.length < 1) {
+  // REVIEW: Potentially unnecessary check
+  if (mapReducer.geoFiles.size < 1) {
     pullMetaData()
     return
   }
-  pullMetaData()
-  return 0
+  mapActions.fetchGeoJson()
 }
 
 /**
@@ -35,11 +52,16 @@ export function pullMetaData () {
   const { META_DATA } = ACTIONS
   window.fetch(uri + 'metaData.json')
         .then(rsp => {
-          console.log(rsp)
           rsp.json().then(json => {
-            store.dispatch({ type: META_DATA, json })
+            const geoFiles = OrderedSet(json.geoFiles)
+            const collected = collectBranchAndYears(geoFiles)
+            store.dispatch({
+              type: META_DATA,
+              geoFiles,
+              branch: collected[0],
+              years: collected[1]
+            })
             mapActions.fetchGeoJson()
-            buildBranchYear()
           })
         })
         .catch(e => console.error(e))
