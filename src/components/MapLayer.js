@@ -12,6 +12,10 @@ const mapCenter = [41.203323, -77.194527]
 const zoomLevel = 8
 // End Map Variables
 
+/**
+ * Places the marker for address lookup
+ * @param {ReactProps} props - containing lat and long
+ */
 const AddressMarker = props => {
   if (props === null) return null
   const markers = props.map((e, i) => {
@@ -36,7 +40,7 @@ const AddressMarker = props => {
 })
 class MapLayer extends Component {
   componentWillMount () {
-    Actions.mapLoad()
+    Actions.fetchGeoJson()
   }
 
   componentDidUpdate (prevProps, prevState) {
@@ -59,6 +63,12 @@ class MapLayer extends Component {
   }
 
   render () {
+    const geo = () => {
+      if (Object.keys(this.props.data).length >= 1) {
+        return <GeoJsonUpdatable data={this.props.data} />
+      }
+      return null
+    }
     return (
       <div className='leaflet-container'>
         <Map className='map' center={mapCenter} zoom={zoomLevel}
@@ -67,7 +77,7 @@ class MapLayer extends Component {
           <TileLayer
             attribution={stamenTonerAttr}
             url={stamenTonerTiles} />
-          <GeoJsonUpdatable data={this.props.data} />
+          { geo() }
           { AddressMarker(this.props.addr) }
         </Map>
         <div className='resize'>
