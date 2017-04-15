@@ -33,6 +33,23 @@ export function collectBranchAndYears (orderedSet) {
 }
 
 /**
+ * Simple function to convert branch to the display name
+ * @param {String} branch
+ */
+export function convertBranch (branch) {
+  switch (branch) {
+    case 'federal':
+      return 'U.S. House Districts'
+    case 'lower':
+      return 'P.A. House Districts'
+    case 'upper':
+      return 'P.A. Senate Districts'
+    default:
+      return branch
+  }
+}
+
+/**
  * onLoad functions checks on the availability of the META-Data
  */
 export function onLoad () {

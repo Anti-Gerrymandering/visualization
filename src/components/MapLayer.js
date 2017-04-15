@@ -12,6 +12,10 @@ const mapCenter = [41.203323, -77.194527]
 const zoomLevel = 8
 // End Map Variables
 
+/**
+ * Places the marker for address lookup
+ * @param {ReactProps} props - containing lat and long
+ */
 const AddressMarker = props => {
   if (props === null) return null
   const markers = props.map((e, i) => {

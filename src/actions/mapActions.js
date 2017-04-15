@@ -2,6 +2,27 @@ import ACTION_EVENTS, { uri } from './index'
 import store from '../configureStore'
 
 /**
+ * switchLayer updates the store
+ * and triggers a fetchGeoJson
+ * @param {String} year
+ * @param {String} branch
+ * @param {Integer} cur
+ * @return {Function} callback for onClick
+ */
+export function switchLayer (year, branch, cur) {
+  const { MAP_SWITCH_LAYER } = ACTION_EVENTS
+  return () => {
+    store.dispatch({
+      type: MAP_SWITCH_LAYER,
+      layer: cur,
+      year,
+      branch
+    })
+    fetchGeoJson() // Probably will suffer a time condition
+  }
+}
+
+/**
  * The default function to grab GEOJSON Data
  * Currently it loads the lower house data
  * TODO: FINISH ERROR HANDLER

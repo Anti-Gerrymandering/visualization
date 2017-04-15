@@ -6,6 +6,7 @@ import { OrderedSet } from 'immutable'
 const defaultState = {
   mapReducer: {
     geoFiles: OrderedSet([]),
+    // Years refers to all the years available for the current layer
     years: OrderedSet([]),
     // Object to find the current layer in the metaData.json
     currentLayer: {
