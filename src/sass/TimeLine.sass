@@ -1,112 +1,22 @@
-/***
- * http://css-tricks.com/ordering-css3-properties/
- * http://www.456bereastreet.com/archive/201311/cutting_down_on_vendor_prefixes/
- ***/
+.timeLine
+  margin: 5px
+  left: 5vw
+  bottom: 5vh
+  display: block
+  position: absolute
+  font-family: $roboto-font
+  //box-shadow: 10px 10px 5px #888888
 
-$bg: #fffff0
-$line: #BADA55
-$red: #f98262
-$date: black
+  ul
+    list-style: none
+    display: inline
+    border-bottom: 8px solid $bg-color
+    padding: 1vh 0 0 0
+    margin: 0
 
-body 
-  margin: 0
-  padding: 0 0px
-  color: $red
-  background: $bg
-
-
-#timeline 
-  list-style: none
-  width: 100vw
-  height: 200px
-  margin: 200px 0 0
-  border-top: 6px solid $line
-  display: table
-  border-spacing: 30px 0
-  li 
-    display: table-cell
+  li
+    padding-bottom: 30px
     position: relative
-    min-width: 100px
-  
-
-.circle 
-  margin: 0 auto
-  top: -14px
-  left: 0
-  right: 0
-  width: 10px
-  height: 10px
-  background: $bg
-  border: 6px solid $red
-  border-radius: 50%
-  display: block
-  position: absolute
-
-.date 
-
-
-.content 
-  text-align: center
-  position: relative
-  
-
-.avatar 
-  width: 30px
-  height: 30px
-  display: block
-  border-radius: 50%
-  border: 6px solid $line
-  position: absolute
-  margin: 0 auto
-  left: 0
-  right: 0
-  text-align: center
-  line-height: 30px
-  background: $bg
-
-.content:before 
-  content: ''
-  width: 50px
-  height: 70px
-  left: 50%
-  margin-left: -2px
-  position: absolute
-
-//li.down 
-  .content:before 
-    border-left: 4px solid $red
-    border-bottom: 4px solid $red
-    -webkit-border-radius: 0 20px
-    -moz-border-radius: 0 20px
-    border-radius: 0 20px */
-  
-.avatar 
-    top: 80px
-    left: 100px
-    display: none
-
-li
-  .content 
-    margin-top: -76px
-    &:before 
-      border-left: 4px solid $red
-    
-  .date 
-    margin-top: 50px
-  
-  .avatar 
-    background: $bg
-    margin-top: -30px
-  
-
-.rectangle 
-  border: 1px solid $red
-  border-radius: 30px
-  height: 30px
-  width: 200px
-  top: -19px
-  position: relative
-  background: $bg
-  line-height: 30px
-  text-align: center
-
+    content: '\272'
+    display: inline
+    padding: 1.5vw

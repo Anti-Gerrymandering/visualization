@@ -2,44 +2,19 @@ import React from 'react'
 
 const TimeLine = () => {
   return (
-    <div>
-      <ul id='timeline'>
-        <li className='event'>
-          <div className='content'>
-            <div className='avatar'>me</div>
-          </div>
-          <div className='dot'>
-            <span className='circle' />
-          </div>
-          <div className='date'>2008</div>
-        </li>
-        <li className='event'>
-          <div className='content'>
-            <div className='avatar'>me</div>
-          </div>
-          <div className='dot'>
-            <span className='circle' />
-          </div>
-          <div className='date'>2009</div>
-        </li>
-        <li className='event'>
-          <div className='content'>
-            <div className='avatar'>me</div>
-          </div>
-          <div className='dot'>
-            <span className='circle' />
-          </div>
-          <div className='date'>2010</div>
-        </li>
-        <li className='event'>
-          <div className='content'>
-            <div className='avatar'>me</div>
-          </div>
-          <div className='dot'>
-            <span className='circle' />
-          </div>
-          <div className='date'>2011</div>
-        </li>
+    <div className='timeLine'>
+      <ul>
+        <li>1966</li>
+        <li>1967</li>
+        <li>1968</li>
+        <li>1969</li>
+        <li>1970</li>
+        <li>1971</li>
+        <li>1972</li>
+        <li>1973</li>
+        <li>1974</li>
+        <li>1975</li>
+        <li>1976</li>
       </ul>
     </div>
   )
