@@ -10,14 +10,14 @@ $date: black
 
 body 
   margin: 0
-  padding: 0 20px
+  padding: 0 0px
   color: $red
   background: $bg
 
 
 #timeline 
   list-style: none
-  width: 100%
+  width: 100vw
   height: 200px
   margin: 200px 0 0
   border-top: 6px solid $line
@@ -67,33 +67,32 @@ body
 .content:before 
   content: ''
   width: 50px
-  height: 100px
+  height: 70px
   left: 50%
   margin-left: -2px
   position: absolute
 
-li.down 
+//li.down 
   .content:before 
     border-left: 4px solid $red
     border-bottom: 4px solid $red
     -webkit-border-radius: 0 20px
     -moz-border-radius: 0 20px
-    border-radius: 0 20px
+    border-radius: 0 20px */
   
-  .avatar 
+.avatar 
     top: 80px
     left: 100px
-  
+    display: none
 
-li.up 
+li
   .content 
-    margin-top: -106px
+    margin-top: -76px
     &:before 
       border-left: 4px solid $red
     
-  
   .date 
-    margin-top: 106px
+    margin-top: 50px
   
   .avatar 
     background: $bg
