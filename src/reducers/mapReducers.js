@@ -1,8 +1,14 @@
 import ACTION_EVENTS from '../actions/index'
 
-const { GEO_DATA_LOADED, GEO_CODE_ADDR, META_DATA, MAP_SWITCH_LAYER } = ACTION_EVENTS
+const {
+  CHANGE_YEAR,
+  GEO_DATA_LOADED,
+  GEO_CODE_ADDR, META_DATA,
+  MAP_SWITCH_LAYER
+} = ACTION_EVENTS
 
 export function mapReducer (state = {}, action) {
+  const { years } = action // need to reafactor this
   switch (action.type) {
     case GEO_DATA_LOADED:
       const { data } = action
@@ -12,11 +18,14 @@ export function mapReducer (state = {}, action) {
       return Object.assign({}, state, { addr })
     case META_DATA:
       // The data object is left out to avoid conflicts with the first case
-      const { geoFiles, years } = action
+      const { geoFiles } = action
       return Object.assign({}, state, { geoFiles, years })
     case MAP_SWITCH_LAYER:
       const { branch, layer, year } = action
-      return Object.assign({}, state, { currentLayer: { branch, layer, year } })
+      return Object.assign({}, state, { years, currentLayer: { branch, layer, year } })
+    case CHANGE_YEAR:
+      console.log('Change year is happening')
+      return Object.assign({}, state, { currentLayer: { year } })
     default:
       return state
   }

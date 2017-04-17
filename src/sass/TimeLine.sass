@@ -1,11 +1,15 @@
 .timeLine
+  background-color: $white
+  z-index: 2
   margin: 5px
   left: 5vw
   bottom: 5vh
   display: block
   position: absolute
   font-family: $roboto-font
-  //box-shadow: 10px 10px 5px #888888
+  box-shadow: 50px 50px 50px 20px $bg-color
+  border-radius: 5px
+  height: 4vh
 
   ul
     list-style: none
@@ -13,10 +17,12 @@
     border-bottom: 8px solid $bg-color
     padding: 1vh 0 0 0
     margin: 0
+    height: 4vh
 
   li
-    padding-bottom: 30px
-    position: relative
-    content: '\272'
     display: inline
     padding: 1.5vw
+    font-size: 2.5vh
+
+    &:hover
+      font-size: 3.5vh

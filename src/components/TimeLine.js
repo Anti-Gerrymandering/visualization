@@ -1,23 +1,33 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { changeYears } from '../actions/appActions'
 
-const TimeLine = () => {
+const yearLi = prop => {
+  const { key, year } = prop
   return (
-    <div className='timeLine'>
-      <ul>
-        <li>1966</li>
-        <li>1967</li>
-        <li>1968</li>
-        <li>1969</li>
-        <li>1970</li>
-        <li>1971</li>
-        <li>1972</li>
-        <li>1973</li>
-        <li>1974</li>
-        <li>1975</li>
-        <li>1976</li>
-      </ul>
-    </div>
+    <li key={key} onClick={changeYears(year)} >
+      { year }
+    </li>
   )
+}
+
+@connect(props => {
+  const { mapReducer } = props
+  return { years: mapReducer.years }
+})
+class TimeLine extends Component {
+  render () {
+    const years = this.props.years.toArray().map((e, i) => {
+      return yearLi({ key: i, year: e })
+    })
+    return (
+      <div className='timeLine'>
+        <ul>
+          { years }
+        </ul>
+      </div>
+    )
+  }
 }
 
 export default TimeLine
