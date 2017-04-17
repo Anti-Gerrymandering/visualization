@@ -1,5 +1,6 @@
 import ACTION_EVENTS, { uri } from './index'
 import store from '../configureStore'
+import { collectBranchAndYears } from './appActions'
 
 /**
  * switchLayer updates the store
@@ -11,14 +12,16 @@ import store from '../configureStore'
  */
 export function switchLayer (year, branch, cur) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
+  const { mapReducer } = store.getState()
   return () => {
     store.dispatch({
       type: MAP_SWITCH_LAYER,
       layer: cur,
       year,
+      years: collectBranchAndYears(mapReducer.geoFiles, cur)[1],
       branch
     })
-    fetchGeoJson() // Probably will suffer a time condition
+    fetchGeoJson()
   }
 }
 
@@ -35,7 +38,9 @@ export function fetchGeoJson () {
   const { branch, layer, year } = currentLayer
   if (geoFiles.size < 1) return
   // Ugly uri builder
+  console.log(geoFiles.toArray()[layer])
   const fileUri = uri + branch + '/' + geoFiles.toArray()[layer][branch][year] + '.geojson'
+  console.log('FETCHING URI', fileUri)
   window.fetch(fileUri)
         .then(rsp => {
           rsp.json().then(json => {
