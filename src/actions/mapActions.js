@@ -38,7 +38,6 @@ export function fetchGeoJson () {
   const { branch, layer, year } = currentLayer
   if (geoFiles.size < 1) return
   // Ugly uri builder
-  console.log(geoFiles.toArray()[layer])
   const fileUri = uri + branch + '/' + geoFiles.toArray()[layer][branch][year] + '.geojson'
   console.log('FETCHING URI', fileUri)
   window.fetch(fileUri)

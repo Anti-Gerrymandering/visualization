@@ -18,7 +18,7 @@ export function geoCodeAddress (addr) {
           response.json().then(json => {
             if (json.error_message === undefined) {
               const latLng = json.results.map(r => {
-                return r['geometry']['location']
+                return Object.assign({}, r.geometry.location)
               })
               store.dispatch({ type: GEO_CODE_ADDR, addr: latLng })
             } else console.error('API Key error')
