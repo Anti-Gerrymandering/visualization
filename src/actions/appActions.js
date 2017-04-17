@@ -9,7 +9,6 @@ import store from '../configureStore'
  */
 export function changeYears (year) {
   return () => {
-    console.log('This is happening!!!')
     store.dispatch({ type: ACTIONS.CHANGE_YEAR, year })
     mapActions.fetchGeoJson()
   }

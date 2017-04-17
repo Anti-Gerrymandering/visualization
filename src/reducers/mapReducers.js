@@ -8,7 +8,7 @@ const {
 } = ACTION_EVENTS
 
 export function mapReducer (state = {}, action) {
-  const { years } = action // need to reafactor this
+  const { year, years } = action // need to reafactor this
   switch (action.type) {
     case GEO_DATA_LOADED:
       const { data } = action
@@ -21,11 +21,13 @@ export function mapReducer (state = {}, action) {
       const { geoFiles } = action
       return Object.assign({}, state, { geoFiles, years })
     case MAP_SWITCH_LAYER:
-      const { branch, layer, year } = action
+      const { branch, layer } = action
       return Object.assign({}, state, { years, currentLayer: { branch, layer, year } })
     case CHANGE_YEAR:
-      console.log('Change year is happening')
-      return Object.assign({}, state, { currentLayer: { year } })
+      console.log('Change year is happening', year)
+      const updateCurrentLayer = Object.assign({}, state.currentLayer, { year })
+      console.log('Update', updateCurrentLayer)
+      return Object.assign({}, state, { currentLayer: updateCurrentLayer })
     default:
       return state
   }
