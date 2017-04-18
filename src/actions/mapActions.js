@@ -13,12 +13,15 @@ import { collectBranchAndYears } from './appActions'
 export function switchLayer (year, branch, cur) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
   const { mapDataReducer } = store.getState()
+  // Not sure if moving this out of the lazy-loading callback will hurt performance
+  const years = collectBranchAndYears(mapDataReducer.geoFiles, cur)[1]
+  year = years.get(year) !== undefined ? year : years.first()
   return () => {
     store.dispatch({
       type: MAP_SWITCH_LAYER,
       layer: cur,
       year,
-      years: collectBranchAndYears(mapDataReducer.geoFiles, cur)[1],
+      years,
       branch
     })
     fetchGeoJson()

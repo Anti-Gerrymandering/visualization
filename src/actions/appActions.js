@@ -10,6 +10,7 @@ import store from '../configureStore'
 export function changeYear (year) {
   return () => {
     store.dispatch({ type: ACTIONS.CHANGE_YEAR, year })
+    console.log('Year change')
     fetchGeoJson()
   }
 }
@@ -40,9 +41,9 @@ export function collectBranchAndYears (orderedSet, layer = null) {
   // Gets the key for the level government
   const level = Object.keys(list)
   // Grabs all the available keys
-  const years = Object.keys(list[level])
+  const years = Object.keys(list[level]).sort((x, y) => y - x)
   // Sort and return an array with the level of government and an OrderSet
-  return [level, OrderedSet(years.sort((x, y) => y - x))]
+  return [level, OrderedSet(years)]
 }
 
 /**
