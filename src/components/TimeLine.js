@@ -1,22 +1,23 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { changeYears } from '../actions/appActions'
+import { changeYear } from '../actions/appActions'
 
 const yearLi = prop => {
   const { key, year } = prop
   return (
-    <li key={key} onClick={changeYears(year)} >
+    <li key={key} onClick={changeYear(year)} >
       { year }
     </li>
   )
 }
 
 @connect(props => {
-  const { mapReducer } = props
-  return { years: mapReducer.years }
+  const { mapDataReducer } = props
+  return { years: mapDataReducer.years }
 })
 class TimeLine extends Component {
   render () {
+    console.log(this.props.years)
     const years = this.props.years.toArray().map((e, i) => {
       return yearLi({ key: i, year: e })
     })

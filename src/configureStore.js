@@ -4,7 +4,7 @@ import { OrderedSet } from 'immutable'
 
 /* State provided on load */
 const defaultState = {
-  mapReducer: {
+  /* mapReducer: {
     geoFiles: OrderedSet([]),
     // Years refers to all the years available for the current layer
     years: OrderedSet([]),
@@ -16,7 +16,19 @@ const defaultState = {
     },
     data: {},
     addr: null
+  }, */
+  mapDataReducer: {
+    geoFiles: OrderedSet([]),
+    data: {},
+    addr: null,
+    years: OrderedSet([])
+  },
+  mapControllerReducer: {
+    layer: 0,
+    year: '2015',
+    branch: 'federal'
   }
+
 }
 
 /**

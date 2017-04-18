@@ -1,16 +1,16 @@
 import ACTIONS, { uri } from './index'
 import { OrderedSet } from 'immutable'
-import * as mapActions from './mapActions'
+import { fetchGeoJson } from './mapActions'
 import store from '../configureStore'
 
 /**
  * Simple function to change the year
  * @param {String} year
  */
-export function changeYears (year) {
+export function changeYear (year) {
   return () => {
     store.dispatch({ type: ACTIONS.CHANGE_YEAR, year })
-    mapActions.fetchGeoJson()
+    fetchGeoJson()
   }
 }
 
@@ -30,10 +30,10 @@ export function collectBranchAndYears (orderedSet, layer = null) {
   // Defensive programming but whatever
   if (!(orderedSet instanceof OrderedSet)) return null
   // Pulls the state from redux
-  const { mapReducer } = store.getState()
   // Gets the current branch of government if not already passed
   if (layer === null) {
-    layer = mapReducer.currentLayer.layer
+    const { mapControllerReducer } = store.getState()
+    layer = mapControllerReducer.layer
   }
   // Gets the internal object
   const list = orderedSet.toList().get(layer)
@@ -66,13 +66,13 @@ export function convertBranch (branch) {
  * onLoad functions checks on the availability of the META-Data
  */
 export function onLoad () {
-  const { mapReducer } = store.getState()
+  const { mapDataReducer } = store.getState()
   // REVIEW: Potentially unnecessary check
-  if (mapReducer.geoFiles.size < 1) {
+  if (mapDataReducer.geoFiles.size < 1) {
     pullMetaData()
     return
   }
-  mapActions.fetchGeoJson()
+  fetchGeoJson()
 }
 
 /**
@@ -91,7 +91,7 @@ export function pullMetaData () {
               branch: collected[0],
               years: collected[1]
             })
-            mapActions.fetchGeoJson()
+            fetchGeoJson()
           })
         })
         .catch(e => console.error(e))
