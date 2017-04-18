@@ -9,9 +9,15 @@
  *   const { ON_LOAD } = ACTION_EVENTS
  */
 const ACTION_EVENTS = {
+  CHANGE_YEAR: 'CHANGE_YEAR',
   MAP_EVENT: 'MAP_EVENT',
+  MAP_SWITCH_LAYER: 'MAP_SWITCH_LAYER',
   GEO_DATA_LOADED: 'GEO_DATA_LOADED', // For GeoJSON
-  GEO_CODE_ADDR: 'GEO_CODE_ADDR' // For Converting Address to Lat&Lng
+  GEO_CODE_ADDR: 'GEO_CODE_ADDR', // For Converting Address to Lat&Lng
+  META_DATA: 'META_DATA'
 }
+
+// Base uri to pull from for fetch
+export const uri = 'districts/pa/'
 
 export default ACTION_EVENTS

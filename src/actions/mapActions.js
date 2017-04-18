@@ -1,19 +1,27 @@
-import ACTION_EVENTS from './index'
+import ACTION_EVENTS, { uri } from './index'
 import store from '../configureStore'
+import { collectBranchAndYears } from './appActions'
 
 /**
- * The mapLoad function checks localStorage for already saved
- * geojson data for the current layer. If the localStorage is
- * empty then it initiates another function to pull the data from
- * the webserver.
- * The localStorage Key for geoJSON is 'geo_data'
+ * switchLayer updates the store
+ * and triggers a fetchGeoJson
+ * @param {String} year
+ * @param {String} branch
+ * @param {Integer} cur
+ * @return {Function} callback for onClick
  */
-export function mapLoad () {
-  const data = JSON.parse(window.localStorage.getItem('geo_data'))
-  if (data === null) fetchGeoJson()
-  else {
-    const { GEO_DATA_LOADED } = ACTION_EVENTS
-    store.dispatch({ type: GEO_DATA_LOADED, data })
+export function switchLayer (year, branch, cur) {
+  const { MAP_SWITCH_LAYER } = ACTION_EVENTS
+  const { mapReducer } = store.getState()
+  return () => {
+    store.dispatch({
+      type: MAP_SWITCH_LAYER,
+      layer: cur,
+      year,
+      years: collectBranchAndYears(mapReducer.geoFiles, cur)[1],
+      branch
+    })
+    fetchGeoJson()
   }
 }
 
@@ -21,16 +29,23 @@ export function mapLoad () {
  * The default function to grab GEOJSON Data
  * Currently it loads the lower house data
  * TODO: FINISH ERROR HANDLER
+ * NOTE: This function saves data in the localStorage object
+ * that must be cleared on change
  */
 export function fetchGeoJson () {
   const { mapReducer } = store.getState()
-  const fileUri = 'districts/pa/' + mapReducer.currentLayer.join('/') + '.geojson'
+  const { currentLayer, geoFiles } = mapReducer
+  const { branch, layer, year } = currentLayer
+  if (geoFiles.size < 1) return
+  // Ugly uri builder
+  console.log(geoFiles.toArray()[layer])
+  const fileUri = uri + branch + '/' + geoFiles.toArray()[layer][branch][year] + '.geojson'
+  console.log('FETCHING URI', fileUri)
   window.fetch(fileUri)
-        .then(response => {
-          response.json().then(json => {
+        .then(rsp => {
+          rsp.json().then(json => {
             const { GEO_DATA_LOADED } = ACTION_EVENTS
             store.dispatch({ type: GEO_DATA_LOADED, data: json })
-            window.localStorage.setItem('geo_data', JSON.stringify(json))
           })
         })
         // TODO: FINISH ERROR HANDLER

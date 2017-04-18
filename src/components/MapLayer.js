@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Map, Marker, TileLayer } from 'react-leaflet'
 import GeoJsonUpdatable from './GeoJsonUpdatable'
+import L from 'leaflet'
 import * as Actions from '../actions/mapActions'
 
 // Begin Map Variables
@@ -11,6 +12,10 @@ const mapCenter = [41.203323, -77.194527]
 const zoomLevel = 8
 // End Map Variables
 
+/**
+ * Places the marker for address lookup
+ * @param {ReactProps} props - containing lat and long
+ */
 const AddressMarker = props => {
   if (props === null) return null
   const markers = props.map((e, i) => {
@@ -35,9 +40,35 @@ const AddressMarker = props => {
 })
 class MapLayer extends Component {
   componentWillMount () {
-    Actions.mapLoad()
+    Actions.fetchGeoJson()
   }
+
+  componentDidUpdate (prevProps, prevState) {
+    this.zoomTo()
+  }
+
+  zoomIn () {
+    this.leaflet.leafletElement.zoomIn()
+  }
+
+  zoomOut () {
+    this.leaflet.leafletElement.zoomOut()
+  }
+
+  zoomTo () {
+    if (this.props.addr === null) return
+    const { lat, lng } = this.props.addr[0]
+    const latLng = L.latLng([lat, lng])
+    this.leaflet.leafletElement.setView(latLng, 14)
+  }
+
   render () {
+    const geo = () => {
+      if (Object.keys(this.props.data).length >= 1) {
+        return <GeoJsonUpdatable data={this.props.data} />
+      }
+      return null
+    }
     return (
       <div className='leaflet-container'>
         <Map className='map' center={mapCenter} zoom={zoomLevel}
@@ -46,9 +77,18 @@ class MapLayer extends Component {
           <TileLayer
             attribution={stamenTonerAttr}
             url={stamenTonerTiles} />
-          <GeoJsonUpdatable data={this.props.data} />
+          { geo() }
           { AddressMarker(this.props.addr) }
         </Map>
+        <div className='resize'>
+          <ul>
+            <li><button className='button'
+              onClick={this.zoomIn.bind(this)} >+</button></li>
+            <li>
+              <button className='button'
+                onClick={this.zoomOut.bind(this)} >-</button></li>
+          </ul>
+        </div>
       </div>
     )
   }
