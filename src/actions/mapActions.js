@@ -12,13 +12,16 @@ import { collectBranchAndYears } from './appActions'
  */
 export function switchLayer (year, branch, cur) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
-  const { mapReducer } = store.getState()
+  const { mapDataReducer } = store.getState()
+  // Not sure if moving this out of the lazy-loading callback will hurt performance
+  const years = collectBranchAndYears(mapDataReducer.geoFiles, cur)[1]
+  year = years.get(year) !== undefined ? year : years.first()
   return () => {
     store.dispatch({
       type: MAP_SWITCH_LAYER,
       layer: cur,
       year,
-      years: collectBranchAndYears(mapReducer.geoFiles, cur)[1],
+      years,
       branch
     })
     fetchGeoJson()
@@ -33,12 +36,11 @@ export function switchLayer (year, branch, cur) {
  * that must be cleared on change
  */
 export function fetchGeoJson () {
-  const { mapReducer } = store.getState()
-  const { currentLayer, geoFiles } = mapReducer
-  const { branch, layer, year } = currentLayer
+  const { mapDataReducer, mapControllerReducer } = store.getState()
+  const { geoFiles } = mapDataReducer
+  const { branch, layer, year } = mapControllerReducer
   if (geoFiles.size < 1) return
   // Ugly uri builder
-  console.log(geoFiles.toArray()[layer])
   const fileUri = uri + branch + '/' + geoFiles.toArray()[layer][branch][year] + '.geojson'
   console.log('FETCHING URI', fileUri)
   window.fetch(fileUri)

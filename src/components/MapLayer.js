@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { Map, Marker, TileLayer } from 'react-leaflet'
 import GeoJsonUpdatable from './GeoJsonUpdatable'
 import L from 'leaflet'
-import * as Actions from '../actions/mapActions'
+import { fetchGeoJson } from '../actions/mapActions'
 
 // Begin Map Variables
 const stamenTonerTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -36,11 +36,12 @@ const AddressMarker = props => {
  * https://facebook.github.io/react/docs/refs-and-the-dom.html
  */
 @connect(props => {
-  return props.mapReducer
+  const { addr, data } = props.mapDataReducer
+  return { addr, data }
 })
 class MapLayer extends Component {
   componentWillMount () {
-    Actions.fetchGeoJson()
+    fetchGeoJson()
   }
 
   componentDidUpdate (prevProps, prevState) {
@@ -64,6 +65,7 @@ class MapLayer extends Component {
 
   render () {
     const geo = () => {
+      // TODO: refactor in a more efficient manner
       if (Object.keys(this.props.data).length >= 1) {
         return <GeoJsonUpdatable data={this.props.data} />
       }

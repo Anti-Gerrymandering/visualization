@@ -19,9 +19,9 @@ const columnLinks = props => {
 @connect(props => {
   return {
     // All the layers that could be processed
-    layers: props.mapReducer.geoFiles,
+    layers: props.mapDataReducer.geoFiles,
     // The current Layer meta-data
-    cur: props.mapReducer.currentLayer
+    cur: props.mapControllerReducer
   }
 })
 class AppHeader extends Component {

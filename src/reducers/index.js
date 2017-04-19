@@ -1,9 +1,13 @@
 import { combineReducers } from 'redux'
-import { mapReducer } from './mapReducers'
+import { mapControllerReducer } from './mapControllerReducer'
+import { mapDataReducer } from './mapDataReducer'
 
 /**
  * Aggregate reducers as a singleton for the store
  */
-const rootReducer = combineReducers({ mapReducer })
+const rootReducer = combineReducers({
+  mapControllerReducer,
+  mapDataReducer
+})
 
 export default rootReducer
