@@ -1,18 +1,31 @@
+@import '../../node_modules/bulma/sass/utilities/_all'
+@import '../../node_modules/bulma/sass/elements/form'
+@import '../../node_modules/bulma/sass/elements/box'
+@import '../../node_modules/bulma/sass/elements/button'
+@import '../../node_modules/bulma/sass/components/tabs'
+@import '../../node_modules/bulma/sass/grid/columns'
+
+// Fonts Begin
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab')
+// Fonts End
+
+// Variables Begin
+$bg-color: #222
+$white: rgb(245,245,245)
+$roboto-font: 'Roboto Slab', serif
+// Variable End
+
+// Component Import
+@import 'MapLayer'
+@import 'AppHeader'
+@import 'TimeLine'
+
 .App 
   text-align: center
-
 
 .App-logo 
   animation: App-logo-spin infinite 20s linear
   height: 80px
-
-
-.App-header 
-  background-color: #222
-  height: 150px
-  padding: 20px
-  color: white
-
 
 .App-intro 
   font-size: large
