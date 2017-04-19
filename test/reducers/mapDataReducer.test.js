@@ -4,12 +4,7 @@ import ACTION_EVENTS from '../../src/actions/index'
 import { OrderedSet } from 'immutable'
 import metaData from '../../public/districts/pa/metaData.json'
 
-const {
-  GEO_CODE_ADDR,
-  GEO_DATA_LOADED,
-  MAP_SWITCH_LAYER,
-  META_DATA
-} = ACTION_EVENTS
+const { MAP_SWITCH_LAYER, META_DATA } = ACTION_EVENTS
 
 // State from the configure store
 const initState = {
