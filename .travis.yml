@@ -1,0 +1,9 @@
+install: true
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+# safelist
+branches:
+  only:
+  - dev
