@@ -53,3 +53,15 @@ export function fetchGeoJson () {
         // TODO: FINISH ERROR HANDLER
         .catch(err => console.log(err))
 }
+
+/**
+ * Set active district
+ * This determines which district to show stats for in the sidebar.
+ * @param {Object} district - GEOJSON district to set as active
+ */
+export function setCurrentDistrict (district) {
+  store.dispatch({
+    type: ACTION_EVENTS.CHANGE_ACTIVE_DISTRICT,
+    district
+  })
+}
