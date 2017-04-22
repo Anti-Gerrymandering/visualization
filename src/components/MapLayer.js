@@ -25,6 +25,24 @@ const AddressMarker = props => {
   return markers
 }
 
+const getColorCompactness = (c) =>
+  c > 0.55 ? '#ffffff'
+    : c > 0.40 ? '#ffffb2'
+    : c > 0.25 ? '#fed976'
+    : c > 0.15 ? '#feb24c'
+    : c > 0.10 ? '#fc4e2a'
+    : c > 0.05 ? '#e31a1c'
+    : '#b10026'
+
+const setDistrictStyle = (feature, layer) =>
+  layer.setStyle({
+    fillColor: getColorCompactness(feature.properties.Compactness),
+    weight: 1,
+    opacity: 1,
+    color: 'black',
+    fillOpacity: 0.8
+  })
+
 /**
  * MapLayer is the GIS layer of this web-app
  * Most of the GIS is Handled through Map and TileLayer
@@ -67,7 +85,7 @@ class MapLayer extends Component {
     const geo = () => {
       // TODO: refactor in a more efficient manner
       if (Object.keys(this.props.data).length >= 1) {
-        return <GeoJsonUpdatable data={this.props.data} />
+        return <GeoJsonUpdatable data={this.props.data} onEachFeature={setDistrictStyle} />
       }
       return null
     }
