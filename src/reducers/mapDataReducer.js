@@ -4,7 +4,8 @@ const {
     GEO_CODE_ADDR,
     GEO_DATA_LOADED,
     MAP_SWITCH_LAYER,
-    META_DATA
+    META_DATA,
+    STATS_LOADED
 } = ACTION_EVENTS
 
 export function mapDataReducer (state = {}, action) {
@@ -18,10 +19,13 @@ export function mapDataReducer (state = {}, action) {
       return Object.assign({}, state, { addr })
     case META_DATA:
       // The data object is left out to avoid conflicts with the first case
-      const { geoFiles } = action
-      return Object.assign({}, state, { geoFiles, years })
+      const { geoFiles, statsFiles } = action
+      return Object.assign({}, state, { geoFiles, statsFiles, years })
     case MAP_SWITCH_LAYER:
       return Object.assign({}, state, { years })
+    case STATS_LOADED:
+      const { stats } = action
+      return Object.assign({}, state, { stats })
     default:
       return state
   }

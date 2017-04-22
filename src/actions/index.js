@@ -14,6 +14,7 @@ const ACTION_EVENTS = {
   MAP_EVENT: 'MAP_EVENT',
   MAP_SWITCH_LAYER: 'MAP_SWITCH_LAYER',
   GEO_DATA_LOADED: 'GEO_DATA_LOADED', // For GeoJSON
+  STATS_LOADED: 'STATS_LOADED', // Load event for district stats
   GEO_CODE_ADDR: 'GEO_CODE_ADDR', // For Converting Address to Lat&Lng
   META_DATA: 'META_DATA'
 }
