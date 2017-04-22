@@ -17,7 +17,7 @@ The project structure is layed out as following:
 
 ## API Tokens
 
-In the actions folder, you will find tokens.example.js. You should re-save this file as token.js. Then you should generate the appropriate tokens for the website with it. 
+In the actions folder, you will find tokens.example.js. You should re-save this file as token.js. Then you should generate the appropriate tokens for the website with it.
 
 The *.gitignore* has been configured to ignore the __tokens.js__, please for your own security do not commit any tokens in the __tokens.example.js__! It is strictly an example and all files will import off the __tokens.js__ anyway.
 
@@ -50,3 +50,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
 
+Testing Travis
