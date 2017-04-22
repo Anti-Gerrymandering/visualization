@@ -6,7 +6,7 @@ import L from 'leaflet'
 import { fetchGeoJson } from '../actions/mapActions'
 
 // Begin Map Variables
-const stamenTonerTiles = ''//'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+const stamenTonerTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 const stamenTonerAttr = 'Map tiles by &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 const mapCenter = [41.203323, -77.194527]
 const zoomLevel = 8
