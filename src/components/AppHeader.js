@@ -55,10 +55,8 @@ class AppHeader extends Component {
             { this.buildToggle() }
           </div>
         </div>
-        <div className='column'>
-          <div className='gr-shadowDiv'>
-            <SearchBar />
-          </div>
+        <div className='gr-shadowDiv'>
+          <SearchBar />
         </div>
       </div>
     )

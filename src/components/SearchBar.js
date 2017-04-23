@@ -15,13 +15,13 @@ class SearchBar extends Component {
   }
   render () {
     return (
-      <div class='inner-nav'>
-        <div class='columns'>
-          <div class='column is-1 leftNav-outterDiv-left'>
-            <div class='leftNav-innerDiv-left' />
+      <div className='inner-nav'>
+        <div className='columns'>
+          <div className='column is-1 leftNav-outterDiv-left'>
+            <div className='leftNav-innerDiv-left' />
           </div>
-          <div class='column is-6 leftNav-outterDiv-middle'>
-            <div class='leftNav-innerDiv-middle' />
+          <div className='column is-6 leftNav-outterDiv-middle'>
+            <div className='leftNav-innerDiv-middle' />
           </div>
           <div className='column is-5'>
             <form onSubmit={this.submit.bind(this)} >
