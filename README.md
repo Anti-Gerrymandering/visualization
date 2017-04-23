@@ -1,5 +1,7 @@
 # Visualizing Gerrymandering
 
+[![Build Status](https://travis-ci.org/Anti-Gerrymandering/visualization.svg?branch=master)](https://travis-ci.org/Anti-Gerrymandering/visualization)
+
 
 This is a project started March 25th 2017 for [Code for Philly](https://codeforphilly.org/)'s Civic Engagement Launchpad
 

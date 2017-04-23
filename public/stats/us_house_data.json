@@ -1,0 +1,372 @@
+{
+  "5001400US4201": {
+    "District": "1st Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "BRADY, ROBERT A ",
+        "Votes": "245791",
+        "Percentage": "82.2"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "WILLIAMS, DEBORAH L ",
+        "Votes": "53219",
+        "Percentage": "17.8"
+      }
+    ]
+  },
+  "5001400US4202": {
+    "District": "2nd Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "EVANS, DWIGHT ",
+        "Votes": "322514",
+        "Percentage": "90.18"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "JONES, JAMES A ",
+        "Votes": "35131",
+        "Percentage": "9.82"
+      }
+    ]
+  },
+  "5001400US4203": {
+    "District": "3rd Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "KELLY, GEORGE J JR",
+        "Votes": "244893",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "5001400US4204": {
+    "District": "4th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "BURKHOLDER, JOSHUA T ",
+        "Votes": "113372",
+        "Percentage": "33.94"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "PERRY, SCOTT ",
+        "Votes": "220628",
+        "Percentage": "66.06"
+      }
+    ]
+  },
+  "5001400US4205": {
+    "District": "5th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "STRANO TAYLOR, KERITH ",
+        "Votes": "101082",
+        "Percentage": "32.84"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "THOMPSON, GLENN WILLIAM JR.",
+        "Votes": "206761",
+        "Percentage": "67.16"
+      }
+    ]
+  },
+  "5001400US4206": {
+    "District": "6th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "PARRISH, MICHAEL D ",
+        "Votes": "155000",
+        "Percentage": "42.76"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "COSTELLO, RYAN A ",
+        "Votes": "207469",
+        "Percentage": "57.24"
+      }
+    ]
+  },
+  "5001400US4207": {
+    "District": "7th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "BALCHUNIS, MARY ELLEN ",
+        "Votes": "153824",
+        "Percentage": "40.53"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "MEEHAN, PATRICK  L ",
+        "Votes": "225678",
+        "Percentage": "59.47"
+      }
+    ]
+  },
+  "5001400US4208": {
+    "District": "8th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "SANTARSIERO, STEVEN J ",
+        "Votes": "173555",
+        "Percentage": "45.57"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "FITZPATRICK, BRIAN K ",
+        "Votes": "207263",
+        "Percentage": "54.43"
+      }
+    ]
+  },
+  "5001400US4209": {
+    "District": "9th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "HALVORSON, ART ",
+        "Votes": "107985",
+        "Percentage": "36.66"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "SHUSTER, WILLIAM F ",
+        "Votes": "186580",
+        "Percentage": "63.34"
+      }
+    ]
+  },
+  "5001400US4210": {
+    "District": "10th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "MOLESEVICH, MICHAEL M ",
+        "Votes": "89823",
+        "Percentage": "29.83"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "MARINO, THOMAS A ",
+        "Votes": "211282",
+        "Percentage": "70.17"
+      }
+    ]
+  },
+  "5001400US4211": {
+    "District": "11th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "MARSICANO, MICHAEL PAUL ",
+        "Votes": "113800",
+        "Percentage": "36.33"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "BARLETTA, LOU ",
+        "Votes": "199421",
+        "Percentage": "63.67"
+      }
+    ]
+  },
+  "5001400US4212": {
+    "District": "12th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "MCCLELLAND, ERIN R ",
+        "Votes": "137353",
+        "Percentage": "38.24"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "ROTHFUS, KEITH JAMES ",
+        "Votes": "221851",
+        "Percentage": "61.76"
+      }
+    ]
+  },
+  "5001400US4213": {
+    "District": "13th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "BOYLE, BRENDAN F ",
+        "Votes": "239316",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "5001400US4214": {
+    "District": "14th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "DOYLE, MICHAEL F. JR.",
+        "Votes": "255293",
+        "Percentage": "74.37"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "MCALLISTER, LEONARD FRANCIS JR",
+        "Votes": "87999",
+        "Percentage": "25.63"
+      }
+    ]
+  },
+  "5001400US4215": {
+    "District": "15th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "DAUGHERTY, RICHARD D ",
+        "Votes": "124129",
+        "Percentage": "38.02"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "DENT, CHARLES W ",
+        "Votes": "190618",
+        "Percentage": "58.39"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "LIB",
+        "CandidateName": "RIZZO, PAUL ",
+        "Votes": "11727",
+        "Percentage": "3.59"
+      }
+    ]
+  },
+  "5001400US4216": {
+    "District": "16th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "HARTMAN, CHRISTINA M ",
+        "Votes": "134586",
+        "Percentage": "42.89"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "SMUCKER, LLOYD K ",
+        "Votes": "168669",
+        "Percentage": "53.76"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "LIB",
+        "CandidateName": "HOUSE, SHAWN PATRICK ",
+        "Votes": "10518",
+        "Percentage": "3.35"
+      }
+    ]
+  },
+  "5001400US4217": {
+    "District": "17th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "DEM",
+        "CandidateName": "CARTWRIGHT, MATTHEW ALTON ",
+        "Votes": "157734",
+        "Percentage": "53.8"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "CONNOLLY, MATTHEW ",
+        "Votes": "135430",
+        "Percentage": "46.2"
+      }
+    ]
+  },
+  "5001400US4218": {
+    "District": "18th Congressional District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in Congress",
+        "PartyName": "REP",
+        "CandidateName": "MURPHY , TIMOTHY  F ",
+        "Votes": "293684",
+        "Percentage": "100"
+      }
+    ]
+  }
+}

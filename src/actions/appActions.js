@@ -1,6 +1,6 @@
 import ACTIONS, { uri } from './index'
 import { OrderedSet } from 'immutable'
-import { fetchGeoJson } from './mapActions'
+import { fetchGeoJson, fetchStatsJson } from './mapActions'
 import store from '../configureStore'
 
 /**
@@ -85,14 +85,17 @@ export function pullMetaData () {
         .then(rsp => {
           rsp.json().then(json => {
             const geoFiles = OrderedSet(json.geoFiles)
+            const { statsFiles } = json
             const collected = collectBranchAndYears(geoFiles) // need to add error handler
             store.dispatch({
               type: META_DATA,
               geoFiles,
+              statsFiles,
               branch: collected[0],
               years: collected[1]
             })
             fetchGeoJson()
+            fetchStatsJson()
           })
         })
         .catch(e => console.error(e))

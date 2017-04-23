@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { Map, Marker, TileLayer } from 'react-leaflet'
 import GeoJsonUpdatable from './GeoJsonUpdatable'
 import L from 'leaflet'
-import { fetchGeoJson } from '../actions/mapActions'
+import { fetchGeoJson, setCurrentDistrict } from '../actions/mapActions'
 
 // Begin Map Variables
 const stamenTonerTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -34,7 +34,7 @@ const getColorCompactness = (c) =>
     : c > 0.05 ? '#e31a1c'
     : '#b10026'
 
-const setDistrictStyle = (feature, layer) =>
+const setDistrictStyle = (feature, layer) => {
   layer.setStyle({
     fillColor: getColorCompactness(feature.properties.Compactness),
     weight: 1,
@@ -42,6 +42,10 @@ const setDistrictStyle = (feature, layer) =>
     color: 'black',
     fillOpacity: 0.8
   })
+  layer.on({
+    click: () => setCurrentDistrict(feature)
+  })
+}
 
 /**
  * MapLayer is the GIS layer of this web-app
