@@ -1,8 +1,7 @@
 import React from 'react'
 import MapLayer from './MapLayer'
 import AppHeader from './AppHeader'
-import TimeLine from './TimeLine'
-import StatsSidebar from './StatsSidebar'
+import BottomNav from './BottomNav'
 import * as Actions from '../actions/appActions'
 import '../sass/App.sass'
 
@@ -13,9 +12,8 @@ const App = () => {
       <div className='columns'>
         <div className='column'>
           <AppHeader />
-          <StatsSidebar />
           <MapLayer />
-          <TimeLine />
+          <BottomNav />
         </div>
       </div>
     </div>
