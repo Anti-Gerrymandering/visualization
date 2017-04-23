@@ -5,14 +5,24 @@ import * as Actions from '../actions/mapActions'
 import { convertBranch } from '../actions/appActions'
 
 const columnLinks = props => {
-  const { id, name, click, active } = props
-  const style = () => (active) ? 'is-active' : ''
+  const { id, name, click } = props
+  const style = () => {
+    const base = 'nav-item '
+    switch (id) {
+      case 0:
+        return base + 'gm-navA'
+      case 1:
+        return base + 'gm-navB'
+      case 2:
+        return base + 'gm-navC'
+      default:
+        return base
+    }
+  }
   return (
-    <li key={id} className={style()}>
-      <a onClick={click}>
-        <span>{name}</span>
-      </a>
-    </li>
+    <a key={id} onClick={click} className={style()} >
+      <span>{name}</span>
+    </a>
   )
 }
 
@@ -39,12 +49,11 @@ class AppHeader extends Component {
   render () {
     // console.log(this.buildToggle())
     return (
-      <div className='App-header section'>
-        <h2>Gerry Mapper</h2>
-        <div className='column tabs is-toggle'>
-          <ul>
+      <div className='App-header'>
+        <div className='nav'>
+          <div className='nav-left'>
             { this.buildToggle() }
-          </ul>
+          </div>
         </div>
         <div className='column'>
           <SearchBar />

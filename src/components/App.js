@@ -11,10 +11,12 @@ const App = () => {
   return (
     <div className='App'>
       <div className='columns'>
-        <AppHeader />
-        <StatsSidebar />
-        <MapLayer />
-        <TimeLine />
+        <div className='column'>
+          <AppHeader />
+          <StatsSidebar />
+          <MapLayer />
+          <TimeLine />
+        </div>
       </div>
     </div>
   )
