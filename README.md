@@ -1,5 +1,7 @@
 # Visualizing Gerrymandering
 
+[![Build Status](https://travis-ci.org/Anti-Gerrymandering/visualization.svg?branch=master)](https://travis-ci.org/Anti-Gerrymandering/visualization)
+
 
 This is a project started March 25th 2017 for [Code for Philly](https://codeforphilly.org/)'s Civic Engagement Launchpad
 
@@ -17,9 +19,12 @@ The project structure is layed out as following:
 
 ## API Tokens
 
+
 In the actions folder, you will find tokens.example.js. You should re-save this file as token.js. Then you should generate the appropriate tokens for the website with it.
 
 The *.gitignore* has been configured to ignore the __tokens.js__, please for your own security do not commit any tokens in the __tokens.example.js__! It is strictly an example and all files will import off the __tokens.js__ anyway.
+
+All API tokens are handled in the .env file and passed into tokens.js. Please refer to env.sample
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

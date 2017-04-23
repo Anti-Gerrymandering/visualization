@@ -18,16 +18,6 @@ class GeoJsonUpdatable extends GeoJSON {
       // Adds new data to the map
       this.leafletElement.addData(this.props.data)
     }
-
-    if (prevProps.visibleIds !== this.props.visibleIds) {
-      this.leafletElement.eachLayer((layer) => {
-        if (this.props.visibleIds.indexOf(layer.feature.id) === -1) {
-          layer.setStyle({fillOpacity: 0, opacity: 0})
-        } else {
-          layer.setStyle({fillOpacity: 0.4, opacity: 1})
-        }
-      })
-    }
   }
 }
 

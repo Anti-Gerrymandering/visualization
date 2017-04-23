@@ -1,10 +1,12 @@
 {
   "name": "visualizing",
+  "homepage": "http://gerrymapper.org/",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://ciacci1234.github.io/visualization",
   "dependencies": {
     "bulma": "^0.4.0",
+    "dotenv": "^2.0.0",
     "immutable": "^3.8.1",
     "leaflet": "^1.0.3",
     "react": "^15.4.2",
