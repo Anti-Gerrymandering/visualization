@@ -40,16 +40,14 @@ class AppHeader extends Component {
     // console.log(this.buildToggle())
     return (
       <div className='App-header section'>
-        <h2>Visualizing Gerrymandering</h2>
-        <div className='columns'>
-          <div className='column tabs is-toggle'>
-            <ul>
-              { this.buildToggle() }
-            </ul>
-          </div>
-          <div className='column'>
-            <SearchBar />
-          </div>
+        <h2>Gerry Mapper</h2>
+        <div className='column tabs is-toggle'>
+          <ul>
+            { this.buildToggle() }
+          </ul>
+        </div>
+        <div className='column'>
+          <SearchBar />
         </div>
       </div>
     )

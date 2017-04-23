@@ -10,10 +10,12 @@ const App = () => {
   Actions.onLoad()
   return (
     <div className='App'>
-      <AppHeader />
-      <StatsSidebar />
-      <MapLayer />
-      <TimeLine />
+      <div className='columns'>
+        <AppHeader />
+        <StatsSidebar />
+        <MapLayer />
+        <TimeLine />
+      </div>
     </div>
   )
 }
