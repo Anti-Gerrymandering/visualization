@@ -23,5 +23,10 @@
         "2010": "gz_2010_42_610_u2_500k"
       } 
     }
-  ]
+  ],
+  "statsFiles": {
+    "federal": "us_house_data",
+    "upper": "pa_senate_data",
+    "lower": "pa_house_data"
+  }
 }
