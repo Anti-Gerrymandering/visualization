@@ -56,7 +56,9 @@ class AppHeader extends Component {
           </div>
         </div>
         <div className='column'>
-          <SearchBar />
+          <div className='gr-shadowDiv'>
+            <SearchBar />
+          </div>
         </div>
       </div>
     )
