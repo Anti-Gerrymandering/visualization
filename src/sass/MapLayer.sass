@@ -1,34 +1,18 @@
 .leaflet-container
-  background: rgba(255, 255, 255, 0)
+  height: 500px
+  padding: 0px
+  margin: 0px
 
 .map
-  z-index: -2
-  height: 100vh
-  width: 75%
-  top: 0
-  right: 0
-  padding: 0
-  margin: 0
-  position: fixed
-  // Moves Leaflet below all other components
-  // Allowing for overlays
-  .leaflet-control-container
-    display: none
+  height: 500px
+  background-color: gray
 
-.resize
-  background: rgba(255, 255, 255, 0)
-  width: 10vw
-  list-style-type: none
-  display: block
-  position: absolute
-  right: 5vw
-  bottom: 5vh
-
-  li
-    list-style-type: none
-
-  button
-    border-radius: 10px
-    width: 3vw
-    font-size: 1.3vw
-    font-weight: bold
+.leaflet-control-zoom a
+  border: 1px solid black
+  height: 40px
+  width: 40px
+  padding: 0px
+  text-align: center
+  font-weight: bold
+  margin: 5px
+  font-size: 20px
