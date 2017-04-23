@@ -25,15 +25,13 @@ export function switchLayer (year, branch, cur) {
       branch
     })
     fetchGeoJson()
+    fetchStatsJson()
   }
 }
 
 /**
  * The default function to grab GEOJSON Data
- * Currently it loads the lower house data
  * TODO: FINISH ERROR HANDLER
- * NOTE: This function saves data in the localStorage object
- * that must be cleared on change
  */
 export function fetchGeoJson () {
   const { mapDataReducer, mapControllerReducer } = store.getState()
@@ -52,4 +50,34 @@ export function fetchGeoJson () {
         })
         // TODO: FINISH ERROR HANDLER
         .catch(err => console.log(err))
+}
+
+/**
+ * Set active district
+ * This determines which district to show stats for in the sidebar.
+ * @param {Object} district - GEOJSON district to set as active
+ */
+export function setCurrentDistrict (district) {
+  store.dispatch({
+    type: ACTION_EVENTS.CHANGE_ACTIVE_DISTRICT,
+    district
+  })
+}
+
+export function fetchStatsJson () {
+  const { mapDataReducer, mapControllerReducer } = store.getState()
+  const { statsFiles } = mapDataReducer
+  const { branch } = mapControllerReducer
+
+  if (statsFiles.size < 1) return
+  const fileUri = '/stats/' + statsFiles[branch] + '.json'
+
+  window.fetch(fileUri).then(response =>
+    response.json().then(json => {
+      store.dispatch({
+        type: ACTION_EVENTS.STATS_LOADED,
+        stats: json
+      })
+    })
+  )
 }

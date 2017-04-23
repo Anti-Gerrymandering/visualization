@@ -1,0 +1,900 @@
+{
+  "610U400US42001": {
+    "District": "1st Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FARNESE, LAWRENCE M JR",
+        "Votes": "114099",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42003": {
+    "District": "3rd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "STREET, SHARIF T ",
+        "Votes": "98955",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42005": {
+    "District": "5th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SABATINA, JOHN P JR",
+        "Votes": "64508",
+        "Percentage": "67.09"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "FEINBERG, ROSS ERIC ",
+        "Votes": "31644",
+        "Percentage": "32.91"
+      }
+    ]
+  },
+  "610U400US42007": {
+    "District": "7th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HUGHES, VINCENT J ",
+        "Votes": "108471",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42009": {
+    "District": "9th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MOLLOY, MARTIN W II",
+        "Votes": "67011",
+        "Percentage": "48.64"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KILLION, THOMAS H. ",
+        "Votes": "70764",
+        "Percentage": "51.36"
+      }
+    ]
+  },
+  "610U400US42011": {
+    "District": "11th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "SCHWANK, JUDITH L ",
+        "Votes": "98370",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42013": {
+    "District": "13th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "PAULSON, GREGORY ",
+        "Votes": "48476",
+        "Percentage": "42.13"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MARTIN, SCOTT F ",
+        "Votes": "66595",
+        "Percentage": "57.87"
+      }
+    ]
+  },
+  "610U400US42015": {
+    "District": "15th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "TEPLITZ, ROBERT F ",
+        "Votes": "58591",
+        "Percentage": "48.28"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "DISANTO, GIOVANNI M ",
+        "Votes": "62774",
+        "Percentage": "51.72"
+      }
+    ]
+  },
+  "610U400US42017": {
+    "District": "17th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "LEACH, DAYLIN B ",
+        "Votes": "88827",
+        "Percentage": "63.98"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GONDEK, BRIAN ",
+        "Votes": "50010",
+        "Percentage": "36.02"
+      }
+    ]
+  },
+  "610U400US42019": {
+    "District": "19th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DINNIMAN, ANDREW E ",
+        "Votes": "75615",
+        "Percentage": "56.4"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LONDON, JACK SAMUEL ",
+        "Votes": "58456",
+        "Percentage": "43.6"
+      }
+    ]
+  },
+  "610U400US42021": {
+    "District": "21st Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HUTCHINSON, SCOTT E ",
+        "Votes": "101525",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42023": {
+    "District": "23rd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "YAW, EMERSON EUGENE ",
+        "Votes": "85889",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42025": {
+    "District": "25th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BUCHANAN, JERRI ",
+        "Votes": "25686",
+        "Percentage": "25.16"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SCARNATI, JOSEPH  B.  III",
+        "Votes": "76416",
+        "Percentage": "74.84"
+      }
+    ]
+  },
+  "610U400US42027": {
+    "District": "27th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GORDNER, JOHN R ",
+        "Votes": "83083",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42029": {
+    "District": "29th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ARGALL, DAVID G ",
+        "Votes": "92537",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42031": {
+    "District": "31st Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BOSHA, JOHN ",
+        "Votes": "38478",
+        "Percentage": "28.49"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "REGAN, MICHAEL R ",
+        "Votes": "87269",
+        "Percentage": "64.61"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "NOA",
+        "CandidateName": "GEHOSKY, KENNETH ",
+        "Votes": "9331",
+        "Percentage": "6.91"
+      }
+    ]
+  },
+  "610U400US42033": {
+    "District": "33rd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ALLOWAY, RICHARD L II",
+        "Votes": "99377",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42035": {
+    "District": "35th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CERNIC, ED JR",
+        "Votes": "41349",
+        "Percentage": "37.68"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LANGERHOLC, WAYNE JR",
+        "Votes": "68397",
+        "Percentage": "62.32"
+      }
+    ]
+  },
+  "610U400US42037": {
+    "District": "37th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "EICHENLAUB, EDWARD H ",
+        "Votes": "59044",
+        "Percentage": "39.35"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "RESCHENTHALER, GUY ",
+        "Votes": "90987",
+        "Percentage": "60.65"
+      }
+    ]
+  },
+  "610U400US42039": {
+    "District": "39th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "WARD, KIM ",
+        "Votes": "111696",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42041": {
+    "District": "41st Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DELORETO, ANTHONY J ",
+        "Votes": "30739",
+        "Percentage": "27.38"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WHITE, DONALD C ",
+        "Votes": "76843",
+        "Percentage": "68.44"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "USM",
+        "CandidateName": "BUGGEY, STANLEY ",
+        "Votes": "4701",
+        "Percentage": "4.19"
+      }
+    ]
+  },
+  "610U400US42043": {
+    "District": "43rd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "COSTA, JAY JR.",
+        "Votes": "114984",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42045": {
+    "District": "45th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BREWSTER, JAMES R ",
+        "Votes": "89016",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42047": {
+    "District": "47th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "VOGEL , ELDER A JR",
+        "Votes": "95622",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42049": {
+    "District": "49th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WILEY, SEAN ",
+        "Votes": "50356",
+        "Percentage": "46.56"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LAUGHLIN, DANIEL J ",
+        "Votes": "57790",
+        "Percentage": "53.44"
+      }
+    ]
+  },
+  "610U400US42002": {
+    "District": "2nd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "JENKINS, JOHN J III",
+        "Votes": "9464",
+        "Percentage": "21.09"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "TARTAGLIONE, CHRISTINE M ",
+        "Votes": "35405",
+        "Percentage": "78.91"
+      }
+    ]
+  },
+  "610U400US42004": {
+    "District": "4th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GILCHRIST, ROBIN MATTHEW ",
+        "Votes": "16498",
+        "Percentage": "17.21"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HAYWOOD, ARTHUR L III",
+        "Votes": "78001",
+        "Percentage": "81.37"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "VFI",
+        "CandidateName": "REYES, INES ",
+        "Votes": "1355",
+        "Percentage": "1.41"
+      }
+    ]
+  },
+  "610U400US42006": {
+    "District": "6th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TOMLINSON, ROBERT M ",
+        "Votes": "45361",
+        "Percentage": "61.84"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "YEAGER-ROSE, KIMBERLY  ",
+        "Votes": "27997",
+        "Percentage": "38.16"
+      }
+    ]
+  },
+  "610U400US42008": {
+    "District": "8th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WILLIAMS, ANTHONY HARDY ",
+        "Votes": "58547",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42010": {
+    "District": "10th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MCILHINNEY, CHARLES T JR",
+        "Votes": "49605",
+        "Percentage": "58.65"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CICKAY, STEPHEN GEORGE JR",
+        "Votes": "34967",
+        "Percentage": "41.35"
+      }
+    ]
+  },
+  "610U400US42012": {
+    "District": "12th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GREENLEAF, STEWART J ",
+        "Votes": "50319",
+        "Percentage": "63.34"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DAMSKER, RUTH S ",
+        "Votes": "29123",
+        "Percentage": "36.66"
+      }
+    ]
+  },
+  "610U400US42014": {
+    "District": "14th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "YUDICHAK, JOHN T ",
+        "Votes": "41980",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42016": {
+    "District": "16th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BROWNE, PATRICK M ",
+        "Votes": "36745",
+        "Percentage": "62.39"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FELTON, WALTER JR",
+        "Votes": "22146",
+        "Percentage": "37.61"
+      }
+    ]
+  },
+  "610U400US42018": {
+    "District": "18th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "R/D",
+        "CandidateName": "BOSCOLA, LISA  M ",
+        "Votes": "54943",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42020": {
+    "District": "20th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BAKER, ELISABETH  J  ",
+        "Votes": "51496",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42022": {
+    "District": "22nd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ALBERT, ARTHUR JOSEPH ",
+        "Votes": "21213",
+        "Percentage": "31.69"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BLAKE, JOHN PATRICK ",
+        "Votes": "45716",
+        "Percentage": "68.31"
+      }
+    ]
+  },
+  "610U400US42024": {
+    "District": "24th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MENSCH, ROBERT BRUCE ",
+        "Votes": "41885",
+        "Percentage": "59.9"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HANSEN, JACK ",
+        "Votes": "28041",
+        "Percentage": "40.1"
+      }
+    ]
+  },
+  "610U400US42026": {
+    "District": "26th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MCGARRIGLE, THOMAS J ",
+        "Votes": "45910",
+        "Percentage": "52.12"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KANE, JOHN I SR",
+        "Votes": "42170",
+        "Percentage": "47.88"
+      }
+    ]
+  },
+  "610U400US42028": {
+    "District": "28th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WAGNER, SCOTT R ",
+        "Votes": "46247",
+        "Percentage": "64.72"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SMALL, LINDA E ",
+        "Votes": "25205",
+        "Percentage": "35.28"
+      }
+    ]
+  },
+  "610U400US42030": {
+    "District": "30th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "EICHELBERGER, JOHN H JR",
+        "Votes": "52042",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42032": {
+    "District": "32nd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "STEFANO, PATRICK J ",
+        "Votes": "36670",
+        "Percentage": "57.21"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KULA, DEBERAH L ",
+        "Votes": "27428",
+        "Percentage": "42.79"
+      }
+    ]
+  },
+  "610U400US42034": {
+    "District": "34th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CORMAN, JACOB  D III",
+        "Votes": "46391",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42036": {
+    "District": "36th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "AUMENT, RYAN P ",
+        "Votes": "54058",
+        "Percentage": "72.32"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SCHRECKENGOST, GARY J ",
+        "Votes": "20686",
+        "Percentage": "27.68"
+      }
+    ]
+  },
+  "610U400US42038": {
+    "District": "38th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "VULAKOVICH, RUDOLPH P ",
+        "Votes": "58599",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42040": {
+    "District": "40th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SCAVELLO, MARIO M ",
+        "Votes": "38417",
+        "Percentage": "59.88"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "AURAND, MARK D ",
+        "Votes": "25739",
+        "Percentage": "40.12"
+      }
+    ]
+  },
+  "610U400US42042": {
+    "District": "42nd Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FONTANA, WAYNE D ",
+        "Votes": "53080",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42044": {
+    "District": "44th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "RAFFERTY, JOHN C JR.",
+        "Votes": "48655",
+        "Percentage": "61.39"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "COZZONE, KATHI ",
+        "Votes": "30597",
+        "Percentage": "38.61"
+      }
+    ]
+  },
+  "610U400US42046": {
+    "District": "46th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BARTOLOTTA, CAMERA C ",
+        "Votes": "36697",
+        "Percentage": "53.23"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SOLOBAY, TIMOTHY J ",
+        "Votes": "32237",
+        "Percentage": "46.77"
+      }
+    ]
+  },
+  "610U400US42048": {
+    "District": "48th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "FOLMER, MICHAEL J ",
+        "Votes": "54900",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "610U400US42050": {
+    "District": "50th Senatorial District",
+    "Candidates": [
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BROOKS, MICHELE ",
+        "Votes": "41500",
+        "Percentage": "65.66"
+      },
+      {
+        "ElectionYear": "2014",
+        "OfficeName": "Senator in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MUHA, MICHAEL T ",
+        "Votes": "21701",
+        "Percentage": "34.34"
+      }
+    ]
+  }
+}
