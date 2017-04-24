@@ -87,8 +87,8 @@ class MapLayer extends Component {
     }
     return (
       <div className='leaflet-container'>
-        <div class='columns'>
-          <div class='column is-12'>
+        <div className='columns'>
+          <div className='column is-12'>
             <Map className='map' center={mapCenter} zoom={zoomLevel}
               // Reference to actual DOM
               ref={ref => { this.leaflet = ref }} >
