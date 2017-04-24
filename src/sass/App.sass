@@ -1,32 +1,36 @@
-@import '../../node_modules/bulma/sass/utilities/_all'
-@import '../../node_modules/bulma/sass/elements/form'
-@import '../../node_modules/bulma/sass/elements/box'
-@import '../../node_modules/bulma/sass/elements/button'
-@import '../../node_modules/bulma/sass/components/tabs'
-@import '../../node_modules/bulma/sass/grid/columns'
-
-// Fonts Begin
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab')
-// Fonts End
-
-// Variables Begin
-$bg-color: #222
-$white: rgb(245,245,245)
-$roboto-font: 'Roboto Slab', serif
-// Variable End
-
 // Component Import
 @import 'MapLayer'
 @import 'AppHeader'
 @import 'TimeLine'
 @import 'StatsSidebar'
+@import 'BottomNav'
+
+
+body
+  font-family: "FranklinITCProLight","HelveticaNeue","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif
+  background-color: #CDCCDC
+
+div
+  margin: 0px
+  padding: 0px
 
 .App 
-  text-align: center
+  width: 100%
+  height: auto
+  background-color: #CDCCDC
+  padding: 10px
+  margin: 0px
+  border-radius: 5px
 
-.App-logo 
-  animation: App-logo-spin infinite 20s linear
-  height: 80px
+.AppHolder
+  width: 100%
+  height: auto
+  background-color: #ECECFB
+  padding: 2px 4px 4px 4px
+  margin: 0px
+  border: 1px #FBF8EC solid
+  border-radius: 2px
 
-.App-intro 
-  font-size: large
+.gr-bottomApp
+  width: 100%
+  height: 5px

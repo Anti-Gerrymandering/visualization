@@ -22,27 +22,31 @@ class StatsSidebar extends Component {
       const district = this.props.activeDistrict
       const { stats } = this.props
       return (
-        <div>
-          <h2>{stats.District}</h2>
+        <div className='statsSideBar-ResultsDiv'>
+          <div>
+            <h2 className='resultDistrictHeader'>{stats.District}&#039;s Election Results</h2>
 
-          <dl>
-            <dt>Compactness</dt>
-            <dd>{district.properties.Compactness}</dd>
-          </dl>
+            <dl>
+              <dt><span className='spanUnderline'>Compactness</span></dt>
+              <dd><span className='spanItalics'>{district.properties.Compactness}</span></dd>
+            </dl>
 
-          <h3>Results of last election</h3>
-          {stats.Candidates.map(candidate =>
-            <div key={candidate.CandidateName}>
-              <h4>{candidate.CandidateName}</h4>
-              <dl>
-                <dt>Party</dt>
-                <dd>{candidate.PartyName}</dd>
-                <dt>Percentage of Vote</dt>
-                <dd>{candidate.Percentage}</dd>
-              </dl>
-            </div>
+            <div className='resultSpacer' />
+
+            <div className='electionResultsOuterDiv'>
+              {stats.Candidates.map(candidate =>
+                <div className='electionResultsInnerDiv'><div key={candidate.CandidateName}>
+                  <h4>{candidate.CandidateName}</h4>
+                  <dl>
+                    <dt>Party: {candidate.PartyName}</dt>
+                    <dd><div className='resultSpacer' /></dd>
+                    <dt><span className='spanUnderline'>Percentage of Vote</span></dt>
+                    <dd><span className='spanItalics'>{candidate.Percentage} %</span></dd>
+                  </dl>
+                </div></div>
           )}
-        </div>
+            </div>
+          </div></div>
       )
     } else {
       return (

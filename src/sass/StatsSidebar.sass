@@ -1,5 +1,51 @@
 #sidebar
-  height: 100%
-  width: 25%
-  text-align: left
-  position: fixed
+  display: block
+
+.statsSideBar-ResultsDiv
+  min-height: 100px;
+  width: 100%
+
+.resultsHeader
+  margin: 20px 0px 10px 0px
+
+.resultDistrictHeader
+  margin: 0px 0px 10px 0px
+  font-weight: bold
+  font-size: 1.77em
+  font-style: italic
+  line-height: 1.25
+
+.spanUnderline
+  text-decoration: underline
+
+.spanItalics
+  font-style: italic
+  font-size: 1.33em
+
+.resultSpacer
+  width: 100%
+  height: 10px
+
+.electionResultsOuterDiv
+  padding-top: 5px
+  width: 100%
+  height: auto
+  min-height: 10px
+
+.electionResultsInnerDiv
+  padding: 15px 0px 0px 0px
+  width: 50%
+  float: left
+  border-top: 1.5px #ECECFB solid
+
+.electionResultsInnerDiv:nth-child(3)
+  margin-top: 10px
+  display: none
+
+
+@media (min-width: 0px) and (max-width: 768px)
+  .electionResultsInnerDiv
+      padding-bottom: 10px
+      width: 100%
+      display: block
+      clear: both

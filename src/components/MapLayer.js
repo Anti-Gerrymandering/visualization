@@ -9,7 +9,7 @@ import { fetchGeoJson, setCurrentDistrict } from '../actions/mapActions'
 const stamenTonerTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 const stamenTonerAttr = 'Map tiles by &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 const mapCenter = [41.203323, -77.194527]
-const zoomLevel = 8
+const zoomLevel = 7
 // End Map Variables
 
 /**
@@ -70,14 +70,6 @@ class MapLayer extends Component {
     this.zoomTo()
   }
 
-  zoomIn () {
-    this.leaflet.leafletElement.zoomIn()
-  }
-
-  zoomOut () {
-    this.leaflet.leafletElement.zoomOut()
-  }
-
   zoomTo () {
     if (this.props.addr === null) return
     const { lat, lng } = this.props.addr[0]
@@ -95,23 +87,18 @@ class MapLayer extends Component {
     }
     return (
       <div className='leaflet-container'>
-        <Map className='map' center={mapCenter} zoom={zoomLevel}
-          // Reference to actual DOM
-          ref={ref => { this.leaflet = ref }} >
-          <TileLayer
-            attribution={stamenTonerAttr}
-            url={stamenTonerTiles} />
-          { geo() }
-          { AddressMarker(this.props.addr) }
-        </Map>
-        <div className='resize'>
-          <ul>
-            <li><button className='button'
-              onClick={this.zoomIn.bind(this)} >+</button></li>
-            <li>
-              <button className='button'
-                onClick={this.zoomOut.bind(this)} >-</button></li>
-          </ul>
+        <div className='columns'>
+          <div className='column is-12'>
+            <Map className='map' center={mapCenter} zoom={zoomLevel}
+              // Reference to actual DOM
+              ref={ref => { this.leaflet = ref }} >
+              <TileLayer
+                attribution={stamenTonerAttr}
+                url={stamenTonerTiles} />
+              { geo() }
+              { AddressMarker(this.props.addr) }
+            </Map>
+          </div>
         </div>
       </div>
     )
