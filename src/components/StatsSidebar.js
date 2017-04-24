@@ -23,30 +23,30 @@ class StatsSidebar extends Component {
       const { stats } = this.props
       return (
         <div className='statsSideBar-ResultsDiv'>
-        <div>
-          <h2 className='resultDistrictHeader'>{stats.District}&#039;s Election Results</h2>
+          <div>
+            <h2 className='resultDistrictHeader'>{stats.District}&#039;s Election Results</h2>
 
-          <dl>
-            <dt><span className='spanUnderline'>Compactness</span></dt>
-            <dd><span className='spanItalics'>{district.properties.Compactness}</span></dd>
-          </dl>
+            <dl>
+              <dt><span className='spanUnderline'>Compactness</span></dt>
+              <dd><span className='spanItalics'>{district.properties.Compactness}</span></dd>
+            </dl>
 
-          <div className='resultSpacer'></div>
-          
-          <div className='electionResultsOuterDiv'>
-          {stats.Candidates.map(candidate =>
-            <div className='electionResultsInnerDiv'><div key={candidate.CandidateName}>
-              <h4>{candidate.CandidateName}</h4>
-              <dl>
-                <dt>Party: {candidate.PartyName}</dt>
-                <dd><div className='resultSpacer'></div></dd>
-                <dt><span className='spanUnderline'>Percentage of Vote</span></dt>
-                <dd><span className='spanItalics'>{candidate.Percentage} %</span></dd>
-              </dl>
-            </div></div>
+            <div className='resultSpacer' />
+
+            <div className='electionResultsOuterDiv'>
+              {stats.Candidates.map(candidate =>
+                <div className='electionResultsInnerDiv'><div key={candidate.CandidateName}>
+                  <h4>{candidate.CandidateName}</h4>
+                  <dl>
+                    <dt>Party: {candidate.PartyName}</dt>
+                    <dd><div className='resultSpacer' /></dd>
+                    <dt><span className='spanUnderline'>Percentage of Vote</span></dt>
+                    <dd><span className='spanItalics'>{candidate.Percentage} %</span></dd>
+                  </dl>
+                </div></div>
           )}
-          </div>
-        </div></div>
+            </div>
+          </div></div>
       )
     } else {
       return (

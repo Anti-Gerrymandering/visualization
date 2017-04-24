@@ -17,7 +17,7 @@ const App = () => {
             <BottomNav />
           </div>
         </div>
-      <div className='columns'><div className='column is-12'><div className='gr-bottomApp'></div></div></div>
+        <div className='columns'><div className='column is-12'><div className='gr-bottomApp' /></div></div>
       </div>
 
     </div>

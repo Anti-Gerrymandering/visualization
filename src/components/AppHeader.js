@@ -50,15 +50,15 @@ class AppHeader extends Component {
     // console.log(this.buildToggle())
     return (
       <div className='App-header'>
-      <div className='headerApp-innerDiv'>
-        <div className='nav'>
-          <div className='nav-left gr-overflowDiv'>
-            { this.buildToggle() }
+        <div className='headerApp-innerDiv'>
+          <div className='nav'>
+            <div className='nav-left gr-overflowDiv'>
+              { this.buildToggle() }
+            </div>
           </div>
-        </div>
-        <div className='gr-shadowDiv'>
-          <SearchBar />
-        </div>
+          <div className='gr-shadowDiv'>
+            <SearchBar />
+          </div>
         </div>
       </div>
     )

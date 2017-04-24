@@ -9,8 +9,8 @@ const BottomNav = () => {
 
         <div className='column is-4'>
           <div className='gr-BottomNavInnerPadding'>
-          <div className='gr-HR'></div>
-          <TimeLine />
+            <div className='gr-HR' />
+            <TimeLine />
           </div>
           <div className='gr-Maplegend'><div className='gr-InnerMaplegend'><h3 className='gr-InnerMapLegendHeader'>Map Legend</h3></div></div>
           <div id='gm-results' />
@@ -20,8 +20,8 @@ const BottomNav = () => {
 
         <div className='column is-7'>
           <div className='gr-BottomNavInnerPadding gr-ResultsDiv'>
-          <div className='gr-HR'></div>
-          <StatsSidebar />
+            <div className='gr-HR' />
+            <StatsSidebar />
           </div>
         </div>
 
