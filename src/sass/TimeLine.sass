@@ -1,28 +1,29 @@
 .timeLine
-  background-color: $white
-  z-index: 2
   margin: 5px
-  left: 5vw
-  bottom: 5vh
-  display: block
+  display: inline-block
   position: absolute
-  font-family: $roboto-font
-  box-shadow: 50px 50px 50px 20px $bg-color
   border-radius: 5px
   height: 4vh
 
-  ul
-    list-style: none
-    display: inline
-    border-bottom: 8px solid $bg-color
-    padding: 1vh 0 0 0
-    margin: 0
-    height: 4vh
+ul
+  list-style: none
+  display: inline
+  border-bottom: 8px solid
+  padding: 1vh 0 0 0
+  margin: 0
+  height: 4vh
 
-  li
-    display: inline
-    padding: 1.5vw
-    font-size: 2.5vh
+li
+  display: inline
+  padding: 1.5vw
+  font-size: 2.5vh
+  cursor: pointer
+  font-style: italic
 
-    &:hover
-      font-size: 3.5vh
+  &:hover
+    color: white
+  &:active
+    color: white
+
+li.selected
+  color: white

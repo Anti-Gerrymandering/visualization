@@ -3,13 +3,13 @@ import { connect } from 'react-redux'
 import { Map, Marker, TileLayer } from 'react-leaflet'
 import GeoJsonUpdatable from './GeoJsonUpdatable'
 import L from 'leaflet'
-import { fetchGeoJson } from '../actions/mapActions'
+import { fetchGeoJson, setCurrentDistrict } from '../actions/mapActions'
 
 // Begin Map Variables
 const stamenTonerTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 const stamenTonerAttr = 'Map tiles by &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 const mapCenter = [41.203323, -77.194527]
-const zoomLevel = 8
+const zoomLevel = 7
 // End Map Variables
 
 /**
@@ -34,7 +34,7 @@ const getColorCompactness = (c) =>
     : c > 0.05 ? '#e31a1c'
     : '#b10026'
 
-const setDistrictStyle = (feature, layer) =>
+const setDistrictStyle = (feature, layer) => {
   layer.setStyle({
     fillColor: getColorCompactness(feature.properties.Compactness),
     weight: 1,
@@ -42,6 +42,10 @@ const setDistrictStyle = (feature, layer) =>
     color: 'black',
     fillOpacity: 0.8
   })
+  layer.on({
+    click: () => setCurrentDistrict(feature)
+  })
+}
 
 /**
  * MapLayer is the GIS layer of this web-app
@@ -66,14 +70,6 @@ class MapLayer extends Component {
     this.zoomTo()
   }
 
-  zoomIn () {
-    this.leaflet.leafletElement.zoomIn()
-  }
-
-  zoomOut () {
-    this.leaflet.leafletElement.zoomOut()
-  }
-
   zoomTo () {
     if (this.props.addr === null) return
     const { lat, lng } = this.props.addr[0]
@@ -91,23 +87,18 @@ class MapLayer extends Component {
     }
     return (
       <div className='leaflet-container'>
-        <Map className='map' center={mapCenter} zoom={zoomLevel}
-          // Reference to actual DOM
-          ref={ref => { this.leaflet = ref }} >
-          <TileLayer
-            attribution={stamenTonerAttr}
-            url={stamenTonerTiles} />
-          { geo() }
-          { AddressMarker(this.props.addr) }
-        </Map>
-        <div className='resize'>
-          <ul>
-            <li><button className='button'
-              onClick={this.zoomIn.bind(this)} >+</button></li>
-            <li>
-              <button className='button'
-                onClick={this.zoomOut.bind(this)} >-</button></li>
-          </ul>
+        <div className='columns'>
+          <div className='column is-12'>
+            <Map className='map' center={mapCenter} zoom={zoomLevel}
+              // Reference to actual DOM
+              ref={ref => { this.leaflet = ref }} >
+              <TileLayer
+                attribution={stamenTonerAttr}
+                url={stamenTonerTiles} />
+              { geo() }
+              { AddressMarker(this.props.addr) }
+            </Map>
+          </div>
         </div>
       </div>
     )

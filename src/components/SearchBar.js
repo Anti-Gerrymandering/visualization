@@ -15,19 +15,26 @@ class SearchBar extends Component {
   }
   render () {
     return (
-      <form onSubmit={this.submit.bind(this)} >
-        <div className='field has-addons'>
-          <p className='control'>
-            <input className='input'
-              type='text'
-              onChange={this.changeVal.bind(this)}
-              defaultValue={this.state.addr} />
-          </p>
-          <p className='control'>
-            <button type='submit' className='button is-info'>Plot</button>
-          </p>
+      <div className='inner-nav'>
+        <div className='columns'>
+          <div className='column is-1 leftNav-outterDiv-left'>
+            <div className='leftNav-innerDiv-left' />
+          </div>
+          <div className='column is-6 leftNav-outterDiv-middle'>
+            <div className='leftNav-innerDiv-middle' />
+          </div>
+          <div className='column is-5'>
+            <form onSubmit={this.submit.bind(this)} >
+              <div className='gm-rightHorn'>
+                <input className='gm-form-control'
+                  type='text'
+                  onChange={this.changeVal.bind(this)}
+                  defaultValue={this.state.addr} />
+              </div>
+            </form>
+          </div>
         </div>
-      </form>
+      </div>
     )
   }
 }

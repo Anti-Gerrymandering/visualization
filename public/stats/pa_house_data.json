@@ -1,0 +1,3585 @@
+{
+  "620L400US42001": {
+    "District": "1st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HARKINS, PATRICK J ",
+        "Votes": "14785",
+        "Percentage": "72.92"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CROTTY, WILLIAM ",
+        "Votes": "5491",
+        "Percentage": "27.08"
+      }
+    ]
+  },
+  "620L400US42002": {
+    "District": "2nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FABRIZIO, FLORINDO J ",
+        "Votes": "16051",
+        "Percentage": "63.76"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "FULLER, PATRICK J ",
+        "Votes": "9124",
+        "Percentage": "36.24"
+      }
+    ]
+  },
+  "620L400US42003": {
+    "District": "3rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BIZZARRO, RYAN A ",
+        "Votes": "19595",
+        "Percentage": "59.94"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LUCAS, GREGORY S ",
+        "Votes": "13094",
+        "Percentage": "40.06"
+      }
+    ]
+  },
+  "620L400US42004": {
+    "District": "4th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SONNEY, CURTIS G ",
+        "Votes": "22790",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42005": {
+    "District": "5th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "JOZWIAK, BARRY J ",
+        "Votes": "23936",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42006": {
+    "District": "6th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ZIMMER, PETER ANDREW ",
+        "Votes": "11467",
+        "Percentage": "40"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ROAE, BRADLEY T ",
+        "Votes": "17197",
+        "Percentage": "60"
+      }
+    ]
+  },
+  "620L400US42007": {
+    "District": "7th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "LONGIETTI, MARK A ",
+        "Votes": "27497",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42008": {
+    "District": "8th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HINES, JUDITH D ",
+        "Votes": "9446",
+        "Percentage": "33.38"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "NESBIT, TEDD  C ",
+        "Votes": "18853",
+        "Percentage": "66.62"
+      }
+    ]
+  },
+  "620L400US42009": {
+    "District": "9th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "SAINATO, CHRISTOPHER ",
+        "Votes": "24848",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42010": {
+    "District": "10th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "GIBBONS, JARET A ",
+        "Votes": "11224",
+        "Percentage": "41.52"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BERNSTINE, AARON JOSEPH ",
+        "Votes": "15807",
+        "Percentage": "58.48"
+      }
+    ]
+  },
+  "620L400US42011": {
+    "District": "11th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ELLIS, BRIAN L. ",
+        "Votes": "24183",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42012": {
+    "District": "12th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "RIEGER, CHRISTIAN M ",
+        "Votes": "11572",
+        "Percentage": "32.16"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "METCALFE, DARYL D ",
+        "Votes": "24405",
+        "Percentage": "67.84"
+      }
+    ]
+  },
+  "620L400US42013": {
+    "District": "13th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DEAN, NANCY ",
+        "Votes": "11074",
+        "Percentage": "37.51"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LAWRENCE, JOHN ADDA ",
+        "Votes": "18446",
+        "Percentage": "62.49"
+      }
+    ]
+  },
+  "620L400US42014": {
+    "District": "14th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "MARSHALL, JAMES E ",
+        "Votes": "29499",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42015": {
+    "District": "15th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ROSSI, MICHAEL ",
+        "Votes": "11318",
+        "Percentage": "37.03"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CHRISTIANA, JAMES J III",
+        "Votes": "19248",
+        "Percentage": "62.97"
+      }
+    ]
+  },
+  "620L400US42016": {
+    "District": "16th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MATZIE, ROBERT F ",
+        "Votes": "24078",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42017": {
+    "District": "17th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HANSON , WAYNE  E ",
+        "Votes": "7633",
+        "Percentage": "28.73"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WENTLING, PARKE H ",
+        "Votes": "18937",
+        "Percentage": "71.27"
+      }
+    ]
+  },
+  "620L400US42018": {
+    "District": "18th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "DIGIROLAMO, GENE ",
+        "Votes": "19506",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42019": {
+    "District": "19th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WHEATLEY, JAKE ",
+        "Votes": "23579",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42020": {
+    "District": "20th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "RAVENSTAHL, ADAM J ",
+        "Votes": "23000",
+        "Percentage": "80.9"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "CON",
+        "CandidateName": "BARR, JIM ",
+        "Votes": "5429",
+        "Percentage": "19.1"
+      }
+    ]
+  },
+  "620L400US42021": {
+    "District": "21st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "COSTA, DOMINIC JAMES ",
+        "Votes": "26453",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42022": {
+    "District": "22nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SCHWEYER, PETER GEORGE ",
+        "Votes": "15222",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42023": {
+    "District": "23rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FRANKEL, DAN B ",
+        "Votes": "28902",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42024": {
+    "District": "24th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "GAINEY, EDWARD C ",
+        "Votes": "30562",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42025": {
+    "District": "25th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MARKOSEK, JOSEPH F ",
+        "Votes": "19218",
+        "Percentage": "62.41"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "RITTER, JOHN D ",
+        "Votes": "11573",
+        "Percentage": "37.59"
+      }
+    ]
+  },
+  "620L400US42026": {
+    "District": "26th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HENNESSEY, TIMOTHY F ",
+        "Votes": "22635",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42027": {
+    "District": "27th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DEASY, DANIEL J ",
+        "Votes": "24380",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42028": {
+    "District": "28th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HAMMOND, JOHN CRAIG ",
+        "Votes": "12958",
+        "Percentage": "34.75"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TURZAI, MICHAEL C ",
+        "Votes": "24327",
+        "Percentage": "65.25"
+      }
+    ]
+  },
+  "620L400US42029": {
+    "District": "29th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MULLINS, LAWRENCE A ",
+        "Votes": "13529",
+        "Percentage": "38.06"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ONEILL, BERNARD T ",
+        "Votes": "22018",
+        "Percentage": "61.94"
+      }
+    ]
+  },
+  "620L400US42030": {
+    "District": "30th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "ENGLISH, HAROLD A ",
+        "Votes": "35575",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42031": {
+    "District": "31st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WARREN, PERRY S JR",
+        "Votes": "19071",
+        "Percentage": "50.1"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GALLAGHER, RYAN W ",
+        "Votes": "18996",
+        "Percentage": "49.9"
+      }
+    ]
+  },
+  "620L400US42032": {
+    "District": "32nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DELUCA, ANTHONY M ",
+        "Votes": "28716",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42033": {
+    "District": "33rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DERMODY, FRANCIS J ",
+        "Votes": "21589",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42034": {
+    "District": "34th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "COSTA, PAUL ",
+        "Votes": "27737",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42035": {
+    "District": "35th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "GERGELY, MARC J ",
+        "Votes": "16170",
+        "Percentage": "62.5"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WALKER-MONTGOMERY, VALIAN FAWN ",
+        "Votes": "9702",
+        "Percentage": "37.5"
+      }
+    ]
+  },
+  "620L400US42036": {
+    "District": "36th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "READSHAW, HARRY A III",
+        "Votes": "24680",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42037": {
+    "District": "37th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "FEE, MELINDA S ",
+        "Votes": "25672",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42038": {
+    "District": "38th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KORTZ, WILLIAM C II",
+        "Votes": "21271",
+        "Percentage": "65.65"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SALKA, ROD A JR",
+        "Votes": "11130",
+        "Percentage": "34.35"
+      }
+    ]
+  },
+  "620L400US42039": {
+    "District": "39th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KOBYLINSKI, PETER THADDEUS ",
+        "Votes": "10180",
+        "Percentage": "31.6"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SACCONE, RICHARD ",
+        "Votes": "22034",
+        "Percentage": "68.4"
+      }
+    ]
+  },
+  "620L400US42040": {
+    "District": "40th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ZAHALSKY, ANDREW J ",
+        "Votes": "13115",
+        "Percentage": "34.97"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MAHER, JOHN A ",
+        "Votes": "24389",
+        "Percentage": "65.03"
+      }
+    ]
+  },
+  "620L400US42041": {
+    "District": "41st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SELCH, NICHOLAS F ",
+        "Votes": "13227",
+        "Percentage": "38.05"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MILLER, BRETT R ",
+        "Votes": "21537",
+        "Percentage": "61.95"
+      }
+    ]
+  },
+  "620L400US42042": {
+    "District": "42nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MILLER, DANIEL LAURENZANO ",
+        "Votes": "26759",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42043": {
+    "District": "43rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ELLIOTT, STEVEN PATRICK ",
+        "Votes": "9649",
+        "Percentage": "33.04"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GREINER, KEITH J ",
+        "Votes": "19557",
+        "Percentage": "66.96"
+      }
+    ]
+  },
+  "620L400US42044": {
+    "District": "44th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MUSTIO, THOMAS MARK ",
+        "Votes": "27715",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42045": {
+    "District": "45th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "ASTORINO KULIK, ANITA ",
+        "Votes": "29949",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42046": {
+    "District": "46th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SZPARA, JOSEPH R ",
+        "Votes": "13238",
+        "Percentage": "39.76"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ORTITAY, JASON A ",
+        "Votes": "20056",
+        "Percentage": "60.24"
+      }
+    ]
+  },
+  "620L400US42047": {
+    "District": "47th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GILLESPIE, KEITH J ",
+        "Votes": "24026",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42048": {
+    "District": "48th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "NEUMAN, BRANDON P ",
+        "Votes": "21335",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42049": {
+    "District": "49th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BENYAK, ALAN D ",
+        "Votes": "11667",
+        "Percentage": "45.9"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "COOK, DONALD ",
+        "Votes": "13749",
+        "Percentage": "54.1"
+      }
+    ]
+  },
+  "620L400US42050": {
+    "District": "50th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SNYDER, PAMELA ",
+        "Votes": "13044",
+        "Percentage": "53.33"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ROHANNA MCCLURE, ELIZABETH L ",
+        "Votes": "11417",
+        "Percentage": "46.67"
+      }
+    ]
+  },
+  "620L400US42051": {
+    "District": "51st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MAHONEY, TIMOTHY S ",
+        "Votes": "11779",
+        "Percentage": "46.93"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "DOWLING, MATTHEW DAVID ",
+        "Votes": "13318",
+        "Percentage": "53.07"
+      }
+    ]
+  },
+  "620L400US42052": {
+    "District": "52nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MARI, JAMES M ",
+        "Votes": "9360",
+        "Percentage": "36.09"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WARNER, RYAN JAMES ",
+        "Votes": "16578",
+        "Percentage": "63.91"
+      }
+    ]
+  },
+  "620L400US42053": {
+    "District": "53rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ANGELICHIO, LEON ",
+        "Votes": "12205",
+        "Percentage": "40.46"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GODSHALL, ROBERT W ",
+        "Votes": "17964",
+        "Percentage": "59.54"
+      }
+    ]
+  },
+  "620L400US42054": {
+    "District": "54th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "EVANKOVICH, ELI ",
+        "Votes": "27008",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42055": {
+    "District": "55th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "PETRARCA, JOSEPH A ",
+        "Votes": "15554",
+        "Percentage": "56.39"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GEISELHART, MICHAEL MARIO ",
+        "Votes": "12028",
+        "Percentage": "43.61"
+      }
+    ]
+  },
+  "620L400US42056": {
+    "District": "56th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "DUNBAR, GEORGE S ",
+        "Votes": "27727",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42057": {
+    "District": "57th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "IEZZI, LINDA L ",
+        "Votes": "10909",
+        "Percentage": "34.85"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "NELSON, ERIC  R ",
+        "Votes": "20396",
+        "Percentage": "65.15"
+      }
+    ]
+  },
+  "620L400US42058": {
+    "District": "58th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "POPOVICH, MARY E ",
+        "Votes": "11159",
+        "Percentage": "38.46"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WALSH, JUSTIN M ",
+        "Votes": "17854",
+        "Percentage": "61.54"
+      }
+    ]
+  },
+  "620L400US42059": {
+    "District": "59th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "REESE, MICHAEL P ",
+        "Votes": "27700",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42060": {
+    "District": "60th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "PYLE, JEFFREY P ",
+        "Votes": "23937",
+        "Percentage": "86.85"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "GRN",
+        "CandidateName": "LYTLE, GABE ",
+        "Votes": "3625",
+        "Percentage": "13.15"
+      }
+    ]
+  },
+  "620L400US42061": {
+    "District": "61st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WILKINSON, ROBERT ",
+        "Votes": "15732",
+        "Percentage": "43.47"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HARPER, KATE  M ",
+        "Votes": "20458",
+        "Percentage": "56.53"
+      }
+    ]
+  },
+  "620L400US42062": {
+    "District": "62nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "EDWARDS, PATRICK S ",
+        "Votes": "8544",
+        "Percentage": "31.12"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "REED, DAVID L ",
+        "Votes": "18909",
+        "Percentage": "68.88"
+      }
+    ]
+  },
+  "620L400US42063": {
+    "District": "63rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BILLOTTE, JOSEPH WILLIAM II",
+        "Votes": "6289",
+        "Percentage": "24.36"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "OBERLANDER, DONNA R ",
+        "Votes": "19533",
+        "Percentage": "75.64"
+      }
+    ]
+  },
+  "620L400US42064": {
+    "District": "64th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KLUCK, JOHN ",
+        "Votes": "8987",
+        "Percentage": "34.91"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "JAMES, ROBERT L  ",
+        "Votes": "16082",
+        "Percentage": "62.48"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "GRN",
+        "CandidateName": "BAGDES-CANNING, MICHAEL ",
+        "Votes": "672",
+        "Percentage": "2.61"
+      }
+    ]
+  },
+  "620L400US42065": {
+    "District": "65th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CLAWSON, TROY MORROW ",
+        "Votes": "7830",
+        "Percentage": "30.03"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "RAPP, KATHY L ",
+        "Votes": "18248",
+        "Percentage": "69.97"
+      }
+    ]
+  },
+  "620L400US42066": {
+    "District": "66th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "DUSH, CRIS E ",
+        "Votes": "23951",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42067": {
+    "District": "67th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CAUSER, MARTIN T ",
+        "Votes": "22746",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42068": {
+    "District": "68th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "BAKER, MATTHEW E ",
+        "Votes": "24920",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42069": {
+    "District": "69th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "METZGAR, CARL WALKER ",
+        "Votes": "28988",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42070": {
+    "District": "70th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BRADFORD, MATTHEW D ",
+        "Votes": "18433",
+        "Percentage": "66.99"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SPRINGER, CHARLES E JR",
+        "Votes": "9084",
+        "Percentage": "33.01"
+      }
+    ]
+  },
+  "620L400US42071": {
+    "District": "71st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BARBIN, BRYAN E ",
+        "Votes": "16557",
+        "Percentage": "58.98"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "AMSDELL, MARK ",
+        "Votes": "11515",
+        "Percentage": "41.02"
+      }
+    ]
+  },
+  "620L400US42072": {
+    "District": "72nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BURNS, FRANK ",
+        "Votes": "16361",
+        "Percentage": "57.55"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HOUSER, CECILIA E ",
+        "Votes": "12066",
+        "Percentage": "42.45"
+      }
+    ]
+  },
+  "620L400US42073": {
+    "District": "73rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WEAVER, WILLIAM FREDERICK ",
+        "Votes": "7571",
+        "Percentage": "28.89"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SANKEY, THOMAS R III",
+        "Votes": "18631",
+        "Percentage": "71.11"
+      }
+    ]
+  },
+  "620L400US42074": {
+    "District": "74th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MAXWELL, JOSHUA ",
+        "Votes": "14045",
+        "Percentage": "48.73"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LEWIS, HARRY  JR",
+        "Votes": "14776",
+        "Percentage": "51.27"
+      }
+    ]
+  },
+  "620L400US42075": {
+    "District": "75th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "NOTARIANNI, JAY ",
+        "Votes": "7904",
+        "Percentage": "27.27"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GABLER, MATTHEW M ",
+        "Votes": "21081",
+        "Percentage": "72.73"
+      }
+    ]
+  },
+  "620L400US42076": {
+    "District": "76th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HANNA, MICHAEL  K SR",
+        "Votes": "13213",
+        "Percentage": "52.16"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BOROWICZ, STEPHANIE PAIGE ",
+        "Votes": "12121",
+        "Percentage": "47.84"
+      }
+    ]
+  },
+  "620L400US42077": {
+    "District": "77th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "CONKLIN, H SCOTT ",
+        "Votes": "25387",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42078": {
+    "District": "78th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TOPPER, JESSE W ",
+        "Votes": "26565",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42079": {
+    "District": "79th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MCGINNIS, JOHN D ",
+        "Votes": "20241",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42080": {
+    "District": "80th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WARD, JUDITH F ",
+        "Votes": "26397",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42081": {
+    "District": "81st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ROGERS, RICHARD J ",
+        "Votes": "10796",
+        "Percentage": "36.26"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "IRVIN, RICHARD S ",
+        "Votes": "18974",
+        "Percentage": "63.74"
+      }
+    ]
+  },
+  "620L400US42082": {
+    "District": "82nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HARRIS, CHRISTOPHER ADAM ",
+        "Votes": "21861",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42083": {
+    "District": "83rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WHEELAND, JEFF C ",
+        "Votes": "19901",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42084": {
+    "District": "84th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "EVERETT, GARTH DAVID ",
+        "Votes": "24765",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42085": {
+    "District": "85th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KELLER, FREDERICK B ",
+        "Votes": "21304",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42086": {
+    "District": "86th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KELLER, MARK K ",
+        "Votes": "25021",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42087": {
+    "District": "87th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MASSEY, JAMES HENRY ",
+        "Votes": "13687",
+        "Percentage": "37.32"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ROTHMAN, WILLIAM GREGORY ",
+        "Votes": "22991",
+        "Percentage": "62.68"
+      }
+    ]
+  },
+  "620L400US42088": {
+    "District": "88th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "COWAN, CHRISTOPHER M ",
+        "Votes": "11001",
+        "Percentage": "34.9"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "DELOZIER, SHERYL M ",
+        "Votes": "20518",
+        "Percentage": "65.1"
+      }
+    ]
+  },
+  "620L400US42089": {
+    "District": "89th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "TOLBERT, CHRISTINE L ",
+        "Votes": "8167",
+        "Percentage": "27.5"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KAUFFMAN, ROBERT W ",
+        "Votes": "21532",
+        "Percentage": "72.5"
+      }
+    ]
+  },
+  "620L400US42090": {
+    "District": "90th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SCHEMEL, PAUL ",
+        "Votes": "25846",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42091": {
+    "District": "91st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WELDON-SIVIY, DENISE L ",
+        "Votes": "10113",
+        "Percentage": "33.51"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MOUL, DANIEL P ",
+        "Votes": "20069",
+        "Percentage": "66.49"
+      }
+    ]
+  },
+  "620L400US42092": {
+    "District": "92nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KEEFER, DAWN WETZEL ",
+        "Votes": "22517",
+        "Percentage": "72.75"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "KMI",
+        "CandidateName": "MCGRAW, KATE ",
+        "Votes": "8435",
+        "Percentage": "27.25"
+      }
+    ]
+  },
+  "620L400US42093": {
+    "District": "93rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "PHILLIPS-HILL, KRISTIN LEE ",
+        "Votes": "26741",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42094": {
+    "District": "94th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SAYLOR, STANLEY E ",
+        "Votes": "23701",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42095": {
+    "District": "95th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HILL-EVANS, CAROL ",
+        "Votes": "13726",
+        "Percentage": "61.04"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SEARS, JOEL L ",
+        "Votes": "8762",
+        "Percentage": "38.96"
+      }
+    ]
+  },
+  "620L400US42096": {
+    "District": "96th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "STURLA, PETER MICHAEL ",
+        "Votes": "17340",
+        "Percentage": "73.25"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BIGLEY, ROBERT F JR",
+        "Votes": "6332",
+        "Percentage": "26.75"
+      }
+    ]
+  },
+  "620L400US42097": {
+    "District": "97th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KLEIN, CHARLES J ",
+        "Votes": "13403",
+        "Percentage": "36.87"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MENTZER, STEVEN CURTIS ",
+        "Votes": "22952",
+        "Percentage": "63.13"
+      }
+    ]
+  },
+  "620L400US42098": {
+    "District": "98th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HICKERNELL, DAVID S ",
+        "Votes": "23545",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42099": {
+    "District": "99th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "GROFF, DUANE A ",
+        "Votes": "6219",
+        "Percentage": "25.74"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ZIMMERMAN, DAVID H ",
+        "Votes": "17945",
+        "Percentage": "74.26"
+      }
+    ]
+  },
+  "620L400US42100": {
+    "District": "100th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HAMBY, DALE  ALLEN ",
+        "Votes": "6140",
+        "Percentage": "26.07"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CUTLER, BRYAN D ",
+        "Votes": "17416",
+        "Percentage": "73.93"
+      }
+    ]
+  },
+  "620L400US42101": {
+    "District": "101st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SCUDDER, LORRAINE HELEN ",
+        "Votes": "9752",
+        "Percentage": "33"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "RYAN, FRANCIS XAVIER ",
+        "Votes": "19800",
+        "Percentage": "67"
+      }
+    ]
+  },
+  "620L400US42102": {
+    "District": "102nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "LONG, JACOB H ",
+        "Votes": "8549",
+        "Percentage": "30.09"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "DIAMOND, RUSS ",
+        "Votes": "19858",
+        "Percentage": "69.91"
+      }
+    ]
+  },
+  "620L400US42103": {
+    "District": "103rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KIM, PATTY H ",
+        "Votes": "20846",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42104": {
+    "District": "104th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "REBARCHAK, JODY L ",
+        "Votes": "13940",
+        "Percentage": "42.29"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HELM, SUSAN C ",
+        "Votes": "19024",
+        "Percentage": "57.71"
+      }
+    ]
+  },
+  "620L400US42105": {
+    "District": "105th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "MARSICO, RONALD S ",
+        "Votes": "34353",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42106": {
+    "District": "106th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MEHAFFIE, THOMAS L III",
+        "Votes": "21916",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42107": {
+    "District": "107th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KRANKOWSKI, MICHAEL L ",
+        "Votes": "7170",
+        "Percentage": "28.39"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MASSER, KURT A ",
+        "Votes": "18084",
+        "Percentage": "71.61"
+      }
+    ]
+  },
+  "620L400US42108": {
+    "District": "108th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DEPPEN, JOHN E ",
+        "Votes": "5963",
+        "Percentage": "23.35"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SCHLEGEL CULVER, LYNDA J ",
+        "Votes": "19576",
+        "Percentage": "76.65"
+      }
+    ]
+  },
+  "620L400US42109": {
+    "District": "109th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SANDERS , EDWARD THOMAS III",
+        "Votes": "8537",
+        "Percentage": "32.31"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MILLARD, DAVID R ",
+        "Votes": "16392",
+        "Percentage": "62.04"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "IND",
+        "CandidateName": "BEDIO, DENISE ",
+        "Votes": "1494",
+        "Percentage": "5.65"
+      }
+    ]
+  },
+  "620L400US42110": {
+    "District": "110th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "PICKETT, TINA ",
+        "Votes": "22319",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42111": {
+    "District": "111th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "FRITZ, JONATHAN A ",
+        "Votes": "22335",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42112": {
+    "District": "112th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HAGGERTY, KEVIN ",
+        "Votes": "15643",
+        "Percentage": "53.09"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LEMONCELLI, ERNEST D ",
+        "Votes": "13824",
+        "Percentage": "46.91"
+      }
+    ]
+  },
+  "620L400US42113": {
+    "District": "113th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FLYNN, MARTIN B II",
+        "Votes": "18609",
+        "Percentage": "69.29"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BURGERHOFF, DAVID  ANDREW  ",
+        "Votes": "8248",
+        "Percentage": "30.71"
+      }
+    ]
+  },
+  "620L400US42114": {
+    "District": "114th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KAVULICH, MICHAEL GEORGE ",
+        "Votes": "21450",
+        "Percentage": "67.15"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SCANDALE-MURNIN, CHERYL LYNN ",
+        "Votes": "10495",
+        "Percentage": "32.85"
+      }
+    ]
+  },
+  "620L400US42115": {
+    "District": "115th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MADDEN, MAUREEN E ",
+        "Votes": "11845",
+        "Percentage": "51.92"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "PARKER, DAVID C ",
+        "Votes": "10969",
+        "Percentage": "48.08"
+      }
+    ]
+  },
+  "620L400US42116": {
+    "District": "116th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "GREGORY, GARY ",
+        "Votes": "7089",
+        "Percentage": "29.81"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TOOHIL, TARAH C ",
+        "Votes": "16695",
+        "Percentage": "70.19"
+      }
+    ]
+  },
+  "620L400US42117": {
+    "District": "117th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "BOBACK, KAREN ",
+        "Votes": "24869",
+        "Percentage": "87.67"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "GRN",
+        "CandidateName": "SWEENEY, JOHN J ",
+        "Votes": "1433",
+        "Percentage": "5.05"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "IND",
+        "CandidateName": "JASIKOFF, LOUIS R. ",
+        "Votes": "2065",
+        "Percentage": "7.28"
+      }
+    ]
+  },
+  "620L400US42118": {
+    "District": "118th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CARROLL, MICHAEL B ",
+        "Votes": "20627",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42119": {
+    "District": "119th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MULLERY, GERALD J ",
+        "Votes": "13760",
+        "Percentage": "56.24"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BEHRENS, JUSTIN VALERA ",
+        "Votes": "10707",
+        "Percentage": "43.76"
+      }
+    ]
+  },
+  "620L400US42120": {
+    "District": "120th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MCDONALD, ROBERT JOHN ",
+        "Votes": "8929",
+        "Percentage": "32.15"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KAUFER, AARON D ",
+        "Votes": "18843",
+        "Percentage": "67.85"
+      }
+    ]
+  },
+  "620L400US42121": {
+    "District": "121st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "PASHINSKI, EDWIN A ",
+        "Votes": "14940",
+        "Percentage": "78.1"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "LIB",
+        "CandidateName": "SUMMERS, BETSY ",
+        "Votes": "4189",
+        "Percentage": "21.9"
+      }
+    ]
+  },
+  "620L400US42122": {
+    "District": "122nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MAKHIJA, NEIL ",
+        "Votes": "10569",
+        "Percentage": "38.64"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HEFFLEY, DOYLE M ",
+        "Votes": "16269",
+        "Percentage": "59.48"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "LIB",
+        "CandidateName": "SCHUTTER, MATTHEW C. ",
+        "Votes": "514",
+        "Percentage": "1.88"
+      }
+    ]
+  },
+  "620L400US42123": {
+    "District": "123rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "GOODMAN, NEAL  P ",
+        "Votes": "17942",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42124": {
+    "District": "124th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "KNOWLES, JEROME P ",
+        "Votes": "26187",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42125": {
+    "District": "125th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TOBASH, MICHAEL G ",
+        "Votes": "24115",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42126": {
+    "District": "126th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ROZZI, MARK LUCIO ",
+        "Votes": "20479",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42127": {
+    "District": "127th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CALTAGIRONE, THOMAS R ",
+        "Votes": "13881",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42128": {
+    "District": "128th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GILLEN, MARK M ",
+        "Votes": "25847",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42129": {
+    "District": "129th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "COX, JAMES A JR",
+        "Votes": "24900",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42130": {
+    "District": "130th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MALONEY, DAVID M SR",
+        "Votes": "24860",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42131": {
+    "District": "131st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "JACKSON, JOANNE E ",
+        "Votes": "12649",
+        "Percentage": "37.17"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SIMMONS, JUSTIN J ",
+        "Votes": "21379",
+        "Percentage": "62.83"
+      }
+    ]
+  },
+  "620L400US42132": {
+    "District": "132nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SCHLOSSBERG, MICHAEL H ",
+        "Votes": "16065",
+        "Percentage": "67.13"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "LONG, BENJAMIN B ",
+        "Votes": "7866",
+        "Percentage": "32.87"
+      }
+    ]
+  },
+  "620L400US42133": {
+    "District": "133rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MCNEILL, DANIEL T ",
+        "Votes": "15102",
+        "Percentage": "56.31"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MOLONY, DAVID EDGAR ",
+        "Votes": "10648",
+        "Percentage": "39.7"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "LIB",
+        "CandidateName": "HUMANICK, ALEXANDER V.  ",
+        "Votes": "1068",
+        "Percentage": "3.98"
+      }
+    ]
+  },
+  "620L400US42134": {
+    "District": "134th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MACKENZIE, RYAN E ",
+        "Votes": "25676",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42135": {
+    "District": "135th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SAMUELSON, STEPHEN P ",
+        "Votes": "19431",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42136": {
+    "District": "136th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FREEMAN, ROBERT ",
+        "Votes": "18345",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42137": {
+    "District": "137th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MATTEI, DAVE D ",
+        "Votes": "10518",
+        "Percentage": "34.42"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "EMRICK, JOSEPH T ",
+        "Votes": "20039",
+        "Percentage": "65.58"
+      }
+    ]
+  },
+  "620L400US42138": {
+    "District": "138th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "HAHN, MARCIA M ",
+        "Votes": "23287",
+        "Percentage": "90.02"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "LIB",
+        "CandidateName": "RICHARDSON, DANIEL ",
+        "Votes": "2583",
+        "Percentage": "9.98"
+      }
+    ]
+  },
+  "620L400US42139": {
+    "District": "139th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "PEIFER, MICHAEL T ",
+        "Votes": "23521",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42140": {
+    "District": "140th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "GALLOWAY, JOHN T ",
+        "Votes": "21521",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42141": {
+    "District": "141st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DAVIS, TINA M ",
+        "Votes": "17743",
+        "Percentage": "65.6"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KREILING, DREW ",
+        "Votes": "9305",
+        "Percentage": "34.4"
+      }
+    ]
+  },
+  "620L400US42142": {
+    "District": "142nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "FARRY, FRANK ANTHONY III",
+        "Votes": "26325",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42143": {
+    "District": "143rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KUNKEL, STEPHEN FAGER ",
+        "Votes": "13663",
+        "Percentage": "36.25"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "QUINN, MARGUERITE CORR ",
+        "Votes": "24033",
+        "Percentage": "63.75"
+      }
+    ]
+  },
+  "620L400US42144": {
+    "District": "144th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WATSON, KATHARINE M ",
+        "Votes": "25243",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42145": {
+    "District": "145th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "COLE, VERA J ",
+        "Votes": "13372",
+        "Percentage": "41.7"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "STAATS, CRAIG T ",
+        "Votes": "18695",
+        "Percentage": "58.3"
+      }
+    ]
+  },
+  "620L400US42146": {
+    "District": "146th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CIRESI, JOSEPH P ",
+        "Votes": "14381",
+        "Percentage": "48.85"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "QUIGLEY, THOMAS J ",
+        "Votes": "15060",
+        "Percentage": "51.15"
+      }
+    ]
+  },
+  "620L400US42147": {
+    "District": "147th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HENDRICKS, RACHEL LYNN ",
+        "Votes": "11597",
+        "Percentage": "36.65"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TOEPEL, MARCY ",
+        "Votes": "20045",
+        "Percentage": "63.35"
+      }
+    ]
+  },
+  "620L400US42148": {
+    "District": "148th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DALEY, MARY JOSEPHINE ",
+        "Votes": "24669",
+        "Percentage": "63.48"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "FLOCCO, EDWARD ",
+        "Votes": "14193",
+        "Percentage": "36.52"
+      }
+    ]
+  },
+  "620L400US42149": {
+    "District": "149th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BRIGGS, TIMOTHY P ",
+        "Votes": "22393",
+        "Percentage": "66.86"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SMITH-ROBINSON, CHACHIRA DELPHINE ",
+        "Votes": "11097",
+        "Percentage": "33.14"
+      }
+    ]
+  },
+  "620L400US42150": {
+    "District": "150th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "WEAVER, LINDA J ",
+        "Votes": "14352",
+        "Percentage": "45.68"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CORR, MICHAEL N ",
+        "Votes": "17065",
+        "Percentage": "54.32"
+      }
+    ]
+  },
+  "620L400US42151": {
+    "District": "151st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FAGAN, JIMMY J JR",
+        "Votes": "13119",
+        "Percentage": "39.19"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "STEPHENS, WILLIAM TODD ",
+        "Votes": "20358",
+        "Percentage": "60.81"
+      }
+    ]
+  },
+  "620L400US42152": {
+    "District": "152nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DERMOVSESIAN, ALBERT J SR",
+        "Votes": "12439",
+        "Percentage": "36.67"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MURT, THOMAS PAUL ",
+        "Votes": "21478",
+        "Percentage": "63.33"
+      }
+    ]
+  },
+  "620L400US42153": {
+    "District": "153rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CUNNANE, MADELEINE DEAN ",
+        "Votes": "24496",
+        "Percentage": "66.25"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SCALFARO, ANTHONY M III",
+        "Votes": "12478",
+        "Percentage": "33.75"
+      }
+    ]
+  },
+  "620L400US42154": {
+    "District": "154th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MCCARTER, STEPHEN C ",
+        "Votes": "27067",
+        "Percentage": "77.75"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ESTILOW, THOMAS G ",
+        "Votes": "7747",
+        "Percentage": "22.25"
+      }
+    ]
+  },
+  "620L400US42155": {
+    "District": "155th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BURNS, JAMES J ",
+        "Votes": "15686",
+        "Percentage": "42.05"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CORBIN, REBECCA P ",
+        "Votes": "21617",
+        "Percentage": "57.95"
+      }
+    ]
+  },
+  "620L400US42156": {
+    "District": "156th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "COMITTA, CAROLYN T ",
+        "Votes": "18267",
+        "Percentage": "50.03"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TRUITT, DANIEL GEORGE SR",
+        "Votes": "18242",
+        "Percentage": "49.97"
+      }
+    ]
+  },
+  "620L400US42157": {
+    "District": "157th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "VAN MOL, HANS WALTER ",
+        "Votes": "15156",
+        "Percentage": "44.19"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KAMPF, WARREN E ",
+        "Votes": "19144",
+        "Percentage": "55.81"
+      }
+    ]
+  },
+  "620L400US42158": {
+    "District": "158th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "RZUCIDLO, SUSAN F ",
+        "Votes": "15590",
+        "Percentage": "46.92"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "ROE, ERIC M ",
+        "Votes": "17634",
+        "Percentage": "53.08"
+      }
+    ]
+  },
+  "620L400US42159": {
+    "District": "159th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KIRKLAND, BRIAN JOSEPH ",
+        "Votes": "18161",
+        "Percentage": "75.6"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CIACH, MICHAEL J ",
+        "Votes": "5860",
+        "Percentage": "24.4"
+      }
+    ]
+  },
+  "620L400US42160": {
+    "District": "160th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BARRAR, STEPHEN E ",
+        "Votes": "22178",
+        "Percentage": "80.97"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "IND",
+        "CandidateName": "CLEARY, DAVID G ",
+        "Votes": "5211",
+        "Percentage": "19.03"
+      }
+    ]
+  },
+  "620L400US42161": {
+    "District": "161th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KRUEGER-BRANEKY, LEANNE T ",
+        "Votes": "18218",
+        "Percentage": "50.83"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "RODGERS MORRISETTE, PATTI A ",
+        "Votes": "17621",
+        "Percentage": "49.17"
+      }
+    ]
+  },
+  "620L400US42162": {
+    "District": "162th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BUTT, JAMES FREDERICK ",
+        "Votes": "11225",
+        "Percentage": "36.08"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MICCARELLI, NICHOLAS ANTHONY ",
+        "Votes": "19883",
+        "Percentage": "63.92"
+      }
+    ]
+  },
+  "620L400US42163": {
+    "District": "163th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KEFFER, BARBARANN ",
+        "Votes": "15313",
+        "Percentage": "45.73"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "SANTORA, JAMES ",
+        "Votes": "18176",
+        "Percentage": "54.27"
+      }
+    ]
+  },
+  "620L400US42164": {
+    "District": "164th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DAVIDSON, MARGO L ",
+        "Votes": "20448",
+        "Percentage": "79.04"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BAINS, INDERJIT SINGH ",
+        "Votes": "5423",
+        "Percentage": "20.96"
+      }
+    ]
+  },
+  "620L400US42165": {
+    "District": "165th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SCHAEFER, ELAINE PAUL ",
+        "Votes": "16193",
+        "Percentage": "43.99"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "CHARLTON, ALEXANDER TESLA ",
+        "Votes": "20615",
+        "Percentage": "56.01"
+      }
+    ]
+  },
+  "620L400US42166": {
+    "District": "166th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "VITALI, GREGORY S ",
+        "Votes": "23783",
+        "Percentage": "66.03"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KNAPP, JAMES J III",
+        "Votes": "12236",
+        "Percentage": "33.97"
+      }
+    ]
+  },
+  "620L400US42167": {
+    "District": "167th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DENHAM, EDWARD JOSEPH ",
+        "Votes": "15734",
+        "Percentage": "43.28"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MILNE, DUANE D ",
+        "Votes": "20623",
+        "Percentage": "56.72"
+      }
+    ]
+  },
+  "620L400US42168": {
+    "District": "168th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "LEVY, DIANE C ",
+        "Votes": "16447",
+        "Percentage": "43.85"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "QUINN, CHRISTOPHER  B ",
+        "Votes": "21058",
+        "Percentage": "56.15"
+      }
+    ]
+  },
+  "620L400US42169": {
+    "District": "169th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "KLUNK, KATE ANNE ",
+        "Votes": "23042",
+        "Percentage": "80.71"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "NOA",
+        "CandidateName": "MARCOCCIO, ROBERT J ",
+        "Votes": "5506",
+        "Percentage": "19.29"
+      }
+    ]
+  },
+  "620L400US42170": {
+    "District": "170th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DARRAGH, MATTHEW J ",
+        "Votes": "12192",
+        "Percentage": "46.08"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "WHITE, MARTINA A ",
+        "Votes": "14265",
+        "Percentage": "53.92"
+      }
+    ]
+  },
+  "620L400US42171": {
+    "District": "171st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FLECK, MELODY S ",
+        "Votes": "10749",
+        "Percentage": "31.44"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BENNINGHOFF, KERRY ALBERT ",
+        "Votes": "23440",
+        "Percentage": "68.56"
+      }
+    ]
+  },
+  "620L400US42172": {
+    "District": "172nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BOYLE, KEVIN J ",
+        "Votes": "16124",
+        "Percentage": "62.46"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "PIO, JAMES VINCENT II",
+        "Votes": "9691",
+        "Percentage": "37.54"
+      }
+    ]
+  },
+  "620L400US42173": {
+    "District": "173rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DRISCOLL, MICHAEL JOSEPH ",
+        "Votes": "17914",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42174": {
+    "District": "174th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "NEILSON, ED J ",
+        "Votes": "18879",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42175": {
+    "District": "175th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "OBRIEN, MICHAEL H ",
+        "Votes": "26739",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42176": {
+    "District": "176th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "RADER, JACK B JR",
+        "Votes": "17519",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42177": {
+    "District": "177th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HOHENSTEIN, JOSEPH C ",
+        "Votes": "11491",
+        "Percentage": "44.85"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TAYLOR, JOHN J ",
+        "Votes": "14128",
+        "Percentage": "55.15"
+      }
+    ]
+  },
+  "620L400US42178": {
+    "District": "178th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DOUGHERTY, NEALE ",
+        "Votes": "15021",
+        "Percentage": "38.93"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "PETRI, SCOTT ",
+        "Votes": "23567",
+        "Percentage": "61.07"
+      }
+    ]
+  },
+  "620L400US42179": {
+    "District": "179th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DAWKINS, JASON T ",
+        "Votes": "20557",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42180": {
+    "District": "180th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CRUZ, ANGEL L ",
+        "Votes": "17190",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42181": {
+    "District": "181st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "THOMAS, W CURTIS ",
+        "Votes": "27603",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42182": {
+    "District": "182nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SIMS, BRIAN K. ",
+        "Votes": "31733",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42183": {
+    "District": "183rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ARMSTRONG, PHILLIPS M SR",
+        "Votes": "12700",
+        "Percentage": "42.08"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MAKO, ZACHARY A. ",
+        "Votes": "17481",
+        "Percentage": "57.92"
+      }
+    ]
+  },
+  "620L400US42184": {
+    "District": "184th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KELLER, WILLIAM F ",
+        "Votes": "21206",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42185": {
+    "District": "185th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DONATUCCI, MARIA P ",
+        "Votes": "24085",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42186": {
+    "District": "186th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "HARRIS, JORDAN A ",
+        "Votes": "29455",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42187": {
+    "District": "187th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "D/R",
+        "CandidateName": "DAY, GARY W ",
+        "Votes": "29870",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42188": {
+    "District": "188th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ROEBUCK, JAMES R ",
+        "Votes": "26898",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42189": {
+    "District": "189th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BONILLA-RODRIGUEZ, DAMARY M ",
+        "Votes": "9272",
+        "Percentage": "36.48"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BROWN, ROSEMARY MAULA ",
+        "Votes": "16142",
+        "Percentage": "63.52"
+      }
+    ]
+  },
+  "620L400US42190": {
+    "District": "190th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BROWN, VANESSA L ",
+        "Votes": "28620",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42191": {
+    "District": "191st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "MCCLINTON, JOANNA E ",
+        "Votes": "25729",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42192": {
+    "District": "192nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "CEPHAS, MORGAN B ",
+        "Votes": "29827",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42193": {
+    "District": "193rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "VAN ESSEN, DENISE M ",
+        "Votes": "7345",
+        "Percentage": "25.64"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "TALLMAN, WILL F ",
+        "Votes": "21306",
+        "Percentage": "74.36"
+      }
+    ]
+  },
+  "620L400US42194": {
+    "District": "194th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "DELISSIO, PAMELA A ",
+        "Votes": "22960",
+        "Percentage": "70.72"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "POUNDS, WILLIAM FRANCIS ",
+        "Votes": "9507",
+        "Percentage": "29.28"
+      }
+    ]
+  },
+  "620L400US42195": {
+    "District": "195th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BULLOCK, DONNA ",
+        "Votes": "30269",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42196": {
+    "District": "196th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "GROVE, SETH ",
+        "Votes": "25449",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42197": {
+    "District": "197th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "ACOSTA, LESLIE  ",
+        "Votes": "23675",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42198": {
+    "District": "198th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "YOUNGBLOOD, ROSITA  C ",
+        "Votes": "28060",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42199": {
+    "District": "199th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "BARTOLI, JILL SUNDAY ",
+        "Votes": "10598",
+        "Percentage": "35.73"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "BLOOM, STEPHEN L ",
+        "Votes": "19064",
+        "Percentage": "64.27"
+      }
+    ]
+  },
+  "620L400US42200": {
+    "District": "200th Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "RABB, CHRISTOPHER M ",
+        "Votes": "34012",
+        "Percentage": "94.56"
+      },
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "REP",
+        "CandidateName": "MCDOWELL, LATRYSE Y ",
+        "Votes": "1958",
+        "Percentage": "5.44"
+      }
+    ]
+  },
+  "620L400US42201": {
+    "District": "201st Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "KINSEY, STEPHEN ",
+        "Votes": "27706",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42202": {
+    "District": "202nd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "SOLOMON, JARED G ",
+        "Votes": "18371",
+        "Percentage": "100"
+      }
+    ]
+  },
+  "620L400US42203": {
+    "District": "203rd Legislative District",
+    "Candidates": [
+      {
+        "ElectionYear": "2016",
+        "OfficeName": "Representative in the General Assembly",
+        "PartyName": "DEM",
+        "CandidateName": "FITZGERALD, ISABELLA ",
+        "Votes": "27420",
+        "Percentage": "100"
+      }
+    ]
+  }
+}
