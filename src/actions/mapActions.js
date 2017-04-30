@@ -1,6 +1,7 @@
+import { OrderedSet } from 'immutable'
+
 import ACTION_EVENTS, { uri } from './index'
 import store from '../configureStore'
-import { collectBranchAndYears } from './appActions'
 
 /**
  * switchLayer updates the store
@@ -10,20 +11,24 @@ import { collectBranchAndYears } from './appActions'
  * @param {Integer} cur
  * @return {Function} callback for onClick
  */
-export function switchLayer (year, branch, cur) {
+export function switchLayer (branch, branchIdx) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
   const { mapDataReducer } = store.getState()
-  // Not sure if moving this out of the lazy-loading callback will hurt performance
-  const years = collectBranchAndYears(mapDataReducer.geoFiles, cur)[1]
-  year = years.get(year) !== undefined ? year : years.first()
+
+  // The sort here is duplicated in collectBranchAndYears. We should refactor
+  // to do this when the data is loaded instead.
+  let years = Object.keys(mapDataReducer.geoFiles.toArray()[branchIdx][branch])
+  years = OrderedSet(years.sort((x, y) => y - x))
+
   return () => {
     store.dispatch({
       type: MAP_SWITCH_LAYER,
-      layer: cur,
-      year,
+      layer: branchIdx,
+      year: years.first(),
       years,
       branch
     })
+
     fetchGeoJson()
     fetchStatsJson()
   }

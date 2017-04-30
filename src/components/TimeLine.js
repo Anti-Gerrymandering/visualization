@@ -17,7 +17,6 @@ const yearLi = prop => {
 })
 class TimeLine extends Component {
   render () {
-    console.log(this.props.years)
     const years = this.props.years.toArray().map((e, i) => {
       return yearLi({ key: i, year: e })
     })
