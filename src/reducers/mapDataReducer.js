@@ -1,3 +1,5 @@
+import { fromJS } from 'immutable'
+
 import ACTION_EVENTS from '../actions/index'
 
 const {
@@ -18,9 +20,11 @@ export function mapDataReducer (state = {}, action) {
       const { addr } = action
       return Object.assign({}, state, { addr })
     case META_DATA:
-      // The data object is left out to avoid conflicts with the first case
-      const { geoFiles, statsFiles } = action
-      return Object.assign({}, state, { geoFiles, statsFiles, years })
+      return Object.assign({}, state, {
+        geoFiles: fromJS(action.geoFiles),
+        statsFiles: action.statsFiles,
+        years
+      })
     case MAP_SWITCH_LAYER:
       return Object.assign({}, state, { years })
     case STATS_LOADED:

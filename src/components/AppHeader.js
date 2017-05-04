@@ -4,24 +4,17 @@ import { connect } from 'react-redux'
 import * as Actions from '../actions/mapActions'
 import { convertBranch } from '../actions/appActions'
 
-const officeTab = props => {
-  const { id, name, click } = props
+const BranchTab = ({ branch, active }) => {
   const style = () => {
     const base = 'nav-item '
-    switch (id) {
-      case 0:
-        return base + 'gm-navA'
-      case 1:
-        return base + 'gm-navB'
-      case 2:
-        return base + 'gm-navC'
-      default:
-        return base
-    }
+    if (active) return base + ' active'
+
+    return base
   }
+
   return (
-    <a key={id} onClick={click} className={style()} >
-      <span>{name}</span>
+    <a onClick={Actions.switchBranch(branch)} className={style()} >
+      <span>{convertBranch(branch)}</span>
     </a>
   )
 }
@@ -35,16 +28,14 @@ const officeTab = props => {
   }
 })
 class AppHeader extends Component {
-  officeTabs () {
-    return this.props.layers.toArray().map((e, i) => {
-      const props = {
-        id: i,
-        name: convertBranch(Object.keys(e)[0]),
-        click: Actions.switchLayer(Object.keys(e)[0], i),
-        active: i === this.props.currentBranch
-      }
-      return officeTab(props)
-    })
+  branchTabs () {
+    return this.props.layers.entrySeq().map(([branch, _years]) =>
+      <BranchTab
+        branch={branch}
+        key={branch}
+        active={branch === this.props.currentBranch}
+      />
+    )
   }
   render () {
     return (
@@ -52,7 +43,7 @@ class AppHeader extends Component {
         <div className='headerApp-innerDiv'>
           <div className='nav'>
             <div className='nav-left gr-overflowDiv'>
-              { this.officeTabs() }
+              { this.branchTabs() }
             </div>
           </div>
           <div className='gr-shadowDiv'>

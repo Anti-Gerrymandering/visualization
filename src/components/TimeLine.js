@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { Map } from 'immutable'
+
 import { changeYear } from '../actions/appActions'
 
 const yearLi = prop => {
@@ -11,15 +13,19 @@ const yearLi = prop => {
   )
 }
 
-@connect(props => {
-  const { mapDataReducer } = props
-  return { years: mapDataReducer.years }
+@connect(state => {
+  const { mapDataReducer, mapControllerReducer } = state
+  const geoFiles = Map(mapDataReducer.geoFiles.get(mapControllerReducer.branch) || {})
+  return { geoFiles: geoFiles }
 })
 class TimeLine extends Component {
   render () {
-    const years = this.props.years.toArray().map((e, i) => {
-      return yearLi({ key: i, year: e })
-    })
+    const years = this.props.geoFiles.entrySeq()
+      .sort((fileA, fileB) => fileB[0] - fileA[0])
+      .map(([ year, file ]) => {
+        return yearLi({ key: file, year: year })
+      })
+
     return (
       <div className='timeLine'>
         <ul>

@@ -4,28 +4,24 @@ import ACTION_EVENTS, { uri } from './index'
 import store from '../configureStore'
 
 /**
- * switchLayer updates the store
- * and triggers a fetchGeoJson
- * @param {String} year
+ * switchBranch changes the active branch (office) and triggers a fetchGeoJson
+ * for the map file
  * @param {String} branch
- * @param {Integer} cur
  * @return {Function} callback for onClick
  */
-export function switchLayer (branch, branchIdx) {
+export function switchBranch (branch) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
   const { mapDataReducer } = store.getState()
 
-  // The sort here is duplicated in collectBranchAndYears. We should refactor
+  // The sort here is duplicated in the tabs rendering. We should refactor
   // to do this when the data is loaded instead.
-  let years = Object.keys(mapDataReducer.geoFiles.toArray()[branchIdx][branch])
+  let years = Object.keys(mapDataReducer.geoFiles.get(branch))
   years = OrderedSet(years.sort((x, y) => y - x))
 
   return () => {
     store.dispatch({
       type: MAP_SWITCH_LAYER,
-      layer: branchIdx,
       year: years.first(),
-      years,
       branch
     })
 
@@ -41,10 +37,10 @@ export function switchLayer (branch, branchIdx) {
 export function fetchGeoJson () {
   const { mapDataReducer, mapControllerReducer } = store.getState()
   const { geoFiles } = mapDataReducer
-  const { branch, layer, year } = mapControllerReducer
+  const { branch, year } = mapControllerReducer
   if (geoFiles.size < 1) return
   // Ugly uri builder
-  const fileUri = uri + branch + '/' + geoFiles.toArray()[layer][branch][year] + '.geojson'
+  const fileUri = uri + branch + '/' + geoFiles.get(branch)[year] + '.geojson'
   console.log('FETCHING URI', fileUri)
   window.fetch(fileUri)
         .then(rsp => {
