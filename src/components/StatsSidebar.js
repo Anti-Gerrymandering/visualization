@@ -35,7 +35,7 @@ class StatsSidebar extends Component {
 
             <div className='electionResultsOuterDiv'>
               {stats.Candidates.map(candidate =>
-                <div className='electionResultsInnerDiv'><div key={candidate.CandidateName}>
+                <div key={candidate.CandidateName} className='electionResultsInnerDiv'>
                   <h4>{candidate.CandidateName}</h4>
                   <dl>
                     <dt>Party: {candidate.PartyName}</dt>
@@ -43,7 +43,7 @@ class StatsSidebar extends Component {
                     <dt><span className='spanUnderline'>Percentage of Vote</span></dt>
                     <dd><span className='spanItalics'>{candidate.Percentage} %</span></dd>
                   </dl>
-                </div></div>
+                </div>
           )}
             </div>
           </div></div>

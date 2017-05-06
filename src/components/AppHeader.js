@@ -4,56 +4,46 @@ import { connect } from 'react-redux'
 import * as Actions from '../actions/mapActions'
 import { convertBranch } from '../actions/appActions'
 
-const columnLinks = props => {
-  const { id, name, click } = props
+const BranchTab = ({ branch, active }) => {
   const style = () => {
     const base = 'nav-item '
-    switch (id) {
-      case 0:
-        return base + 'gm-navA'
-      case 1:
-        return base + 'gm-navB'
-      case 2:
-        return base + 'gm-navC'
-      default:
-        return base
-    }
+    if (active) return base + ' active'
+
+    return base
   }
+
   return (
-    <a key={id} onClick={click} className={style()} >
-      <span>{name}</span>
+    <a onClick={Actions.switchBranch(branch)} className={style()} >
+      <span>{convertBranch(branch)}</span>
     </a>
   )
 }
 
-@connect(props => {
+@connect(state => {
   return {
     // All the layers that could be processed
-    layers: props.mapDataReducer.geoFiles,
+    layers: state.mapDataReducer.geoFiles,
     // The current Layer meta-data
-    cur: props.mapControllerReducer
+    currentBranch: state.mapControllerReducer.branch
   }
 })
 class AppHeader extends Component {
-  buildToggle () {
-    return this.props.layers.toArray().map((e, i) => {
-      const props = {
-        id: i,
-        name: convertBranch(Object.keys(e)[0]),
-        click: Actions.switchLayer(this.props.cur.year, Object.keys(e)[0], i),
-        active: i === this.props.cur.layer
-      }
-      return columnLinks(props)
-    })
+  branchTabs () {
+    return this.props.layers.entrySeq().map(([branch, _years]) =>
+      <BranchTab
+        branch={branch}
+        key={branch}
+        active={branch === this.props.currentBranch}
+      />
+    )
   }
   render () {
-    // console.log(this.buildToggle())
     return (
       <div className='App-header'>
         <div className='headerApp-innerDiv'>
           <div className='nav'>
             <div className='nav-left gr-overflowDiv'>
-              { this.buildToggle() }
+              { this.branchTabs() }
             </div>
           </div>
           <div className='gr-shadowDiv'>

@@ -1,29 +1,30 @@
+import { OrderedSet } from 'immutable'
+
 import ACTION_EVENTS, { uri } from './index'
 import store from '../configureStore'
-import { collectBranchAndYears } from './appActions'
 
 /**
- * switchLayer updates the store
- * and triggers a fetchGeoJson
- * @param {String} year
+ * switchBranch changes the active branch (office) and triggers a fetchGeoJson
+ * for the map file
  * @param {String} branch
- * @param {Integer} cur
  * @return {Function} callback for onClick
  */
-export function switchLayer (year, branch, cur) {
+export function switchBranch (branch) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
   const { mapDataReducer } = store.getState()
-  // Not sure if moving this out of the lazy-loading callback will hurt performance
-  const years = collectBranchAndYears(mapDataReducer.geoFiles, cur)[1]
-  year = years.get(year) !== undefined ? year : years.first()
+
+  // The sort here is duplicated in the tabs rendering. We should refactor
+  // to do this when the data is loaded instead.
+  let years = Object.keys(mapDataReducer.geoFiles.get(branch))
+  years = OrderedSet(years.sort((x, y) => y - x))
+
   return () => {
     store.dispatch({
       type: MAP_SWITCH_LAYER,
-      layer: cur,
-      year,
-      years,
+      year: years.first(),
       branch
     })
+
     fetchGeoJson()
     fetchStatsJson()
   }
@@ -36,10 +37,10 @@ export function switchLayer (year, branch, cur) {
 export function fetchGeoJson () {
   const { mapDataReducer, mapControllerReducer } = store.getState()
   const { geoFiles } = mapDataReducer
-  const { branch, layer, year } = mapControllerReducer
+  const { branch, year } = mapControllerReducer
   if (geoFiles.size < 1) return
   // Ugly uri builder
-  const fileUri = uri + branch + '/' + geoFiles.toArray()[layer][branch][year] + '.geojson'
+  const fileUri = uri + branch + '/' + geoFiles.get(branch)[year] + '.geojson'
   console.log('FETCHING URI', fileUri)
   window.fetch(fileUri)
         .then(rsp => {

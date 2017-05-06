@@ -1,30 +1,29 @@
 /* eslint-env jest */
 import { mapDataReducer } from '../../src/reducers/mapDataReducer'
 import ACTION_EVENTS from '../../src/actions/index'
-import { OrderedSet } from 'immutable'
+import { fromJS, Map, OrderedSet } from 'immutable'
 import metaData from '../../public/districts/pa/metaData.json'
 
 const { MAP_SWITCH_LAYER, META_DATA } = ACTION_EVENTS
 
 // State from the configure store
 const initState = {
-  geoFiles: OrderedSet([]),
+  geoFiles: fromJS({}),
   data: {},
-  addr: null,
-  years: OrderedSet([])
+  addr: null
 }
 
 describe('Reducer::mapData', function () {
-  it('Switch Layer', () => {
+  it('Switches branch', () => {
     const filledState = Object.assign(
       {},
       initState,
-      { geoFiles: OrderedSet(metaData.geoFiles) }
+      { geoFiles: fromJS(metaData.geoFiles) }
     )
-    const geoFilesArray = filledState.geoFiles.toArray()
-    const yearsFederal = OrderedSet(Object.keys(geoFilesArray[0]['federal']))
-    const yearsHouse = OrderedSet(Object.keys(geoFilesArray[1]['lower']))
-    const yearsSenate = OrderedSet(Object.keys(geoFilesArray[2]['upper']))
+    const geoFiles = filledState.geoFiles
+    const yearsFederal = OrderedSet(Object.keys(geoFiles.get('federal')))
+    const yearsHouse = OrderedSet(Object.keys(geoFiles.get('lower')))
+    const yearsSenate = OrderedSet(Object.keys(geoFiles.get('upper')))
     const action = { type: MAP_SWITCH_LAYER, years: yearsFederal }
     const stateChangeOne = mapDataReducer(initState, action)
     // Assert the new and old state aren't the same instance
@@ -39,12 +38,12 @@ describe('Reducer::mapData', function () {
 
   it('Loading MetaData', () => {
     const { geoFiles } = metaData
-    const action = { type: META_DATA, geoFiles: OrderedSet(geoFiles) }
+    const action = { type: META_DATA, geoFiles: fromJS(geoFiles) }
     const newState = mapDataReducer(initState, action)
     // Assert the new and old state aren't the same instance
     expect(newState === initState).toBeFalsy()
     // Test might be useless, consider cutting
-    expect(newState.geoFiles).toBeInstanceOf(OrderedSet)
+    expect(newState.geoFiles).toBeInstanceOf(Map)
     // TODO: Test years
   })
 })
