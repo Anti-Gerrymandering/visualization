@@ -5,13 +5,13 @@ import { connect } from 'react-redux'
  * StatsSidebar displays a sidebar with statistics for the
  * currently selected district
  */
-@connect(props => {
-  const { activeDistrict } = props.mapControllerReducer
+@connect(state => {
+  const { activeDistrict, branch } = state.mapControllerReducer
   let stats
 
   if (activeDistrict) {
-    const affGeoid = activeDistrict.properties.AFFGEOID
-    stats = props.mapDataReducer.stats[affGeoid]
+    const districtId = `${branch}_${activeDistrict.properties.GEOID.substring(2)}`
+    stats = state.mapDataReducer.stats[districtId]
   }
 
   return { activeDistrict, stats }
