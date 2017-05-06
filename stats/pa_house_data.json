@@ -1,5 +1,5 @@
 {
-  "620L400US42001": {
+  "lower_001": {
     "District": "1st Legislative District",
     "Candidates": [
       {
@@ -20,7 +20,7 @@
       }
     ]
   },
-  "620L400US42002": {
+  "lower_002": {
     "District": "2nd Legislative District",
     "Candidates": [
       {
@@ -41,7 +41,7 @@
       }
     ]
   },
-  "620L400US42003": {
+  "lower_003": {
     "District": "3rd Legislative District",
     "Candidates": [
       {
@@ -62,7 +62,7 @@
       }
     ]
   },
-  "620L400US42004": {
+  "lower_004": {
     "District": "4th Legislative District",
     "Candidates": [
       {
@@ -75,7 +75,7 @@
       }
     ]
   },
-  "620L400US42005": {
+  "lower_005": {
     "District": "5th Legislative District",
     "Candidates": [
       {
@@ -88,7 +88,7 @@
       }
     ]
   },
-  "620L400US42006": {
+  "lower_006": {
     "District": "6th Legislative District",
     "Candidates": [
       {
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "620L400US42007": {
+  "lower_007": {
     "District": "7th Legislative District",
     "Candidates": [
       {
@@ -122,7 +122,7 @@
       }
     ]
   },
-  "620L400US42008": {
+  "lower_008": {
     "District": "8th Legislative District",
     "Candidates": [
       {
@@ -143,7 +143,7 @@
       }
     ]
   },
-  "620L400US42009": {
+  "lower_009": {
     "District": "9th Legislative District",
     "Candidates": [
       {
@@ -156,7 +156,7 @@
       }
     ]
   },
-  "620L400US42010": {
+  "lower_010": {
     "District": "10th Legislative District",
     "Candidates": [
       {
@@ -177,7 +177,7 @@
       }
     ]
   },
-  "620L400US42011": {
+  "lower_011": {
     "District": "11th Legislative District",
     "Candidates": [
       {
@@ -190,7 +190,7 @@
       }
     ]
   },
-  "620L400US42012": {
+  "lower_012": {
     "District": "12th Legislative District",
     "Candidates": [
       {
@@ -211,7 +211,7 @@
       }
     ]
   },
-  "620L400US42013": {
+  "lower_013": {
     "District": "13th Legislative District",
     "Candidates": [
       {
@@ -232,7 +232,7 @@
       }
     ]
   },
-  "620L400US42014": {
+  "lower_014": {
     "District": "14th Legislative District",
     "Candidates": [
       {
@@ -245,7 +245,7 @@
       }
     ]
   },
-  "620L400US42015": {
+  "lower_015": {
     "District": "15th Legislative District",
     "Candidates": [
       {
@@ -266,7 +266,7 @@
       }
     ]
   },
-  "620L400US42016": {
+  "lower_016": {
     "District": "16th Legislative District",
     "Candidates": [
       {
@@ -279,7 +279,7 @@
       }
     ]
   },
-  "620L400US42017": {
+  "lower_017": {
     "District": "17th Legislative District",
     "Candidates": [
       {
@@ -300,7 +300,7 @@
       }
     ]
   },
-  "620L400US42018": {
+  "lower_018": {
     "District": "18th Legislative District",
     "Candidates": [
       {
@@ -313,7 +313,7 @@
       }
     ]
   },
-  "620L400US42019": {
+  "lower_019": {
     "District": "19th Legislative District",
     "Candidates": [
       {
@@ -326,7 +326,7 @@
       }
     ]
   },
-  "620L400US42020": {
+  "lower_020": {
     "District": "20th Legislative District",
     "Candidates": [
       {
@@ -347,7 +347,7 @@
       }
     ]
   },
-  "620L400US42021": {
+  "lower_021": {
     "District": "21st Legislative District",
     "Candidates": [
       {
@@ -360,7 +360,7 @@
       }
     ]
   },
-  "620L400US42022": {
+  "lower_022": {
     "District": "22nd Legislative District",
     "Candidates": [
       {
@@ -373,7 +373,7 @@
       }
     ]
   },
-  "620L400US42023": {
+  "lower_023": {
     "District": "23rd Legislative District",
     "Candidates": [
       {
@@ -386,7 +386,7 @@
       }
     ]
   },
-  "620L400US42024": {
+  "lower_024": {
     "District": "24th Legislative District",
     "Candidates": [
       {
@@ -399,7 +399,7 @@
       }
     ]
   },
-  "620L400US42025": {
+  "lower_025": {
     "District": "25th Legislative District",
     "Candidates": [
       {
@@ -420,7 +420,7 @@
       }
     ]
   },
-  "620L400US42026": {
+  "lower_026": {
     "District": "26th Legislative District",
     "Candidates": [
       {
@@ -433,7 +433,7 @@
       }
     ]
   },
-  "620L400US42027": {
+  "lower_027": {
     "District": "27th Legislative District",
     "Candidates": [
       {
@@ -446,7 +446,7 @@
       }
     ]
   },
-  "620L400US42028": {
+  "lower_028": {
     "District": "28th Legislative District",
     "Candidates": [
       {
@@ -467,7 +467,7 @@
       }
     ]
   },
-  "620L400US42029": {
+  "lower_029": {
     "District": "29th Legislative District",
     "Candidates": [
       {
@@ -488,7 +488,7 @@
       }
     ]
   },
-  "620L400US42030": {
+  "lower_030": {
     "District": "30th Legislative District",
     "Candidates": [
       {
@@ -501,7 +501,7 @@
       }
     ]
   },
-  "620L400US42031": {
+  "lower_031": {
     "District": "31st Legislative District",
     "Candidates": [
       {
@@ -522,7 +522,7 @@
       }
     ]
   },
-  "620L400US42032": {
+  "lower_032": {
     "District": "32nd Legislative District",
     "Candidates": [
       {
@@ -535,7 +535,7 @@
       }
     ]
   },
-  "620L400US42033": {
+  "lower_033": {
     "District": "33rd Legislative District",
     "Candidates": [
       {
@@ -548,7 +548,7 @@
       }
     ]
   },
-  "620L400US42034": {
+  "lower_034": {
     "District": "34th Legislative District",
     "Candidates": [
       {
@@ -561,7 +561,7 @@
       }
     ]
   },
-  "620L400US42035": {
+  "lower_035": {
     "District": "35th Legislative District",
     "Candidates": [
       {
@@ -582,7 +582,7 @@
       }
     ]
   },
-  "620L400US42036": {
+  "lower_036": {
     "District": "36th Legislative District",
     "Candidates": [
       {
@@ -595,7 +595,7 @@
       }
     ]
   },
-  "620L400US42037": {
+  "lower_037": {
     "District": "37th Legislative District",
     "Candidates": [
       {
@@ -608,7 +608,7 @@
       }
     ]
   },
-  "620L400US42038": {
+  "lower_038": {
     "District": "38th Legislative District",
     "Candidates": [
       {
@@ -629,7 +629,7 @@
       }
     ]
   },
-  "620L400US42039": {
+  "lower_039": {
     "District": "39th Legislative District",
     "Candidates": [
       {
@@ -650,7 +650,7 @@
       }
     ]
   },
-  "620L400US42040": {
+  "lower_040": {
     "District": "40th Legislative District",
     "Candidates": [
       {
@@ -671,7 +671,7 @@
       }
     ]
   },
-  "620L400US42041": {
+  "lower_041": {
     "District": "41st Legislative District",
     "Candidates": [
       {
@@ -692,7 +692,7 @@
       }
     ]
   },
-  "620L400US42042": {
+  "lower_042": {
     "District": "42nd Legislative District",
     "Candidates": [
       {
@@ -705,7 +705,7 @@
       }
     ]
   },
-  "620L400US42043": {
+  "lower_043": {
     "District": "43rd Legislative District",
     "Candidates": [
       {
@@ -726,7 +726,7 @@
       }
     ]
   },
-  "620L400US42044": {
+  "lower_044": {
     "District": "44th Legislative District",
     "Candidates": [
       {
@@ -739,7 +739,7 @@
       }
     ]
   },
-  "620L400US42045": {
+  "lower_045": {
     "District": "45th Legislative District",
     "Candidates": [
       {
@@ -752,7 +752,7 @@
       }
     ]
   },
-  "620L400US42046": {
+  "lower_046": {
     "District": "46th Legislative District",
     "Candidates": [
       {
@@ -773,7 +773,7 @@
       }
     ]
   },
-  "620L400US42047": {
+  "lower_047": {
     "District": "47th Legislative District",
     "Candidates": [
       {
@@ -786,7 +786,7 @@
       }
     ]
   },
-  "620L400US42048": {
+  "lower_048": {
     "District": "48th Legislative District",
     "Candidates": [
       {
@@ -799,7 +799,7 @@
       }
     ]
   },
-  "620L400US42049": {
+  "lower_049": {
     "District": "49th Legislative District",
     "Candidates": [
       {
@@ -820,7 +820,7 @@
       }
     ]
   },
-  "620L400US42050": {
+  "lower_050": {
     "District": "50th Legislative District",
     "Candidates": [
       {
@@ -841,7 +841,7 @@
       }
     ]
   },
-  "620L400US42051": {
+  "lower_051": {
     "District": "51st Legislative District",
     "Candidates": [
       {
@@ -862,7 +862,7 @@
       }
     ]
   },
-  "620L400US42052": {
+  "lower_052": {
     "District": "52nd Legislative District",
     "Candidates": [
       {
@@ -883,7 +883,7 @@
       }
     ]
   },
-  "620L400US42053": {
+  "lower_053": {
     "District": "53rd Legislative District",
     "Candidates": [
       {
@@ -904,7 +904,7 @@
       }
     ]
   },
-  "620L400US42054": {
+  "lower_054": {
     "District": "54th Legislative District",
     "Candidates": [
       {
@@ -917,7 +917,7 @@
       }
     ]
   },
-  "620L400US42055": {
+  "lower_055": {
     "District": "55th Legislative District",
     "Candidates": [
       {
@@ -938,7 +938,7 @@
       }
     ]
   },
-  "620L400US42056": {
+  "lower_056": {
     "District": "56th Legislative District",
     "Candidates": [
       {
@@ -951,7 +951,7 @@
       }
     ]
   },
-  "620L400US42057": {
+  "lower_057": {
     "District": "57th Legislative District",
     "Candidates": [
       {
@@ -972,7 +972,7 @@
       }
     ]
   },
-  "620L400US42058": {
+  "lower_058": {
     "District": "58th Legislative District",
     "Candidates": [
       {
@@ -993,7 +993,7 @@
       }
     ]
   },
-  "620L400US42059": {
+  "lower_059": {
     "District": "59th Legislative District",
     "Candidates": [
       {
@@ -1006,7 +1006,7 @@
       }
     ]
   },
-  "620L400US42060": {
+  "lower_060": {
     "District": "60th Legislative District",
     "Candidates": [
       {
@@ -1027,7 +1027,7 @@
       }
     ]
   },
-  "620L400US42061": {
+  "lower_061": {
     "District": "61st Legislative District",
     "Candidates": [
       {
@@ -1048,7 +1048,7 @@
       }
     ]
   },
-  "620L400US42062": {
+  "lower_062": {
     "District": "62nd Legislative District",
     "Candidates": [
       {
@@ -1069,7 +1069,7 @@
       }
     ]
   },
-  "620L400US42063": {
+  "lower_063": {
     "District": "63rd Legislative District",
     "Candidates": [
       {
@@ -1090,7 +1090,7 @@
       }
     ]
   },
-  "620L400US42064": {
+  "lower_064": {
     "District": "64th Legislative District",
     "Candidates": [
       {
@@ -1119,7 +1119,7 @@
       }
     ]
   },
-  "620L400US42065": {
+  "lower_065": {
     "District": "65th Legislative District",
     "Candidates": [
       {
@@ -1140,7 +1140,7 @@
       }
     ]
   },
-  "620L400US42066": {
+  "lower_066": {
     "District": "66th Legislative District",
     "Candidates": [
       {
@@ -1153,7 +1153,7 @@
       }
     ]
   },
-  "620L400US42067": {
+  "lower_067": {
     "District": "67th Legislative District",
     "Candidates": [
       {
@@ -1166,7 +1166,7 @@
       }
     ]
   },
-  "620L400US42068": {
+  "lower_068": {
     "District": "68th Legislative District",
     "Candidates": [
       {
@@ -1179,7 +1179,7 @@
       }
     ]
   },
-  "620L400US42069": {
+  "lower_069": {
     "District": "69th Legislative District",
     "Candidates": [
       {
@@ -1192,7 +1192,7 @@
       }
     ]
   },
-  "620L400US42070": {
+  "lower_070": {
     "District": "70th Legislative District",
     "Candidates": [
       {
@@ -1213,7 +1213,7 @@
       }
     ]
   },
-  "620L400US42071": {
+  "lower_071": {
     "District": "71st Legislative District",
     "Candidates": [
       {
@@ -1234,7 +1234,7 @@
       }
     ]
   },
-  "620L400US42072": {
+  "lower_072": {
     "District": "72nd Legislative District",
     "Candidates": [
       {
@@ -1255,7 +1255,7 @@
       }
     ]
   },
-  "620L400US42073": {
+  "lower_073": {
     "District": "73rd Legislative District",
     "Candidates": [
       {
@@ -1276,7 +1276,7 @@
       }
     ]
   },
-  "620L400US42074": {
+  "lower_074": {
     "District": "74th Legislative District",
     "Candidates": [
       {
@@ -1297,7 +1297,7 @@
       }
     ]
   },
-  "620L400US42075": {
+  "lower_075": {
     "District": "75th Legislative District",
     "Candidates": [
       {
@@ -1318,7 +1318,7 @@
       }
     ]
   },
-  "620L400US42076": {
+  "lower_076": {
     "District": "76th Legislative District",
     "Candidates": [
       {
@@ -1339,7 +1339,7 @@
       }
     ]
   },
-  "620L400US42077": {
+  "lower_077": {
     "District": "77th Legislative District",
     "Candidates": [
       {
@@ -1352,7 +1352,7 @@
       }
     ]
   },
-  "620L400US42078": {
+  "lower_078": {
     "District": "78th Legislative District",
     "Candidates": [
       {
@@ -1365,7 +1365,7 @@
       }
     ]
   },
-  "620L400US42079": {
+  "lower_079": {
     "District": "79th Legislative District",
     "Candidates": [
       {
@@ -1378,7 +1378,7 @@
       }
     ]
   },
-  "620L400US42080": {
+  "lower_080": {
     "District": "80th Legislative District",
     "Candidates": [
       {
@@ -1391,7 +1391,7 @@
       }
     ]
   },
-  "620L400US42081": {
+  "lower_081": {
     "District": "81st Legislative District",
     "Candidates": [
       {
@@ -1412,7 +1412,7 @@
       }
     ]
   },
-  "620L400US42082": {
+  "lower_082": {
     "District": "82nd Legislative District",
     "Candidates": [
       {
@@ -1425,7 +1425,7 @@
       }
     ]
   },
-  "620L400US42083": {
+  "lower_083": {
     "District": "83rd Legislative District",
     "Candidates": [
       {
@@ -1438,7 +1438,7 @@
       }
     ]
   },
-  "620L400US42084": {
+  "lower_084": {
     "District": "84th Legislative District",
     "Candidates": [
       {
@@ -1451,7 +1451,7 @@
       }
     ]
   },
-  "620L400US42085": {
+  "lower_085": {
     "District": "85th Legislative District",
     "Candidates": [
       {
@@ -1464,7 +1464,7 @@
       }
     ]
   },
-  "620L400US42086": {
+  "lower_086": {
     "District": "86th Legislative District",
     "Candidates": [
       {
@@ -1477,7 +1477,7 @@
       }
     ]
   },
-  "620L400US42087": {
+  "lower_087": {
     "District": "87th Legislative District",
     "Candidates": [
       {
@@ -1498,7 +1498,7 @@
       }
     ]
   },
-  "620L400US42088": {
+  "lower_088": {
     "District": "88th Legislative District",
     "Candidates": [
       {
@@ -1519,7 +1519,7 @@
       }
     ]
   },
-  "620L400US42089": {
+  "lower_089": {
     "District": "89th Legislative District",
     "Candidates": [
       {
@@ -1540,7 +1540,7 @@
       }
     ]
   },
-  "620L400US42090": {
+  "lower_090": {
     "District": "90th Legislative District",
     "Candidates": [
       {
@@ -1553,7 +1553,7 @@
       }
     ]
   },
-  "620L400US42091": {
+  "lower_091": {
     "District": "91st Legislative District",
     "Candidates": [
       {
@@ -1574,7 +1574,7 @@
       }
     ]
   },
-  "620L400US42092": {
+  "lower_092": {
     "District": "92nd Legislative District",
     "Candidates": [
       {
@@ -1595,7 +1595,7 @@
       }
     ]
   },
-  "620L400US42093": {
+  "lower_093": {
     "District": "93rd Legislative District",
     "Candidates": [
       {
@@ -1608,7 +1608,7 @@
       }
     ]
   },
-  "620L400US42094": {
+  "lower_094": {
     "District": "94th Legislative District",
     "Candidates": [
       {
@@ -1621,7 +1621,7 @@
       }
     ]
   },
-  "620L400US42095": {
+  "lower_095": {
     "District": "95th Legislative District",
     "Candidates": [
       {
@@ -1642,7 +1642,7 @@
       }
     ]
   },
-  "620L400US42096": {
+  "lower_096": {
     "District": "96th Legislative District",
     "Candidates": [
       {
@@ -1663,7 +1663,7 @@
       }
     ]
   },
-  "620L400US42097": {
+  "lower_097": {
     "District": "97th Legislative District",
     "Candidates": [
       {
@@ -1684,7 +1684,7 @@
       }
     ]
   },
-  "620L400US42098": {
+  "lower_098": {
     "District": "98th Legislative District",
     "Candidates": [
       {
@@ -1697,7 +1697,7 @@
       }
     ]
   },
-  "620L400US42099": {
+  "lower_099": {
     "District": "99th Legislative District",
     "Candidates": [
       {
@@ -1718,7 +1718,7 @@
       }
     ]
   },
-  "620L400US42100": {
+  "lower_100": {
     "District": "100th Legislative District",
     "Candidates": [
       {
@@ -1739,7 +1739,7 @@
       }
     ]
   },
-  "620L400US42101": {
+  "lower_101": {
     "District": "101st Legislative District",
     "Candidates": [
       {
@@ -1760,7 +1760,7 @@
       }
     ]
   },
-  "620L400US42102": {
+  "lower_102": {
     "District": "102nd Legislative District",
     "Candidates": [
       {
@@ -1781,7 +1781,7 @@
       }
     ]
   },
-  "620L400US42103": {
+  "lower_103": {
     "District": "103rd Legislative District",
     "Candidates": [
       {
@@ -1794,7 +1794,7 @@
       }
     ]
   },
-  "620L400US42104": {
+  "lower_104": {
     "District": "104th Legislative District",
     "Candidates": [
       {
@@ -1815,7 +1815,7 @@
       }
     ]
   },
-  "620L400US42105": {
+  "lower_105": {
     "District": "105th Legislative District",
     "Candidates": [
       {
@@ -1828,7 +1828,7 @@
       }
     ]
   },
-  "620L400US42106": {
+  "lower_106": {
     "District": "106th Legislative District",
     "Candidates": [
       {
@@ -1841,7 +1841,7 @@
       }
     ]
   },
-  "620L400US42107": {
+  "lower_107": {
     "District": "107th Legislative District",
     "Candidates": [
       {
@@ -1862,7 +1862,7 @@
       }
     ]
   },
-  "620L400US42108": {
+  "lower_108": {
     "District": "108th Legislative District",
     "Candidates": [
       {
@@ -1883,7 +1883,7 @@
       }
     ]
   },
-  "620L400US42109": {
+  "lower_109": {
     "District": "109th Legislative District",
     "Candidates": [
       {
@@ -1912,7 +1912,7 @@
       }
     ]
   },
-  "620L400US42110": {
+  "lower_110": {
     "District": "110th Legislative District",
     "Candidates": [
       {
@@ -1925,7 +1925,7 @@
       }
     ]
   },
-  "620L400US42111": {
+  "lower_111": {
     "District": "111th Legislative District",
     "Candidates": [
       {
@@ -1938,7 +1938,7 @@
       }
     ]
   },
-  "620L400US42112": {
+  "lower_112": {
     "District": "112th Legislative District",
     "Candidates": [
       {
@@ -1959,7 +1959,7 @@
       }
     ]
   },
-  "620L400US42113": {
+  "lower_113": {
     "District": "113th Legislative District",
     "Candidates": [
       {
@@ -1980,7 +1980,7 @@
       }
     ]
   },
-  "620L400US42114": {
+  "lower_114": {
     "District": "114th Legislative District",
     "Candidates": [
       {
@@ -2001,7 +2001,7 @@
       }
     ]
   },
-  "620L400US42115": {
+  "lower_115": {
     "District": "115th Legislative District",
     "Candidates": [
       {
@@ -2022,7 +2022,7 @@
       }
     ]
   },
-  "620L400US42116": {
+  "lower_116": {
     "District": "116th Legislative District",
     "Candidates": [
       {
@@ -2043,7 +2043,7 @@
       }
     ]
   },
-  "620L400US42117": {
+  "lower_117": {
     "District": "117th Legislative District",
     "Candidates": [
       {
@@ -2072,7 +2072,7 @@
       }
     ]
   },
-  "620L400US42118": {
+  "lower_118": {
     "District": "118th Legislative District",
     "Candidates": [
       {
@@ -2085,7 +2085,7 @@
       }
     ]
   },
-  "620L400US42119": {
+  "lower_119": {
     "District": "119th Legislative District",
     "Candidates": [
       {
@@ -2106,7 +2106,7 @@
       }
     ]
   },
-  "620L400US42120": {
+  "lower_120": {
     "District": "120th Legislative District",
     "Candidates": [
       {
@@ -2127,7 +2127,7 @@
       }
     ]
   },
-  "620L400US42121": {
+  "lower_121": {
     "District": "121st Legislative District",
     "Candidates": [
       {
@@ -2148,7 +2148,7 @@
       }
     ]
   },
-  "620L400US42122": {
+  "lower_122": {
     "District": "122nd Legislative District",
     "Candidates": [
       {
@@ -2177,7 +2177,7 @@
       }
     ]
   },
-  "620L400US42123": {
+  "lower_123": {
     "District": "123rd Legislative District",
     "Candidates": [
       {
@@ -2190,7 +2190,7 @@
       }
     ]
   },
-  "620L400US42124": {
+  "lower_124": {
     "District": "124th Legislative District",
     "Candidates": [
       {
@@ -2203,7 +2203,7 @@
       }
     ]
   },
-  "620L400US42125": {
+  "lower_125": {
     "District": "125th Legislative District",
     "Candidates": [
       {
@@ -2216,7 +2216,7 @@
       }
     ]
   },
-  "620L400US42126": {
+  "lower_126": {
     "District": "126th Legislative District",
     "Candidates": [
       {
@@ -2229,7 +2229,7 @@
       }
     ]
   },
-  "620L400US42127": {
+  "lower_127": {
     "District": "127th Legislative District",
     "Candidates": [
       {
@@ -2242,7 +2242,7 @@
       }
     ]
   },
-  "620L400US42128": {
+  "lower_128": {
     "District": "128th Legislative District",
     "Candidates": [
       {
@@ -2255,7 +2255,7 @@
       }
     ]
   },
-  "620L400US42129": {
+  "lower_129": {
     "District": "129th Legislative District",
     "Candidates": [
       {
@@ -2268,7 +2268,7 @@
       }
     ]
   },
-  "620L400US42130": {
+  "lower_130": {
     "District": "130th Legislative District",
     "Candidates": [
       {
@@ -2281,7 +2281,7 @@
       }
     ]
   },
-  "620L400US42131": {
+  "lower_131": {
     "District": "131st Legislative District",
     "Candidates": [
       {
@@ -2302,7 +2302,7 @@
       }
     ]
   },
-  "620L400US42132": {
+  "lower_132": {
     "District": "132nd Legislative District",
     "Candidates": [
       {
@@ -2323,7 +2323,7 @@
       }
     ]
   },
-  "620L400US42133": {
+  "lower_133": {
     "District": "133rd Legislative District",
     "Candidates": [
       {
@@ -2352,7 +2352,7 @@
       }
     ]
   },
-  "620L400US42134": {
+  "lower_134": {
     "District": "134th Legislative District",
     "Candidates": [
       {
@@ -2365,7 +2365,7 @@
       }
     ]
   },
-  "620L400US42135": {
+  "lower_135": {
     "District": "135th Legislative District",
     "Candidates": [
       {
@@ -2378,7 +2378,7 @@
       }
     ]
   },
-  "620L400US42136": {
+  "lower_136": {
     "District": "136th Legislative District",
     "Candidates": [
       {
@@ -2391,7 +2391,7 @@
       }
     ]
   },
-  "620L400US42137": {
+  "lower_137": {
     "District": "137th Legislative District",
     "Candidates": [
       {
@@ -2412,7 +2412,7 @@
       }
     ]
   },
-  "620L400US42138": {
+  "lower_138": {
     "District": "138th Legislative District",
     "Candidates": [
       {
@@ -2433,7 +2433,7 @@
       }
     ]
   },
-  "620L400US42139": {
+  "lower_139": {
     "District": "139th Legislative District",
     "Candidates": [
       {
@@ -2446,7 +2446,7 @@
       }
     ]
   },
-  "620L400US42140": {
+  "lower_140": {
     "District": "140th Legislative District",
     "Candidates": [
       {
@@ -2459,7 +2459,7 @@
       }
     ]
   },
-  "620L400US42141": {
+  "lower_141": {
     "District": "141st Legislative District",
     "Candidates": [
       {
@@ -2480,7 +2480,7 @@
       }
     ]
   },
-  "620L400US42142": {
+  "lower_142": {
     "District": "142nd Legislative District",
     "Candidates": [
       {
@@ -2493,7 +2493,7 @@
       }
     ]
   },
-  "620L400US42143": {
+  "lower_143": {
     "District": "143rd Legislative District",
     "Candidates": [
       {
@@ -2514,7 +2514,7 @@
       }
     ]
   },
-  "620L400US42144": {
+  "lower_144": {
     "District": "144th Legislative District",
     "Candidates": [
       {
@@ -2527,7 +2527,7 @@
       }
     ]
   },
-  "620L400US42145": {
+  "lower_145": {
     "District": "145th Legislative District",
     "Candidates": [
       {
@@ -2548,7 +2548,7 @@
       }
     ]
   },
-  "620L400US42146": {
+  "lower_146": {
     "District": "146th Legislative District",
     "Candidates": [
       {
@@ -2569,7 +2569,7 @@
       }
     ]
   },
-  "620L400US42147": {
+  "lower_147": {
     "District": "147th Legislative District",
     "Candidates": [
       {
@@ -2590,7 +2590,7 @@
       }
     ]
   },
-  "620L400US42148": {
+  "lower_148": {
     "District": "148th Legislative District",
     "Candidates": [
       {
@@ -2611,7 +2611,7 @@
       }
     ]
   },
-  "620L400US42149": {
+  "lower_149": {
     "District": "149th Legislative District",
     "Candidates": [
       {
@@ -2632,7 +2632,7 @@
       }
     ]
   },
-  "620L400US42150": {
+  "lower_150": {
     "District": "150th Legislative District",
     "Candidates": [
       {
@@ -2653,7 +2653,7 @@
       }
     ]
   },
-  "620L400US42151": {
+  "lower_151": {
     "District": "151st Legislative District",
     "Candidates": [
       {
@@ -2674,7 +2674,7 @@
       }
     ]
   },
-  "620L400US42152": {
+  "lower_152": {
     "District": "152nd Legislative District",
     "Candidates": [
       {
@@ -2695,7 +2695,7 @@
       }
     ]
   },
-  "620L400US42153": {
+  "lower_153": {
     "District": "153rd Legislative District",
     "Candidates": [
       {
@@ -2716,7 +2716,7 @@
       }
     ]
   },
-  "620L400US42154": {
+  "lower_154": {
     "District": "154th Legislative District",
     "Candidates": [
       {
@@ -2737,7 +2737,7 @@
       }
     ]
   },
-  "620L400US42155": {
+  "lower_155": {
     "District": "155th Legislative District",
     "Candidates": [
       {
@@ -2758,7 +2758,7 @@
       }
     ]
   },
-  "620L400US42156": {
+  "lower_156": {
     "District": "156th Legislative District",
     "Candidates": [
       {
@@ -2779,7 +2779,7 @@
       }
     ]
   },
-  "620L400US42157": {
+  "lower_157": {
     "District": "157th Legislative District",
     "Candidates": [
       {
@@ -2800,7 +2800,7 @@
       }
     ]
   },
-  "620L400US42158": {
+  "lower_158": {
     "District": "158th Legislative District",
     "Candidates": [
       {
@@ -2821,7 +2821,7 @@
       }
     ]
   },
-  "620L400US42159": {
+  "lower_159": {
     "District": "159th Legislative District",
     "Candidates": [
       {
@@ -2842,7 +2842,7 @@
       }
     ]
   },
-  "620L400US42160": {
+  "lower_160": {
     "District": "160th Legislative District",
     "Candidates": [
       {
@@ -2863,7 +2863,7 @@
       }
     ]
   },
-  "620L400US42161": {
+  "lower_161": {
     "District": "161th Legislative District",
     "Candidates": [
       {
@@ -2884,7 +2884,7 @@
       }
     ]
   },
-  "620L400US42162": {
+  "lower_162": {
     "District": "162th Legislative District",
     "Candidates": [
       {
@@ -2905,7 +2905,7 @@
       }
     ]
   },
-  "620L400US42163": {
+  "lower_163": {
     "District": "163th Legislative District",
     "Candidates": [
       {
@@ -2926,7 +2926,7 @@
       }
     ]
   },
-  "620L400US42164": {
+  "lower_164": {
     "District": "164th Legislative District",
     "Candidates": [
       {
@@ -2947,7 +2947,7 @@
       }
     ]
   },
-  "620L400US42165": {
+  "lower_165": {
     "District": "165th Legislative District",
     "Candidates": [
       {
@@ -2968,7 +2968,7 @@
       }
     ]
   },
-  "620L400US42166": {
+  "lower_166": {
     "District": "166th Legislative District",
     "Candidates": [
       {
@@ -2989,7 +2989,7 @@
       }
     ]
   },
-  "620L400US42167": {
+  "lower_167": {
     "District": "167th Legislative District",
     "Candidates": [
       {
@@ -3010,7 +3010,7 @@
       }
     ]
   },
-  "620L400US42168": {
+  "lower_168": {
     "District": "168th Legislative District",
     "Candidates": [
       {
@@ -3031,7 +3031,7 @@
       }
     ]
   },
-  "620L400US42169": {
+  "lower_169": {
     "District": "169th Legislative District",
     "Candidates": [
       {
@@ -3052,7 +3052,7 @@
       }
     ]
   },
-  "620L400US42170": {
+  "lower_170": {
     "District": "170th Legislative District",
     "Candidates": [
       {
@@ -3073,7 +3073,7 @@
       }
     ]
   },
-  "620L400US42171": {
+  "lower_171": {
     "District": "171st Legislative District",
     "Candidates": [
       {
@@ -3094,7 +3094,7 @@
       }
     ]
   },
-  "620L400US42172": {
+  "lower_172": {
     "District": "172nd Legislative District",
     "Candidates": [
       {
@@ -3115,7 +3115,7 @@
       }
     ]
   },
-  "620L400US42173": {
+  "lower_173": {
     "District": "173rd Legislative District",
     "Candidates": [
       {
@@ -3128,7 +3128,7 @@
       }
     ]
   },
-  "620L400US42174": {
+  "lower_174": {
     "District": "174th Legislative District",
     "Candidates": [
       {
@@ -3141,7 +3141,7 @@
       }
     ]
   },
-  "620L400US42175": {
+  "lower_175": {
     "District": "175th Legislative District",
     "Candidates": [
       {
@@ -3154,7 +3154,7 @@
       }
     ]
   },
-  "620L400US42176": {
+  "lower_176": {
     "District": "176th Legislative District",
     "Candidates": [
       {
@@ -3167,7 +3167,7 @@
       }
     ]
   },
-  "620L400US42177": {
+  "lower_177": {
     "District": "177th Legislative District",
     "Candidates": [
       {
@@ -3188,7 +3188,7 @@
       }
     ]
   },
-  "620L400US42178": {
+  "lower_178": {
     "District": "178th Legislative District",
     "Candidates": [
       {
@@ -3209,7 +3209,7 @@
       }
     ]
   },
-  "620L400US42179": {
+  "lower_179": {
     "District": "179th Legislative District",
     "Candidates": [
       {
@@ -3222,7 +3222,7 @@
       }
     ]
   },
-  "620L400US42180": {
+  "lower_180": {
     "District": "180th Legislative District",
     "Candidates": [
       {
@@ -3235,7 +3235,7 @@
       }
     ]
   },
-  "620L400US42181": {
+  "lower_181": {
     "District": "181st Legislative District",
     "Candidates": [
       {
@@ -3248,7 +3248,7 @@
       }
     ]
   },
-  "620L400US42182": {
+  "lower_182": {
     "District": "182nd Legislative District",
     "Candidates": [
       {
@@ -3261,7 +3261,7 @@
       }
     ]
   },
-  "620L400US42183": {
+  "lower_183": {
     "District": "183rd Legislative District",
     "Candidates": [
       {
@@ -3282,7 +3282,7 @@
       }
     ]
   },
-  "620L400US42184": {
+  "lower_184": {
     "District": "184th Legislative District",
     "Candidates": [
       {
@@ -3295,7 +3295,7 @@
       }
     ]
   },
-  "620L400US42185": {
+  "lower_185": {
     "District": "185th Legislative District",
     "Candidates": [
       {
@@ -3308,7 +3308,7 @@
       }
     ]
   },
-  "620L400US42186": {
+  "lower_186": {
     "District": "186th Legislative District",
     "Candidates": [
       {
@@ -3321,7 +3321,7 @@
       }
     ]
   },
-  "620L400US42187": {
+  "lower_187": {
     "District": "187th Legislative District",
     "Candidates": [
       {
@@ -3334,7 +3334,7 @@
       }
     ]
   },
-  "620L400US42188": {
+  "lower_188": {
     "District": "188th Legislative District",
     "Candidates": [
       {
@@ -3347,7 +3347,7 @@
       }
     ]
   },
-  "620L400US42189": {
+  "lower_189": {
     "District": "189th Legislative District",
     "Candidates": [
       {
@@ -3368,7 +3368,7 @@
       }
     ]
   },
-  "620L400US42190": {
+  "lower_190": {
     "District": "190th Legislative District",
     "Candidates": [
       {
@@ -3381,7 +3381,7 @@
       }
     ]
   },
-  "620L400US42191": {
+  "lower_191": {
     "District": "191st Legislative District",
     "Candidates": [
       {
@@ -3394,7 +3394,7 @@
       }
     ]
   },
-  "620L400US42192": {
+  "lower_192": {
     "District": "192nd Legislative District",
     "Candidates": [
       {
@@ -3407,7 +3407,7 @@
       }
     ]
   },
-  "620L400US42193": {
+  "lower_193": {
     "District": "193rd Legislative District",
     "Candidates": [
       {
@@ -3428,7 +3428,7 @@
       }
     ]
   },
-  "620L400US42194": {
+  "lower_194": {
     "District": "194th Legislative District",
     "Candidates": [
       {
@@ -3449,7 +3449,7 @@
       }
     ]
   },
-  "620L400US42195": {
+  "lower_195": {
     "District": "195th Legislative District",
     "Candidates": [
       {
@@ -3462,7 +3462,7 @@
       }
     ]
   },
-  "620L400US42196": {
+  "lower_196": {
     "District": "196th Legislative District",
     "Candidates": [
       {
@@ -3475,7 +3475,7 @@
       }
     ]
   },
-  "620L400US42197": {
+  "lower_197": {
     "District": "197th Legislative District",
     "Candidates": [
       {
@@ -3488,7 +3488,7 @@
       }
     ]
   },
-  "620L400US42198": {
+  "lower_198": {
     "District": "198th Legislative District",
     "Candidates": [
       {
@@ -3501,7 +3501,7 @@
       }
     ]
   },
-  "620L400US42199": {
+  "lower_199": {
     "District": "199th Legislative District",
     "Candidates": [
       {
@@ -3522,7 +3522,7 @@
       }
     ]
   },
-  "620L400US42200": {
+  "lower_200": {
     "District": "200th Legislative District",
     "Candidates": [
       {
@@ -3543,7 +3543,7 @@
       }
     ]
   },
-  "620L400US42201": {
+  "lower_201": {
     "District": "201st Legislative District",
     "Candidates": [
       {
@@ -3556,7 +3556,7 @@
       }
     ]
   },
-  "620L400US42202": {
+  "lower_202": {
     "District": "202nd Legislative District",
     "Candidates": [
       {
@@ -3569,7 +3569,7 @@
       }
     ]
   },
-  "620L400US42203": {
+  "lower_203": {
     "District": "203rd Legislative District",
     "Candidates": [
       {
