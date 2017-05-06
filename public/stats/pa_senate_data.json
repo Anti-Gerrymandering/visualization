@@ -1,5 +1,5 @@
 {
-  "610U400US42001": {
+  "upper_001": {
     "District": "1st Senatorial District",
     "Candidates": [
       {
@@ -12,7 +12,7 @@
       }
     ]
   },
-  "610U400US42003": {
+  "upper_003": {
     "District": "3rd Senatorial District",
     "Candidates": [
       {
@@ -25,7 +25,7 @@
       }
     ]
   },
-  "610U400US42005": {
+  "upper_005": {
     "District": "5th Senatorial District",
     "Candidates": [
       {
@@ -46,7 +46,7 @@
       }
     ]
   },
-  "610U400US42007": {
+  "upper_007": {
     "District": "7th Senatorial District",
     "Candidates": [
       {
@@ -59,7 +59,7 @@
       }
     ]
   },
-  "610U400US42009": {
+  "upper_009": {
     "District": "9th Senatorial District",
     "Candidates": [
       {
@@ -80,7 +80,7 @@
       }
     ]
   },
-  "610U400US42011": {
+  "upper_011": {
     "District": "11th Senatorial District",
     "Candidates": [
       {
@@ -93,7 +93,7 @@
       }
     ]
   },
-  "610U400US42013": {
+  "upper_013": {
     "District": "13th Senatorial District",
     "Candidates": [
       {
@@ -114,7 +114,7 @@
       }
     ]
   },
-  "610U400US42015": {
+  "upper_015": {
     "District": "15th Senatorial District",
     "Candidates": [
       {
@@ -135,7 +135,7 @@
       }
     ]
   },
-  "610U400US42017": {
+  "upper_017": {
     "District": "17th Senatorial District",
     "Candidates": [
       {
@@ -156,7 +156,7 @@
       }
     ]
   },
-  "610U400US42019": {
+  "upper_019": {
     "District": "19th Senatorial District",
     "Candidates": [
       {
@@ -177,7 +177,7 @@
       }
     ]
   },
-  "610U400US42021": {
+  "upper_021": {
     "District": "21st Senatorial District",
     "Candidates": [
       {
@@ -190,7 +190,7 @@
       }
     ]
   },
-  "610U400US42023": {
+  "upper_023": {
     "District": "23rd Senatorial District",
     "Candidates": [
       {
@@ -203,7 +203,7 @@
       }
     ]
   },
-  "610U400US42025": {
+  "upper_025": {
     "District": "25th Senatorial District",
     "Candidates": [
       {
@@ -224,7 +224,7 @@
       }
     ]
   },
-  "610U400US42027": {
+  "upper_027": {
     "District": "27th Senatorial District",
     "Candidates": [
       {
@@ -237,7 +237,7 @@
       }
     ]
   },
-  "610U400US42029": {
+  "upper_029": {
     "District": "29th Senatorial District",
     "Candidates": [
       {
@@ -250,7 +250,7 @@
       }
     ]
   },
-  "610U400US42031": {
+  "upper_031": {
     "District": "31st Senatorial District",
     "Candidates": [
       {
@@ -279,7 +279,7 @@
       }
     ]
   },
-  "610U400US42033": {
+  "upper_033": {
     "District": "33rd Senatorial District",
     "Candidates": [
       {
@@ -292,7 +292,7 @@
       }
     ]
   },
-  "610U400US42035": {
+  "upper_035": {
     "District": "35th Senatorial District",
     "Candidates": [
       {
@@ -313,7 +313,7 @@
       }
     ]
   },
-  "610U400US42037": {
+  "upper_037": {
     "District": "37th Senatorial District",
     "Candidates": [
       {
@@ -334,7 +334,7 @@
       }
     ]
   },
-  "610U400US42039": {
+  "upper_039": {
     "District": "39th Senatorial District",
     "Candidates": [
       {
@@ -347,7 +347,7 @@
       }
     ]
   },
-  "610U400US42041": {
+  "upper_041": {
     "District": "41st Senatorial District",
     "Candidates": [
       {
@@ -376,7 +376,7 @@
       }
     ]
   },
-  "610U400US42043": {
+  "upper_043": {
     "District": "43rd Senatorial District",
     "Candidates": [
       {
@@ -389,7 +389,7 @@
       }
     ]
   },
-  "610U400US42045": {
+  "upper_045": {
     "District": "45th Senatorial District",
     "Candidates": [
       {
@@ -402,7 +402,7 @@
       }
     ]
   },
-  "610U400US42047": {
+  "upper_047": {
     "District": "47th Senatorial District",
     "Candidates": [
       {
@@ -415,7 +415,7 @@
       }
     ]
   },
-  "610U400US42049": {
+  "upper_049": {
     "District": "49th Senatorial District",
     "Candidates": [
       {
@@ -436,7 +436,7 @@
       }
     ]
   },
-  "610U400US42002": {
+  "upper_002": {
     "District": "2nd Senatorial District",
     "Candidates": [
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "610U400US42004": {
+  "upper_004": {
     "District": "4th Senatorial District",
     "Candidates": [
       {
@@ -486,7 +486,7 @@
       }
     ]
   },
-  "610U400US42006": {
+  "upper_006": {
     "District": "6th Senatorial District",
     "Candidates": [
       {
@@ -507,7 +507,7 @@
       }
     ]
   },
-  "610U400US42008": {
+  "upper_008": {
     "District": "8th Senatorial District",
     "Candidates": [
       {
@@ -520,7 +520,7 @@
       }
     ]
   },
-  "610U400US42010": {
+  "upper_010": {
     "District": "10th Senatorial District",
     "Candidates": [
       {
@@ -541,7 +541,7 @@
       }
     ]
   },
-  "610U400US42012": {
+  "upper_012": {
     "District": "12th Senatorial District",
     "Candidates": [
       {
@@ -562,7 +562,7 @@
       }
     ]
   },
-  "610U400US42014": {
+  "upper_014": {
     "District": "14th Senatorial District",
     "Candidates": [
       {
@@ -575,7 +575,7 @@
       }
     ]
   },
-  "610U400US42016": {
+  "upper_016": {
     "District": "16th Senatorial District",
     "Candidates": [
       {
@@ -596,7 +596,7 @@
       }
     ]
   },
-  "610U400US42018": {
+  "upper_018": {
     "District": "18th Senatorial District",
     "Candidates": [
       {
@@ -609,7 +609,7 @@
       }
     ]
   },
-  "610U400US42020": {
+  "upper_020": {
     "District": "20th Senatorial District",
     "Candidates": [
       {
@@ -622,7 +622,7 @@
       }
     ]
   },
-  "610U400US42022": {
+  "upper_022": {
     "District": "22nd Senatorial District",
     "Candidates": [
       {
@@ -643,7 +643,7 @@
       }
     ]
   },
-  "610U400US42024": {
+  "upper_024": {
     "District": "24th Senatorial District",
     "Candidates": [
       {
@@ -664,7 +664,7 @@
       }
     ]
   },
-  "610U400US42026": {
+  "upper_026": {
     "District": "26th Senatorial District",
     "Candidates": [
       {
@@ -685,7 +685,7 @@
       }
     ]
   },
-  "610U400US42028": {
+  "upper_028": {
     "District": "28th Senatorial District",
     "Candidates": [
       {
@@ -706,7 +706,7 @@
       }
     ]
   },
-  "610U400US42030": {
+  "upper_030": {
     "District": "30th Senatorial District",
     "Candidates": [
       {
@@ -719,7 +719,7 @@
       }
     ]
   },
-  "610U400US42032": {
+  "upper_032": {
     "District": "32nd Senatorial District",
     "Candidates": [
       {
@@ -740,7 +740,7 @@
       }
     ]
   },
-  "610U400US42034": {
+  "upper_034": {
     "District": "34th Senatorial District",
     "Candidates": [
       {
@@ -753,7 +753,7 @@
       }
     ]
   },
-  "610U400US42036": {
+  "upper_036": {
     "District": "36th Senatorial District",
     "Candidates": [
       {
@@ -774,7 +774,7 @@
       }
     ]
   },
-  "610U400US42038": {
+  "upper_038": {
     "District": "38th Senatorial District",
     "Candidates": [
       {
@@ -787,7 +787,7 @@
       }
     ]
   },
-  "610U400US42040": {
+  "upper_040": {
     "District": "40th Senatorial District",
     "Candidates": [
       {
@@ -808,7 +808,7 @@
       }
     ]
   },
-  "610U400US42042": {
+  "upper_042": {
     "District": "42nd Senatorial District",
     "Candidates": [
       {
@@ -821,7 +821,7 @@
       }
     ]
   },
-  "610U400US42044": {
+  "upper_044": {
     "District": "44th Senatorial District",
     "Candidates": [
       {
@@ -842,7 +842,7 @@
       }
     ]
   },
-  "610U400US42046": {
+  "upper_046": {
     "District": "46th Senatorial District",
     "Candidates": [
       {
@@ -863,7 +863,7 @@
       }
     ]
   },
-  "610U400US42048": {
+  "upper_048": {
     "District": "48th Senatorial District",
     "Candidates": [
       {
@@ -876,7 +876,7 @@
       }
     ]
   },
-  "610U400US42050": {
+  "upper_050": {
     "District": "50th Senatorial District",
     "Candidates": [
       {

@@ -1,5 +1,5 @@
 {
-  "5001400US4201": {
+  "federal_01": {
     "District": "1st Congressional District",
     "Candidates": [
       {
@@ -20,7 +20,7 @@
       }
     ]
   },
-  "5001400US4202": {
+  "federal_02": {
     "District": "2nd Congressional District",
     "Candidates": [
       {
@@ -41,7 +41,7 @@
       }
     ]
   },
-  "5001400US4203": {
+  "federal_03": {
     "District": "3rd Congressional District",
     "Candidates": [
       {
@@ -54,7 +54,7 @@
       }
     ]
   },
-  "5001400US4204": {
+  "federal_04": {
     "District": "4th Congressional District",
     "Candidates": [
       {
@@ -75,7 +75,7 @@
       }
     ]
   },
-  "5001400US4205": {
+  "federal_05": {
     "District": "5th Congressional District",
     "Candidates": [
       {
@@ -96,7 +96,7 @@
       }
     ]
   },
-  "5001400US4206": {
+  "federal_06": {
     "District": "6th Congressional District",
     "Candidates": [
       {
@@ -117,7 +117,7 @@
       }
     ]
   },
-  "5001400US4207": {
+  "federal_07": {
     "District": "7th Congressional District",
     "Candidates": [
       {
@@ -138,7 +138,7 @@
       }
     ]
   },
-  "5001400US4208": {
+  "federal_08": {
     "District": "8th Congressional District",
     "Candidates": [
       {
@@ -159,7 +159,7 @@
       }
     ]
   },
-  "5001400US4209": {
+  "federal_09": {
     "District": "9th Congressional District",
     "Candidates": [
       {
@@ -180,7 +180,7 @@
       }
     ]
   },
-  "5001400US4210": {
+  "federal_10": {
     "District": "10th Congressional District",
     "Candidates": [
       {
@@ -201,7 +201,7 @@
       }
     ]
   },
-  "5001400US4211": {
+  "federal_11": {
     "District": "11th Congressional District",
     "Candidates": [
       {
@@ -222,7 +222,7 @@
       }
     ]
   },
-  "5001400US4212": {
+  "federal_12": {
     "District": "12th Congressional District",
     "Candidates": [
       {
@@ -243,7 +243,7 @@
       }
     ]
   },
-  "5001400US4213": {
+  "federal_13": {
     "District": "13th Congressional District",
     "Candidates": [
       {
@@ -256,7 +256,7 @@
       }
     ]
   },
-  "5001400US4214": {
+  "federal_14": {
     "District": "14th Congressional District",
     "Candidates": [
       {
@@ -277,7 +277,7 @@
       }
     ]
   },
-  "5001400US4215": {
+  "federal_15": {
     "District": "15th Congressional District",
     "Candidates": [
       {
@@ -306,7 +306,7 @@
       }
     ]
   },
-  "5001400US4216": {
+  "federal_16": {
     "District": "16th Congressional District",
     "Candidates": [
       {
@@ -335,7 +335,7 @@
       }
     ]
   },
-  "5001400US4217": {
+  "federal_17": {
     "District": "17th Congressional District",
     "Candidates": [
       {
@@ -356,7 +356,7 @@
       }
     ]
   },
-  "5001400US4218": {
+  "federal_18": {
     "District": "18th Congressional District",
     "Candidates": [
       {
