@@ -7,8 +7,8 @@ export function mapControllerReducer (state = {}, action) {
 
   switch (action.type) {
     case MAP_SWITCH_LAYER:
-      const { branch, layer } = action
-      return Object.assign({}, state, { branch, layer, year })
+      const { branch } = action
+      return Object.assign({}, state, { branch, year })
     case CHANGE_YEAR:
       return Object.assign({}, state, { year })
     case CHANGE_ACTIVE_DISTRICT:
@@ -18,3 +18,5 @@ export function mapControllerReducer (state = {}, action) {
       return state
   }
 }
+
+export default mapControllerReducer

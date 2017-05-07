@@ -1,6 +1,6 @@
 import React from 'react'
 import TimeLine from './TimeLine'
-import StatsSidebar from './StatsSidebar'
+import StatsPanel from './StatsPanel'
 
 const BottomNav = () => {
   return (
@@ -21,7 +21,7 @@ const BottomNav = () => {
         <div className='column is-7'>
           <div className='gr-BottomNavInnerPadding gr-ResultsDiv'>
             <div className='gr-HR' />
-            <StatsSidebar />
+            <StatsPanel />
           </div>
         </div>
 

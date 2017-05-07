@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 /**
- * StatsSidebar displays a sidebar with statistics for the
+ * StatsPanel displays statistics for the
  * currently selected district
  */
 @connect(state => {
@@ -16,13 +16,13 @@ import { connect } from 'react-redux'
 
   return { activeDistrict, stats }
 })
-class StatsSidebar extends Component {
+class StatsPanel extends Component {
   districtStats () {
     if (this.props.stats) {
       const district = this.props.activeDistrict
       const { stats } = this.props
       return (
-        <div className='statsSideBar-ResultsDiv'>
+        <div className='statsPanel-ResultsDiv'>
           <div>
             <h2 className='resultDistrictHeader'>{stats.District}&#039;s Election Results</h2>
 
@@ -57,11 +57,11 @@ class StatsSidebar extends Component {
 
   render () {
     return (
-      <div id='sidebar'>
+      <div id='stats'>
         {this.districtStats()}
       </div>
     )
   }
 }
 
-export default StatsSidebar
+export default StatsPanel
