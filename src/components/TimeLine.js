@@ -28,7 +28,7 @@ class TimeLine extends Component {
 
     return (
       <div className='timeLine'>
-        <ul>
+        <ul className='timeLineUL'>
           { years }
         </ul>
       </div>
