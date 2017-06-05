@@ -5,9 +5,9 @@
   "private": true,
   "dependencies": {
     "bulma": "^0.4.0",
-    "dotenv": "^2.0.0",
     "immutable": "^3.8.1",
     "leaflet": "^1.0.3",
+    "prop-types": "^15.5.9",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-leaflet": "^1.1.4",

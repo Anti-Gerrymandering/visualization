@@ -4,10 +4,14 @@ import * as Actions from '../actions/geoCodeAction'
 class SearchBar extends Component {
   constructor () {
     super()
-    this.state = { addr: '1401 John F Kennedy Blvd, Philadelphia, PA 19107' }
+    this.state = { addr: '' }
+
+    // Bind event listeners to the class
+    this.submit = this.submit.bind(this)
+    this.changeVal = this.changeVal.bind(this)
   }
   changeVal (e) {
-    this.setState({addr: e.target.value})
+    this.setState({ addr: e.target.value })
   }
   submit (e) {
     e.preventDefault()
@@ -24,11 +28,11 @@ class SearchBar extends Component {
             <div className='leftNav-innerDiv-middle' />
           </div>
           <div className='column is-5'>
-            <form onSubmit={this.submit.bind(this)} >
+            <form onSubmit={this.submit} >
               <div className='gm-rightHorn'>
                 <input className='gm-form-control'
                   type='text'
-                  onChange={this.changeVal.bind(this)}
+                  onChange={this.changeVal}
                   defaultValue={this.state.addr} />
               </div>
             </form>

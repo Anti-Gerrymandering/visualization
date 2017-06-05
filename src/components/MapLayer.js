@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Map, Marker, TileLayer } from 'react-leaflet'
 import GeoJsonUpdatable from './GeoJsonUpdatable'
@@ -17,12 +18,10 @@ const zoomLevel = 7
  * @param {ReactProps} props - containing lat and long
  */
 const AddressMarker = props => {
-  if (props === null) return null
-  const markers = props.map((e, i) => {
-    const position = [e.lat, e.lng]
-    return <Marker key={i} position={position} />
-  })
-  return markers
+  if (!props) return null
+
+  const position = [props.lat, props.lng]
+  return <Marker position={position} />
 }
 
 const getColorCompactness = (c) =>
@@ -57,22 +56,29 @@ const setDistrictStyle = (feature, layer) => {
  * so leaflet can be updated.
  * https://facebook.github.io/react/docs/refs-and-the-dom.html
  */
-@connect(props => {
-  const { addr, data } = props.mapDataReducer
-  return { addr, data }
+@connect(state => {
+  const { coordinates, data } = state.mapDataReducer
+  return { coordinates, data }
 })
 class MapLayer extends Component {
+  static propTypes = {
+    coordinates: PropTypes.shape({
+      lat: PropTypes.number,
+      lng: PropTypes.number
+    })
+  }
+
   componentWillMount () {
     fetchGeoJson()
   }
 
-  componentDidUpdate (prevProps, prevState) {
+  componentDidUpdate () {
     this.zoomTo()
   }
 
   zoomTo () {
-    if (this.props.addr === null) return
-    const { lat, lng } = this.props.addr[0]
+    if (!this.props.coordinates) return
+    const { lat, lng } = this.props.coordinates
     const latLng = L.latLng([lat, lng])
     this.leaflet.leafletElement.setView(latLng, 14)
   }
@@ -96,7 +102,7 @@ class MapLayer extends Component {
                 attribution={stamenTonerAttr}
                 url={stamenTonerTiles} />
               { geo() }
-              { AddressMarker(this.props.addr) }
+              { AddressMarker(this.props.coordinates) }
             </Map>
           </div>
         </div>

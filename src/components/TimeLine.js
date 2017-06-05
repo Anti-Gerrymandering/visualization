@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Map } from 'immutable'
 
@@ -19,12 +20,15 @@ const yearLi = prop => {
   return { geoFiles: geoFiles }
 })
 class TimeLine extends Component {
+  static propTypes = {
+    geoFiles: PropTypes.instanceOf(Map).isRequired
+  }
+
   render () {
     const years = this.props.geoFiles.entrySeq()
       .sort((fileA, fileB) => fileB[0] - fileA[0])
-      .map(([ year, file ]) => {
-        return yearLi({ key: file, year: year })
-      })
+      .map(([ year, file ]) => yearLi({ key: file, year })
+      )
 
     return (
       <div className='timeLine'>
