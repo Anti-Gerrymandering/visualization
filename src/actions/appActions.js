@@ -1,7 +1,6 @@
 import ACTIONS, { uri } from './index'
 import { Map } from 'immutable'
 import { fetchGeoJson, fetchStatsJson } from './mapActions'
-import store from '../configureStore'
 
 /**
  * Simple function to change the year
@@ -46,19 +45,18 @@ export function onLoad () {
 export function pullMetaData () {
   return (dispatch) =>
     window.fetch(uri + 'metaData.json')
-      .then(rsp => {
-        rsp.json().then(json => {
-          const geoFiles = Map(json.geoFiles)
-          const { statsFiles } = json
-          store.dispatch({
-            type: ACTIONS.META_DATA,
-            geoFiles,
-            statsFiles,
-            branch: Object.keys(geoFiles)[0]
-          })
-          fetchGeoJson()
-          fetchStatsJson()
+      .then(rsp => rsp.json())
+      .then(json => {
+        const geoFiles = Map(json.geoFiles)
+        const { statsFiles } = json
+        dispatch({
+          type: ACTIONS.META_DATA,
+          geoFiles,
+          statsFiles,
+          branch: Object.keys(json.geoFiles)[0]
         })
+        fetchGeoJson()
+        fetchStatsJson()
       })
       .catch(() => console.error('Failed to fetch metadata!'))
 }
