@@ -50,7 +50,7 @@ export function fetchGeoJson () {
           })
         })
         // TODO: FINISH ERROR HANDLER
-        .catch(err => console.log(err))
+        .catch(() => console.log('Failed to fetch GEOJSON!'))
 }
 
 /**

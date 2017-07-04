@@ -8,10 +8,10 @@ import store from '../configureStore'
  * @param {String} year
  */
 export function changeYear (year) {
-  return () => {
-    store.dispatch({ type: ACTIONS.CHANGE_YEAR, year })
+  return (dispatch) => {
     console.log('Year change')
-    fetchGeoJson()
+    dispatch({ type: ACTIONS.CHANGE_YEAR, year })
+    return fetchGeoJson()
   }
 }
 
@@ -37,34 +37,28 @@ export function convertBranch (branch) {
  * onLoad functions checks on the availability of the META-Data
  */
 export function onLoad () {
-  const { mapDataReducer } = store.getState()
-  // REVIEW: Potentially unnecessary check
-  if (mapDataReducer.geoFiles.size < 1) {
-    pullMetaData()
-    return
-  }
-  fetchGeoJson()
+  pullMetaData()
 }
 
 /**
  * pullMetaData triggers an ajax action and loads necessary data if needed
  */
 export function pullMetaData () {
-  const { META_DATA } = ACTIONS
-  window.fetch(uri + 'metaData.json')
-        .then(rsp => {
-          rsp.json().then(json => {
-            const geoFiles = Map(json.geoFiles)
-            const { statsFiles } = json
-            store.dispatch({
-              type: META_DATA,
-              geoFiles,
-              statsFiles,
-              branch: Object.keys(geoFiles)[0]
-            })
-            fetchGeoJson()
-            fetchStatsJson()
+  return (dispatch) =>
+    window.fetch(uri + 'metaData.json')
+      .then(rsp => {
+        rsp.json().then(json => {
+          const geoFiles = Map(json.geoFiles)
+          const { statsFiles } = json
+          store.dispatch({
+            type: ACTIONS.META_DATA,
+            geoFiles,
+            statsFiles,
+            branch: Object.keys(geoFiles)[0]
           })
+          fetchGeoJson()
+          fetchStatsJson()
         })
-        .catch(e => console.error(e))
+      })
+      .catch(() => console.error('Failed to fetch metadata!'))
 }

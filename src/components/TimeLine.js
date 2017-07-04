@@ -5,14 +5,14 @@ import { Map } from 'immutable'
 
 import { changeYear } from '../actions/appActions'
 
-const yearLi = prop => {
-  const { key, year } = prop
+const Year = connect()(({year, dispatch}) => {
   return (
-    <li key={key} onClick={changeYear(year)} >
+    <li onClick={() => dispatch(changeYear(year))} >
       { year }
     </li>
   )
 }
+)
 
 @connect(state => {
   const { mapDataReducer, mapControllerReducer } = state
@@ -27,7 +27,7 @@ class TimeLine extends Component {
   render () {
     const years = this.props.geoFiles.entrySeq()
       .sort((fileA, fileB) => fileB[0] - fileA[0])
-      .map(([ year, file ]) => yearLi({ key: file, year })
+      .map(([ year, file ]) => (<Year key={file} year={year} />)
       )
 
     return (
