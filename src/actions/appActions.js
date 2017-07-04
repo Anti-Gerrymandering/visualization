@@ -36,7 +36,8 @@ export function convertBranch (branch) {
  * onLoad functions checks on the availability of the META-Data
  */
 export function onLoad () {
-  pullMetaData()
+  return (dispatch) =>
+    dispatch(pullMetaData())
 }
 
 /**
