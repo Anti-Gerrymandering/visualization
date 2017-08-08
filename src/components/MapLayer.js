@@ -33,7 +33,7 @@ const getColorCompactness = (c) =>
     : c > 0.05 ? '#e31a1c'
     : '#b10026'
 
-const setDistrictStyle = (feature, layer) => {
+const setDistrictStyle = (dispatch) => (feature, layer) => {
   layer.setStyle({
     fillColor: getColorCompactness(feature.properties.Compactness),
     weight: 1,
@@ -69,7 +69,7 @@ class MapLayer extends Component {
   }
 
   componentWillMount () {
-    fetchGeoJson()
+    this.props.dispatch(fetchGeoJson())
   }
 
   componentDidUpdate () {
@@ -87,7 +87,7 @@ class MapLayer extends Component {
     const geo = () => {
       // TODO: refactor in a more efficient manner
       if (Object.keys(this.props.data).length >= 1) {
-        return <GeoJsonUpdatable data={this.props.data} onEachFeature={setDistrictStyle} />
+        return <GeoJsonUpdatable data={this.props.data} onEachFeature={setDistrictStyle(this.props.dispatch)} />
       }
       return null
     }

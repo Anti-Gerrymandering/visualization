@@ -7,7 +7,11 @@ import SearchBar from './SearchBar'
 import * as Actions from '../actions/mapActions'
 import { convertBranch } from '../actions/appActions'
 
-const BranchTab = ({ branch, active }) => {
+const BranchTab = connect(null, (dispatch, { branch }) => ({
+  onClick: () => {
+    dispatch(Actions.switchBranch(branch))
+  }
+}))(({ branch, active, onClick }) => {
   const style = () => {
     const base = 'nav-item '
     if (active) return base + ' active'
@@ -16,11 +20,11 @@ const BranchTab = ({ branch, active }) => {
   }
 
   return (
-    <a onClick={Actions.switchBranch(branch)} className={style()} >
+    <a onClick={onClick} className={style()} >
       <span>{convertBranch(branch)}</span>
     </a>
   )
-}
+})
 
 BranchTab.propTypes = {
   branch: PropTypes.string.isRequired,
