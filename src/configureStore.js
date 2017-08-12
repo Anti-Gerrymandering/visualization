@@ -1,6 +1,6 @@
 import { createStore } from 'redux'
 import rootReducer from './reducers/index'
-import { OrderedSet } from 'immutable'
+import { Map, OrderedSet } from 'immutable'
 
 /* State provided on load */
 const defaultState = {
@@ -18,7 +18,7 @@ const defaultState = {
     addr: null
   }, */
   mapDataReducer: {
-    geoFiles: OrderedSet([]),
+    geoFiles: Map({}),
     data: {},
     addr: null,
     years: OrderedSet([])

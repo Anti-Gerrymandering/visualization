@@ -2,27 +2,27 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 /**
- * StatsSidebar displays a sidebar with statistics for the
+ * StatsPanel displays statistics for the
  * currently selected district
  */
-@connect(props => {
-  const { activeDistrict } = props.mapControllerReducer
+@connect(state => {
+  const { activeDistrict, branch } = state.mapControllerReducer
   let stats
 
   if (activeDistrict) {
-    const affGeoid = activeDistrict.properties.AFFGEOID
-    stats = props.mapDataReducer.stats[affGeoid]
+    const districtId = `${branch}_${activeDistrict.properties.GEOID.substring(2)}`
+    stats = state.mapDataReducer.stats[districtId]
   }
 
   return { activeDistrict, stats }
 })
-class StatsSidebar extends Component {
+class StatsPanel extends Component {
   districtStats () {
     if (this.props.stats) {
       const district = this.props.activeDistrict
       const { stats } = this.props
       return (
-        <div className='statsSideBar-ResultsDiv'>
+        <div className='statsPanel-ResultsDiv'>
           <div>
             <h2 className='resultDistrictHeader'>{stats.District}&#039;s Election Results</h2>
 
@@ -35,7 +35,7 @@ class StatsSidebar extends Component {
 
             <div className='electionResultsOuterDiv'>
               {stats.Candidates.map(candidate =>
-                <div className='electionResultsInnerDiv'><div key={candidate.CandidateName}>
+                <div key={candidate.CandidateName} className='electionResultsInnerDiv'>
                   <h4>{candidate.CandidateName}</h4>
                   <dl>
                     <dt>Party: {candidate.PartyName}</dt>
@@ -43,7 +43,7 @@ class StatsSidebar extends Component {
                     <dt><span className='spanUnderline'>Percentage of Vote</span></dt>
                     <dd><span className='spanItalics'>{candidate.Percentage} %</span></dd>
                   </dl>
-                </div></div>
+                </div>
           )}
             </div>
           </div></div>
@@ -57,11 +57,11 @@ class StatsSidebar extends Component {
 
   render () {
     return (
-      <div id='sidebar'>
+      <div id='stats'>
         {this.districtStats()}
       </div>
     )
   }
 }
 
-export default StatsSidebar
+export default StatsPanel

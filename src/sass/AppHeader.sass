@@ -1,4 +1,4 @@
-.App-header 
+.App-header
   min-height: 10px
   width: 100%
   overflow: hidden
@@ -19,7 +19,8 @@
   overflow: hidden !important
 
 
-.gm-navA, .gm-navB, .gm-navC
+.nav-item
+  background-color: #D5DBF3
   border-top-right-radius: 10px
   border-top-left-radius: 10px
   border-left: 1px solid #B5B4C2
@@ -28,16 +29,13 @@
   width: auto
   font-size: 14px !important
   font-weight: normal
+  margin-right: 5px
 
-.gm-navA
-  background-color: #D5DBF3
+  &:last-child
+    margin-right: 0
 
-.gm-navB
-  background-color: #D5DBF3
-  margin: 0px 5px
-
-.gm-navC
-  background-color: #D5DBF3
+  &.active
+    color: black
 
 .gm-rightHorn
   padding: 5px
@@ -67,7 +65,7 @@
   padding: 30px 10px 10px 10px
 
 @media (min-width: 0px) and (max-width: 768px)
-  .gm-navA, .gm-navB, .gm-navC
+  .nav-item
       width: 90px
       font-size: 8px !important
       font-weight: bold
