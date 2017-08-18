@@ -42,7 +42,7 @@ const setDistrictStyle = (dispatch) => (feature, layer) => {
     fillOpacity: 0.8
   })
   layer.on({
-    click: () => setCurrentDistrict(feature)
+    click: () => dispatch(setCurrentDistrict(feature))
   })
 }
 

@@ -1,6 +1,6 @@
 import ACTIONS, { uri } from './index'
 import { Map } from 'immutable'
-import { fetchGeoJson, fetchStatsJson } from './mapActions'
+import { fetchGeoJson, switchBranch } from './mapActions'
 
 /**
  * Simple function to change the year
@@ -10,7 +10,7 @@ export function changeYear (year) {
   return (dispatch) => {
     console.log('Year change')
     dispatch({ type: ACTIONS.CHANGE_YEAR, year })
-    return fetchGeoJson()
+    return dispatch(fetchGeoJson())
   }
 }
 
@@ -36,8 +36,7 @@ export function convertBranch (branch) {
  * onLoad functions checks on the availability of the META-Data
  */
 export function onLoad () {
-  return (dispatch) =>
-    dispatch(pullMetaData())
+  return (dispatch) => dispatch(pullMetaData())
 }
 
 /**
@@ -53,11 +52,11 @@ export function pullMetaData () {
         dispatch({
           type: ACTIONS.META_DATA,
           geoFiles,
-          statsFiles,
-          branch: Object.keys(json.geoFiles)[0]
+          statsFiles
         })
-        fetchGeoJson()
-        fetchStatsJson()
+
+        const branch = Object.keys(json.geoFiles)[0]
+        dispatch(switchBranch(branch))
       })
       .catch(() => console.error('Failed to fetch metadata!'))
 }

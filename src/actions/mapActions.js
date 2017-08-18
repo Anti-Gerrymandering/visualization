@@ -10,10 +10,15 @@ import store from '../configureStore'
 export function switchBranch (branch) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
 
-  return dispatch => {
+  return (dispatch, getState) => {
+    const { mapDataReducer: { geoFiles } } = getState()
+
+    const years = Object.keys(geoFiles.get(branch))
+    const year = years[years.length - 1]
+
     dispatch({
       type: MAP_SWITCH_LAYER,
-      year: null,
+      year,
       branch
     })
 
@@ -27,21 +32,21 @@ export function switchBranch (branch) {
  * TODO: FINISH ERROR HANDLER
  */
 export function fetchGeoJson () {
-  return dispatch => {
-    const { mapDataReducer, mapControllerReducer } = store.getState()
+  return (dispatch, getState) => {
+    const { mapDataReducer, mapControllerReducer } = getState()
     const { geoFiles } = mapDataReducer
     const { branch, year } = mapControllerReducer
     if (geoFiles.size < 1) return
     // Ugly uri builder
     const fileUri = uri + branch + '/' + geoFiles.get(branch)[year] + '.geojson'
     console.log('FETCHING URI', fileUri)
-    window.fetch(fileUri)
-          .then(rsp => {
+    return window.fetch(fileUri)
+          .then(rsp =>
             rsp.json().then(json => {
               const { GEO_DATA_LOADED } = ACTION_EVENTS
-              store.dispatch({ type: GEO_DATA_LOADED, data: json })
+              dispatch({ type: GEO_DATA_LOADED, data: json })
             })
-          })
+          )
           // TODO: FINISH ERROR HANDLER
           .catch(() => console.log('Failed to fetch GEOJSON!'))
   }
@@ -65,7 +70,7 @@ export function fetchStatsJson () {
     const { statsFiles } = mapDataReducer
     const { branch } = mapControllerReducer
 
-    if (statsFiles.size < 1) return
+    if (statsFiles.length < 1) return
     const fileUri = '/stats/' + statsFiles[branch] + '.json'
 
     return window.fetch(fileUri).then(response =>
