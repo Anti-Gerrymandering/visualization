@@ -11,7 +11,10 @@ const mockStore = configureMockStore([thunk])
 
 describe('changeYear', () => {
   it('dispatches a CHANGE_YEAR action', () => {
-    const store = mockStore({})
+    const store = mockStore({
+      mapDataReducer: { geoFiles: { size: 0 } },
+      mapControllerReducer: {}
+    })
 
     store.dispatch(changeYear('2015'))
     expect(store.getActions()).toEqual([{ type: actions.CHANGE_YEAR, year: '2015' }])
@@ -26,8 +29,7 @@ describe('pullMetaData', () => {
     const expectedAction = {
       type: actions.META_DATA,
       geoFiles: Map({a: 'test'}),
-      statsFiles: 'hi',
-      branch: 'a'
+      statsFiles: 'hi'
     }
 
     store.dispatch(pullMetaData()).then(() =>

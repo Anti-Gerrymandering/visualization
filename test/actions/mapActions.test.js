@@ -5,7 +5,12 @@ import fetchMock from 'fetch-mock'
 import { Map } from 'immutable'
 
 import actions from 'actions'
-import { switchBranch, fetchGeoJson, setCurrentDistrict } from 'actions/mapActions'
+import {
+  switchBranch,
+  fetchGeoJson,
+  setCurrentDistrict,
+  fetchStatsJson
+} from 'actions/mapActions'
 
 const mockStore = configureMockStore([thunk])
 
@@ -54,5 +59,24 @@ describe('setCurrentDistrict', () => {
       type: actions.CHANGE_ACTIVE_DISTRICT,
       district: 'somedistrict'
     })
+  })
+})
+
+describe('fetchStatsJson', () => {
+  it('fetches stats and dispatches result', () => {
+    const store = mockStore({
+      mapDataReducer: { statsFiles: { lower: 'lowerstats' } },
+      mapControllerReducer: { branch: 'lower' }
+    })
+
+    fetchMock.get(
+      'end:lowerstats.json',
+      { some: 'statsjson' }
+    )
+
+    store.dispatch(fetchStatsJson()).then(() =>
+      expect(store.getActions())
+        .toEqual([{ type: actions.STATS_LOADED, stats: { some: 'statsjson' } }])
+    )
   })
 })

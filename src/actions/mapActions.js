@@ -1,5 +1,4 @@
 import ACTION_EVENTS, { uri } from './index'
-import store from '../configureStore'
 
 /**
  * switchBranch changes the active branch (office) and triggers a fetchGeoJson
@@ -75,7 +74,7 @@ export function fetchStatsJson () {
 
     return window.fetch(fileUri).then(response =>
       response.json().then(json => {
-        store.dispatch({
+        dispatch({
           type: ACTION_EVENTS.STATS_LOADED,
           stats: json
         })
