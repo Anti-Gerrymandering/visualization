@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+
 import * as Actions from '../actions/geoCodeAction'
 
+@connect()
 class SearchBar extends Component {
   constructor () {
     super()
@@ -15,7 +18,7 @@ class SearchBar extends Component {
   }
   submit (e) {
     e.preventDefault()
-    Actions.geoCodeAddress(this.state.addr)
+    this.props.dispatch(Actions.geoCodeAddress(this.state.addr))
   }
   render () {
     return (
