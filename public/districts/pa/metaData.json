@@ -1,7 +1,11 @@
 {
   "geoFiles": {
     "federal": {
-      "2015": "cb_2015_us_cd114_500k"
+      "2015": "cb_2015_us_cd114_500k",
+      "2011": "2011-PA-Congressional-Districts",
+      "2001": "PA-Congressional-Districts-2001",
+      "1991": "PA-Congressional-Districts-1991",
+      "1982": "1982-PA-Congressional-District"
     }
     ,
     "lower": {
