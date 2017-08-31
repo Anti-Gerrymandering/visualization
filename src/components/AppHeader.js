@@ -1,10 +1,17 @@
 import React, { Component } from 'react'
-import SearchBar from './SearchBar'
+import { PropTypes } from 'prop-types'
 import { connect } from 'react-redux'
+import { Map } from 'immutable'
+
+import SearchBar from './SearchBar'
 import * as Actions from '../actions/mapActions'
 import { convertBranch } from '../actions/appActions'
 
-const BranchTab = ({ branch, active }) => {
+const BranchTab = connect(null, (dispatch, { branch }) => ({
+  onClick: () => {
+    dispatch(Actions.switchBranch(branch))
+  }
+}))(({ branch, active, onClick }) => {
   const style = () => {
     const base = 'nav-item '
     if (active) return base + ' active'
@@ -13,21 +20,31 @@ const BranchTab = ({ branch, active }) => {
   }
 
   return (
-    <a onClick={Actions.switchBranch(branch)} className={style()} >
+    <a onClick={onClick} className={style()} >
       <span>{convertBranch(branch)}</span>
     </a>
   )
+})
+
+BranchTab.propTypes = {
+  branch: PropTypes.string.isRequired,
+  active: PropTypes.bool.isRequired
 }
 
-@connect(state => {
-  return {
+@connect(state => (
+  {
     // All the layers that could be processed
     layers: state.mapDataReducer.geoFiles,
     // The current Layer meta-data
     currentBranch: state.mapControllerReducer.branch
   }
-})
+))
 class AppHeader extends Component {
+  static propTypes = {
+    layers: PropTypes.instanceOf(Map).isRequired,
+    currentBranch: PropTypes.string.isRequired
+  }
+
   branchTabs () {
     return this.props.layers.entrySeq().map(([branch, _years]) =>
       <BranchTab
@@ -37,6 +54,7 @@ class AppHeader extends Component {
       />
     )
   }
+
   render () {
     return (
       <div className='App-header'>

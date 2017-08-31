@@ -1,17 +1,16 @@
 import ACTIONS, { uri } from './index'
 import { Map } from 'immutable'
-import { fetchGeoJson, fetchStatsJson } from './mapActions'
-import store from '../configureStore'
+import { fetchGeoJson, switchBranch } from './mapActions'
 
 /**
  * Simple function to change the year
  * @param {String} year
  */
 export function changeYear (year) {
-  return () => {
-    store.dispatch({ type: ACTIONS.CHANGE_YEAR, year })
+  return (dispatch) => {
     console.log('Year change')
-    fetchGeoJson()
+    dispatch({ type: ACTIONS.CHANGE_YEAR, year })
+    return dispatch(fetchGeoJson())
   }
 }
 
@@ -37,34 +36,27 @@ export function convertBranch (branch) {
  * onLoad functions checks on the availability of the META-Data
  */
 export function onLoad () {
-  const { mapDataReducer } = store.getState()
-  // REVIEW: Potentially unnecessary check
-  if (mapDataReducer.geoFiles.size < 1) {
-    pullMetaData()
-    return
-  }
-  fetchGeoJson()
+  return (dispatch) => dispatch(pullMetaData())
 }
 
 /**
  * pullMetaData triggers an ajax action and loads necessary data if needed
  */
 export function pullMetaData () {
-  const { META_DATA } = ACTIONS
-  window.fetch(uri + 'metaData.json')
-        .then(rsp => {
-          rsp.json().then(json => {
-            const geoFiles = Map(json.geoFiles)
-            const { statsFiles } = json
-            store.dispatch({
-              type: META_DATA,
-              geoFiles,
-              statsFiles,
-              branch: Object.keys(geoFiles)[0]
-            })
-            fetchGeoJson()
-            fetchStatsJson()
-          })
+  return (dispatch) =>
+    window.fetch(uri + 'metaData.json')
+      .then(rsp => rsp.json())
+      .then(json => {
+        const geoFiles = Map(json.geoFiles)
+        const { statsFiles } = json
+        dispatch({
+          type: ACTIONS.META_DATA,
+          geoFiles,
+          statsFiles
         })
-        .catch(e => console.error(e))
+
+        const branch = Object.keys(json.geoFiles)[0]
+        dispatch(switchBranch(branch))
+      })
+      .catch(() => console.error('Failed to fetch metadata!'))
 }

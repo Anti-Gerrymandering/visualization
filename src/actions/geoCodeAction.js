@@ -1,6 +1,5 @@
 import tokens from './tokens'
 import ACTION_EVENTS from './index'
-import store from '../configureStore'
 
 /**
  * geoCodeAddress serves to convert an address string to a url
@@ -13,16 +12,15 @@ export function geoCodeAddress (addr) {
   const uriAddr = window.encodeURIComponent(addr)
   const uri = 'https://maps.googleapis.com/maps/api/geocode/json?address=' +
               uriAddr + '&key=' + googleAPI
-  window.fetch(uri)
-        .then(response => {
-          response.json().then(json => {
-            if (json.error_message === undefined) {
-              const latLng = json.results.map(r => {
-                return Object.assign({}, r.geometry.location)
-              })
-              store.dispatch({ type: GEO_CODE_ADDR, addr: latLng })
-            } else console.error('API Key error')
-          })
-        })
-        .catch(err => console.log(err))
+
+  return dispatch =>
+    window.fetch(uri)
+      .then(response => response.json())
+      .then(json => {
+        if (json.error_message === undefined) {
+          const latLng = json.results.map(r => r.geometry.location)
+          dispatch({ type: GEO_CODE_ADDR, addr: latLng })
+        } else console.error('API Key error')
+      })
+      .catch(err => console.log(err))
 }
