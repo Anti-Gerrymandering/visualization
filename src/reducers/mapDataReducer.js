@@ -17,8 +17,8 @@ export function mapDataReducer (state = {}, action) {
       const { data } = action
       return Object.assign({}, state, { data })
     case GEO_CODE_ADDR:
-      const { addr } = action
-      return Object.assign({}, state, { addr })
+      const coordinates = action.addr[0]
+      return Object.assign({}, state, { coordinates })
     case META_DATA:
       return Object.assign({}, state, {
         geoFiles: fromJS(action.geoFiles),

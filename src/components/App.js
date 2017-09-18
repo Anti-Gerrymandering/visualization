@@ -1,12 +1,14 @@
 import React from 'react'
+import { connect } from 'react-redux'
+
 import MapLayer from './MapLayer'
 import AppHeader from './AppHeader'
 import BottomNav from './BottomNav'
 import * as Actions from '../actions/appActions'
 import '../sass/App.sass'
 
-const App = () => {
-  Actions.onLoad()
+const App = connect()(({ dispatch }) => {
+  dispatch(Actions.onLoad())
   return (
     <div className='AppHolder'>
       <div className='App'>
@@ -22,6 +24,6 @@ const App = () => {
 
     </div>
   )
-}
+})
 
 export default App

@@ -6,6 +6,6 @@
  * Current API List
  * google: https://developers.google.com/maps/documentation/geocoding/start
  */
-const tokens = { googleAPI: process.env.REACT_APP_GERRYMAPPER.replace(/[“”]/g, '') }
+const tokens = { googleAPI: process.env.REACT_APP_GERRYMAPPER }
 
 export default tokens

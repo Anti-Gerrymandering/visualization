@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 /**
@@ -17,9 +18,16 @@ import { connect } from 'react-redux'
   return { activeDistrict, stats }
 })
 class StatsPanel extends Component {
+  static propTypes = {
+    stats: PropTypes.shape({
+      Candidates: PropTypes.array.isRequired,
+      District: PropTypes.string
+    }),
+    districtCompactness: PropTypes.number
+  }
+
   districtStats () {
     if (this.props.stats) {
-      const district = this.props.activeDistrict
       const { stats } = this.props
       return (
         <div className='statsPanel-ResultsDiv'>
@@ -28,7 +36,7 @@ class StatsPanel extends Component {
 
             <dl>
               <dt><span className='spanUnderline'>Compactness</span></dt>
-              <dd><span className='spanItalics'>{district.properties.Compactness}</span></dd>
+              <dd><span className='spanItalics'>{this.props.districtCompactness}</span></dd>
             </dl>
 
             <div className='resultSpacer' />
@@ -48,11 +56,11 @@ class StatsPanel extends Component {
             </div>
           </div></div>
       )
-    } else {
-      return (
-        <span>Select a district to see more information about that district.</span>
-      )
     }
+
+    return (
+      <span>Select a district to see more information about that district.</span>
+    )
   }
 
   render () {

@@ -1,7 +1,4 @@
-import { OrderedSet } from 'immutable'
-
 import ACTION_EVENTS, { uri } from './index'
-import store from '../configureStore'
 
 /**
  * switchBranch changes the active branch (office) and triggers a fetchGeoJson
@@ -11,22 +8,21 @@ import store from '../configureStore'
  */
 export function switchBranch (branch) {
   const { MAP_SWITCH_LAYER } = ACTION_EVENTS
-  const { mapDataReducer } = store.getState()
 
-  // The sort here is duplicated in the tabs rendering. We should refactor
-  // to do this when the data is loaded instead.
-  let years = Object.keys(mapDataReducer.geoFiles.get(branch))
-  years = OrderedSet(years.sort((x, y) => y - x))
+  return (dispatch, getState) => {
+    const { mapDataReducer: { geoFiles } } = getState()
 
-  return () => {
-    store.dispatch({
+    const years = Object.keys(geoFiles.get(branch))
+    const year = years[years.length - 1]
+
+    dispatch({
       type: MAP_SWITCH_LAYER,
-      year: years.first(),
+      year,
       branch
     })
 
-    fetchGeoJson()
-    fetchStatsJson()
+    dispatch(fetchGeoJson())
+    dispatch(fetchStatsJson())
   }
 }
 
@@ -35,22 +31,24 @@ export function switchBranch (branch) {
  * TODO: FINISH ERROR HANDLER
  */
 export function fetchGeoJson () {
-  const { mapDataReducer, mapControllerReducer } = store.getState()
-  const { geoFiles } = mapDataReducer
-  const { branch, year } = mapControllerReducer
-  if (geoFiles.size < 1) return
-  // Ugly uri builder
-  const fileUri = uri + branch + '/' + geoFiles.get(branch)[year] + '.geojson'
-  console.log('FETCHING URI', fileUri)
-  window.fetch(fileUri)
-        .then(rsp => {
-          rsp.json().then(json => {
-            const { GEO_DATA_LOADED } = ACTION_EVENTS
-            store.dispatch({ type: GEO_DATA_LOADED, data: json })
-          })
-        })
-        // TODO: FINISH ERROR HANDLER
-        .catch(err => console.log(err))
+  return (dispatch, getState) => {
+    const { mapDataReducer, mapControllerReducer } = getState()
+    const { geoFiles } = mapDataReducer
+    const { branch, year } = mapControllerReducer
+    if (geoFiles.size < 1) return
+    // Ugly uri builder
+    const fileUri = uri + branch + '/' + geoFiles.get(branch)[year] + '.geojson'
+    console.log('FETCHING URI', fileUri)
+    return window.fetch(fileUri)
+          .then(rsp =>
+            rsp.json().then(json => {
+              const { GEO_DATA_LOADED } = ACTION_EVENTS
+              dispatch({ type: GEO_DATA_LOADED, data: json })
+            })
+          )
+          // TODO: FINISH ERROR HANDLER
+          .catch(() => console.log('Failed to fetch GEOJSON!'))
+  }
 }
 
 /**
@@ -59,26 +57,28 @@ export function fetchGeoJson () {
  * @param {Object} district - GEOJSON district to set as active
  */
 export function setCurrentDistrict (district) {
-  store.dispatch({
+  return {
     type: ACTION_EVENTS.CHANGE_ACTIVE_DISTRICT,
     district
-  })
+  }
 }
 
 export function fetchStatsJson () {
-  const { mapDataReducer, mapControllerReducer } = store.getState()
-  const { statsFiles } = mapDataReducer
-  const { branch } = mapControllerReducer
+  return (dispatch, getState) => {
+    const { mapDataReducer, mapControllerReducer } = getState()
+    const { statsFiles } = mapDataReducer
+    const { branch } = mapControllerReducer
 
-  if (statsFiles.size < 1) return
-  const fileUri = '/stats/' + statsFiles[branch] + '.json'
+    if (statsFiles.length < 1) return
+    const fileUri = '/stats/' + statsFiles[branch] + '.json'
 
-  window.fetch(fileUri).then(response =>
-    response.json().then(json => {
-      store.dispatch({
-        type: ACTION_EVENTS.STATS_LOADED,
-        stats: json
+    return window.fetch(fileUri).then(response =>
+      response.json().then(json => {
+        dispatch({
+          type: ACTION_EVENTS.STATS_LOADED,
+          stats: json
+        })
       })
-    })
-  )
+    )
+  }
 }
