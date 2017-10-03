@@ -29,6 +29,9 @@
 
 ## Gerrymandering in the Media
 
+### [FiveThirtyEight Podcast Episodes on Gerrymandering](https://fivethirtyeight.com/tag/gerrymandering/)
+- If podcasts are your thing, FiveThirtyEight has a bunch of episodes on the topic
+
 ### [Current State of Gerrymandering as of September 2017](http://thehill.com/opinion/civil-rights/351115-juan-williams-momentum-builds-against-gerrymandering)
 - Opinion piece on the current political climate surrounding gerrymandering
 
